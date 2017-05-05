@@ -1,0 +1,37 @@
+﻿@model HardwareShop.Models.ViewModels.Comments.CommentViewModel
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<div class="container">
+    <div class="well">
+        <h2>Edit Comment</h2>
+        @using (Html.BeginForm(Html.BeginForm("Edit", "Comment", FormMethod.Post, new { @class = "form-horizontal" })))
+        {
+            @Html.AntiForgeryToken()
+            @Html.ValidationSummary("", new { @class = "text-danger" })
+            @Html.HiddenFor(model => model.CommentId)
+            @Html.HiddenFor(model => model.ReviewId)
+            @Html.HiddenFor(model => model.ItemId)
+
+            <div class="form-horizontal">
+                <hr />
+
+                <div class="form-group span=8 offset=2">
+                    @Html.LabelFor(m => m.Content, new { @class = "control-label col-sm-4" })
+                    <div class="col-sm-4">
+                        @Html.TextAreaFor(m => m.Content, new { @class = "form-control", rows = "10" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-sm-4 col-sm-offset-4">
+                        @Html.ActionLink("Cancel", "Details", "Item", new { @itemId = Model.ItemId }, new { @class = "btn btn-default" })
+                        <input type="submit" value="Edit" class="btn btn-warning" />
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

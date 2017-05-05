@@ -1,0 +1,181 @@
+﻿@using Microsoft.AspNet.Identity
+@using PagedList.Mvc;
+
+@model HardwareShop.Models.ViewModels.Items.DetailsItemPageViewModel
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Item Details</h2>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <table cellpadding="0" cellspacing="0" class="table">
+                <tr>
+                    <th width="15">Manufacturer:</th>
+                    <td>
+                        @Model.Item.ManufacturerName
+                    </td>
+                </tr>
+
+                <tr>
+                    <th width="15">Model:</th>
+                    <td>
+                        @Model.Item.Model
+                    </td>
+                </tr>
+
+                <tr>
+                    <th width="15">Status:</th>
+                    <td>
+                        @Model.Item.ItemStatus
+                    </td>
+                </tr>
+
+                <tr>
+                    <th width="15">Price:</th>
+                    <td>
+                        @Model.Item.Price &#36;
+                    </td>
+                </tr>
+
+                @if (Model.Item.ItemStatus.ToString() == "Promotion")
+                {
+                    <tr>
+                        <th width="15">New Price:</th>
+                        <td>
+                            @Model.Item.NewPrice &#36;
+                        </td>
+                    </tr>
+                }
+
+                <tr>
+                    <th width="15">Rating:</th>
+                    <td>
+                        @Model.Item.Rating / 5
+                    </td>
+                </tr>
+
+                <tr>
+                    <th width="15">Warranty:</th>
+                    <td>
+                        @Model.Item.WarrantyLengthMonths
+                    </td>
+                </tr>
+
+                <tr>
+                    <th width="15">Category:</th>
+                    <td>
+                        @Model.Item.CategoryName
+                    </td>
+                </tr>
+
+                <tr>
+                    <th width="15">Subcategory:</th>
+                    <td>
+                        @Model.Item.SubCategoryName
+                    </td>
+                </tr>
+
+                <tr>
+                    <th width="15">Added On:</th>
+                    <td>
+                        @Model.Item.UploadDate.ToShortDateString()
+                    </td>
+                </tr>
+
+                <tr>
+                    <th width="15">Remaining:</th>
+                    <td>@Model.Item.Quantity</td>
+                </tr>
+
+                <tr>
+                    <th width="15">Actions</th>
+                    <td>
+                        @if (this.User.IsInRole("StoreManager"))
+                        {
+                            @Html.ActionLink("Edit", "Edit", "Item", new { @itemId = Model.Item.ItemId }, new { @class = "btn btn-xs btn-warning" })
+                            if (Model.Item.IsDeleted == true && !Model.Item.IsSubCategoryDeleted)
+                            {
+                                using (Html.BeginForm("Restore", "Item", new { @itemId = Model.Item.ItemId }, FormMethod.Post, new { @class = "form-inline", @style = "display: inline" }))
+                                {
+                                    <input type="submit" value="Restore" class="btn btn-xs btn-success" />
+                                }
+                            }
+                            else
+                            {
+                                @Html.ActionLink("Delete", "Delete", "Item", new { @itemId = Model.Item.ItemId }, new { @style = "margin-left:4px;", @class = "btn btn-xs btn-danger" })
+                            }
+                        }
+                        @if (this.User.Identity.IsAuthenticated)
+                        {
+                            @Html.ActionLink("Review", "Create", "Review", new { @itemId = Model.Item.ItemId }, new { @class = "btn btn-xs btn-primary" })
+                        }
+
+                        @if (this.User.Identity.IsAuthenticated && Model.Item.ItemStatus.ToString() != "OutOfStock" && !Model.Item.IsItemInCart)
+                        {
+                            using (Html.BeginForm("AddItemToCart", "Cart", new { @itemId = Model.Item.ItemId }, FormMethod.Post, new { @class = "form-inline", @style = "display: inline" }))
+                            {
+                                <input type="submit" value="Add Item" class="btn btn-xs btn-success" />
+                            }
+                        }
+                    </td>
+                </tr>
+
+                <tr>
+                    <th width="15">Description</th>
+                    <td>@Model.Item.Description</td>
+                </tr>
+            </table>
+        </div>
+        <div class="col-md-4">
+            <img src="@Model.Item.Picture" alt="Item picture" style="width: 350px; height: 350px; margin-top: 15px;" class="img-thumbnail" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+            @foreach (var review in Model.Reviews)
+            {
+                <div class="row well">
+                    <p>@review.Content</p>
+                    <div>Score: @review.Score / 5</div>
+                    <div>Author: @review.AuthorName</div>
+                    <div>@review.ReviewDate.ToShortDateString()</div>
+                    <div class="pull-right">
+                        @if (this.User.IsInRole("Admin") || this.User.Identity.Name == review.AuthorName)
+                        {
+                            @Html.ActionLink("Edit", "Edit", "Review", new { @reviewId = review.ReviewId }, new { @class = "btn btn-xs btn-warning" })
+                            @Html.ActionLink("Delete", "Delete", "Review", new { @reviewId = review.ReviewId }, new { @style = "margin-left: 4px;", @class = "btn btn-xs btn-danger" })
+                        }
+
+                        @if (this.User.Identity.IsAuthenticated)
+                        {
+                            @Html.ActionLink("Comment", "Create", "Comment", new { @reviewId = review.ReviewId, @itemId = Model.Item.ItemId }, new { @class = "btn btn-xs btn-primary" })
+                        }
+                    </div>
+                </div>
+
+                foreach (var comment in review.Comments)
+                {
+                    <div class="row well col-md-offset-1">
+                        <p>@comment.Content</p>
+                        <div>Author: @comment.AuthorName</div>
+                        <div>@comment.DatePosted.ToShortDateString()</div>
+                        <div class="pull-right">
+                            @if (this.User.IsInRole("Admin") || this.User.Identity.Name == comment.AuthorName)
+                            {
+                                @Html.ActionLink("Edit", "Edit", "Comment", new { @commentId = comment.CommentId, @itemId = Model.Item.ItemId }, new { @class = "btn btn-xs btn-warning" })
+                                @Html.ActionLink("Delete", "Delete", "Comment", new { @commentId = comment.CommentId, @itemId = Model.Item.ItemId }, new { @style = "margin-left: 4px;", @class = "btn btn-xs btn-danger" })
+                            }
+                        </div>
+                    </div>
+                }
+            }
+
+            @Html.PagedListPager(Model.Reviews, page => Url.Action("Details", "Item", new { page, itemId = Model.Item.ItemId }),
+               new PagedListRenderOptions() { Display = PagedListDisplayMode.IfNeeded })
+        </div>
+    </div>
+</div>

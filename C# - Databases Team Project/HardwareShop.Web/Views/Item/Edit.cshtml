@@ -1,0 +1,106 @@
+﻿@model HardwareShop.Models.ViewModels.Items.EditItemViewModel
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<div class="container">
+    <div class="well">
+        <h2>Edit Item</h2>
+        @using (Html.BeginForm("Edit", "Item", FormMethod.Post, new { @class = "form-horizontal", enctype = "multipart/form-data" }))
+        {
+            @Html.AntiForgeryToken()
+            @Html.ValidationSummary("", new { @class = "text-danger" })
+            @Html.HiddenFor(m => m.ItemId)
+
+            <div class="form-group span=8 offset=2">
+                @Html.LabelFor(m => m.ManufacturerName, new { @class = "control-label col-sm-4" })
+                <div class="col-sm-4">
+                    @Html.TextBoxFor(m => m.ManufacturerName, new { @class = "form-control" })
+                </div>
+            </div>
+
+            <div class="form-group span=8 offset=2">
+                @Html.LabelFor(m => m.Model, new { @class = "control-label col-sm-4" })
+                <div class="col-sm-4">
+                    @Html.TextBoxFor(m => m.Model, new { @class = "form-control" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(m => m.SubCategoryId, "SubCategory", new { @class = "col-sm-4 control-label" })
+                <div class="dropdown col-sm-4">
+                    @Html.DropDownListFor(m => m.SubCategoryId,
+                        new SelectList(Model.SubCategories, "SubCategoryId", "Name", Model.SubCategoryId),
+                        new { @class = "form-control col-sm-12" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(m => m.ItemStatus, new { @class = "col-sm-4 control-label" })
+                <div class="dropdown col-sm-4">
+                    @Html.EnumDropDownListFor(m => m.ItemStatus, new { @class = "form-control col-sm-12" })
+                </div>
+            </div>
+
+            <div class="form-group span=8 offset=2">
+                @Html.LabelFor(m => m.Price, new { @class = "control-label col-sm-4" })
+                <div class="col-sm-4">
+                    @Html.TextBoxFor(m => m.Price, new { @type = "number", @class = "form-control" })
+                </div>
+            </div>
+
+            <div class="form-group span=8 offset=2">
+                @Html.LabelFor(m => m.NewPrice, new { @class = "control-label col-sm-4" })
+                <div class="col-sm-4">
+                    @Html.TextBoxFor(m => m.NewPrice, new { @type = "number", @class = "form-control" })
+                </div>
+            </div>
+
+            <div class="form-group span=8 offset=2">
+                @Html.LabelFor(m => m.WarrantyLengthMonths, new { @class = "control-label col-sm-4" })
+                <div class="col-sm-4">
+                    @Html.TextBoxFor(m => m.WarrantyLengthMonths, new { @type = "number", @class = "form-control" })
+                </div>
+            </div>
+
+            <div class="form-group span=8 offset=2">
+                @Html.LabelFor(m => m.Quantity, new { @class = "control-label col-sm-4" })
+                <div class="col-sm-4">
+                    @Html.TextBoxFor(m => m.Quantity, new { @type = "number", @class = "form-control" })
+                </div>
+            </div>
+
+            <div class="form-group span=8 offset=2">
+                @Html.LabelFor(m => m.Picture, new { @class = "control-label col-sm-4" })
+                <div class="col-sm-4">
+                    <img src="@Model.Picture" width="280" class="img-thumbnail" />
+                </div>
+            </div>
+
+            <div class="form-group span=8 offset=2">
+                @Html.LabelFor(m => m.PictureBase, new { @class = "control-label col-sm-4" })
+                <div class="col-sm-4">
+                    <label class="btn btn-default" style="margin-top:10px;">
+                        Upload Picture
+                        @Html.TextBoxFor(m => m.PictureBase, new { @style = "display:none", @class = "form-control", type = "file", accept = "image/*" })
+                    </label>
+                </div>
+            </div>
+
+            <div class="form-group span=8 offset=2">
+                @Html.LabelFor(m => m.Description, new { @class = "control-label col-sm-4" })
+                <div class="col-sm-4">
+                    @Html.TextAreaFor(m => m.Description, new { @class = "form-control", rows = "10" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-sm-4 col-sm-offset-4">
+                    @Html.ActionLink("Cancel", "Details", "Item", new { @itemId = Model.ItemId }, new { @class = "btn btn-default" })
+                    <input type="submit" value="Edit" class="btn btn-warning" />
+                </div>
+            </div>
+        }
+    </div>
+</div>

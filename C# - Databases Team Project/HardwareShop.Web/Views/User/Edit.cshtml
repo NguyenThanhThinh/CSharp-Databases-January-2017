@@ -1,0 +1,83 @@
+﻿@model HardwareShop.Models.ViewModels.Users.EditUserViewModel
+@{
+    ViewBag.Title = "Edit";
+}
+<div class="container">
+    <div class="well">
+        <h2>Edit User</h2>
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary("", new { @class = "text-danger" })
+
+        @using (Html.BeginForm("Edit", "User", new { @page = ViewBag.Page }, FormMethod.Post, new { @class = "form-horizontal" }))
+        {
+            @Html.HiddenFor(m => m.Id)
+
+            <div class="form-group">
+                @Html.LabelFor(m => m.Username, new { @class = "control-label col-sm-4" })
+                <div class="col-sm-4">
+                    @Html.TextBoxFor(m => m.Username, new { @class = "form-control" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(m => m.FirstName, new { @class = "control-label col-sm-4" })
+                <div class="col-sm-4">
+                    @Html.TextBoxFor(m => m.FirstName, new { @class = "form-control" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(m => m.LastName, new { @class = "control-label col-sm-4" })
+                <div class="col-sm-4">
+                    @Html.TextBoxFor(m => m.LastName, new { @class = "form-control" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(m => m.Address, new { @class = "control-label col-sm-4" })
+                <div class="col-sm-4">
+                    @Html.TextBoxFor(m => m.Address, new { @class = "form-control" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(m => m.Email, new { @class = "control-label col-sm-4" })
+                <div class="col-sm-4">
+                    @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                    @Html.LabelFor(m => m.Password, new { @class = "control-label col-sm-4" })
+                    <div class="col-sm-4">
+                        @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(m => m.ConfirmPassword, new { @class = "control-label col-sm-4" })
+                    <div class="col-sm-4">
+                        @Html.PasswordFor(m => m.ConfirmPassword, new { @class = "form-control" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @for (int i = 0; i < Model.Roles.Count(); i++)
+                    {
+                        <div class="col-sm-offset-4 col-sm-4">
+                            @Html.HiddenFor(m => m.Roles[i].Name)
+                            @Html.CheckBoxFor(m => m.Roles[i].IsSelected)
+                            @Html.LabelFor(m => m.Roles[i].IsSelected, Model.Roles[i].Name)
+                        </div>
+                    }
+                </div>
+
+            <div class="form-group">
+                <div class="col-sm-4 col-sm-offset-4">
+                    @Html.ActionLink("Cancel", "List", "User", null, new { @class = "btn btn-default" })
+                    <input type="submit" value="Edit" class="btn btn-warning" />
+                </div>
+            </div>
+        }
+    </div>
+</div>

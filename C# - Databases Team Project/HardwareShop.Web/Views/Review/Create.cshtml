@@ -1,0 +1,38 @@
+﻿@model HardwareShop.Models.ViewModels.Reviews.CreateReviewViewModel
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<div class="container">
+    <div class="well">
+        <h2>Write Review</h2>
+        @using (@Html.BeginForm("Create", "Review", FormMethod.Post, new { @class = "form-horizontal" }))
+        {
+            @Html.AntiForgeryToken()
+            @Html.ValidationSummary("", new { @class = "text-danger" })
+            @Html.HiddenFor(m=>m.ItemId)
+
+            <div class="form-group span=8 offset=2">
+                @Html.LabelFor(m => m.Content, new { @class = "control-label col-sm-4" })
+                <div class="col-sm-4">
+                    @Html.TextAreaFor(m => m.Content, new { @class = "form-control", rows = "10" })
+                </div>
+            </div>
+            <div class="form-group span=8 offset=2">
+                @Html.LabelFor(m => m.Score, new { @class = "control-label col-sm-4" })
+                <div class="col-sm-4">
+                    @Html.TextBoxFor(m => m.Score, new { @type = "number", @class = "form-control" })
+                </div>
+            </div>            
+
+            <div class="form-group">
+                <div class="col-sm-offset-4 col-sm-4">
+                    @Html.ActionLink("Cancel", "Details", "Item", new { @itemId = Model.ItemId }, new { @class = "btn btn-default" })
+                    <input type="submit" value="Add Review" class="btn btn-success" />
+                </div>
+            </div>
+        }
+    </div>
+</div>
+

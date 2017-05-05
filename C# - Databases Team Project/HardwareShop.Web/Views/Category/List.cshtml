@@ -1,0 +1,72 @@
+﻿@model HardwareShop.Models.ViewModels.Categories.ListCategoriesViewModel
+
+@{
+    ViewBag.Title = "List";
+}
+
+<div class="container">
+    <div class="well">
+        <h2>Category - @Html.ActionLink("Create", "Create", "Category", null, new { @class = "btn btn-primary" })</h2>
+        @if (Model.Categories.Any())
+        {
+            <h2>Sub Category - @Html.ActionLink("Create", "Create", "SubCategory", null, new { @class = "btn btn-primary" })</h2>
+        }
+        <div class="row">
+            <table class="table table-striped table-hover col-sm-12">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Name</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var category in Model.Categories)
+                    {
+                        <tr class="info">
+                            <td>@category.CategoryId</td>
+                            <td>@category.Name</td>
+                            <td>
+                                @Html.ActionLink("Edit", "Edit", "Category", new { @categoryId = category.CategoryId }, new { @class = "btn btn-warning btn-xs" })
+                                @if (category.IsDeleted)
+                                {
+                                    using (Html.BeginForm("Restore", "Category", new { @categoryId = category.CategoryId }, FormMethod.Post, new { @class = "form-inline", @style = "display: inline" }))
+                                    {
+                                        <input type="submit" value="Restore" class="btn btn-xs btn-success" />
+                                    }
+                                }
+                                else
+                                {
+                                    @Html.ActionLink("Delete", "Delete", "Category", new { @categoryId = category.CategoryId }, new { @class = "btn btn-danger btn-xs" })
+                                }
+                            </td>
+                        </tr>
+
+                        foreach (var subCategory in category.SubCategories)
+                        {
+                            <tr>
+                                <td>----></td>
+                                <td>@subCategory.Name</td>
+                                <td>
+                                    @Html.ActionLink("Edit", "Edit", "SubCategory", new { @subCategoryId = subCategory.SubCategoryId }, new { @class = "btn btn-warning btn-xs" })
+                                    @if (subCategory.IsDeleted && !category.IsDeleted)
+                                    {
+                                        using (Html.BeginForm("Restore", "SubCategory", new { @subCategoryId = subCategory.SubCategoryId }, FormMethod.Post, new { @class = "form-inline", @style = "display: inline" }))
+                                        {
+                                            <input type="submit" value="Restore" class="btn btn-xs btn-success" />
+                                        }
+                                    }
+                                    else if(!subCategory.IsDeleted)
+                                    {
+                                        @Html.ActionLink("Delete", "Delete", "SubCategory", new { @subCategoryId = subCategory.SubCategoryId }, new { @class = "btn btn-danger btn-xs" })
+                                    }
+                                </td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+

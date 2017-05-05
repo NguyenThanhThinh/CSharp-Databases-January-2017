@@ -1,0 +1,36 @@
+﻿@model HardwareShop.Models.ViewModels.SubCategories.DeleteSubCategoryViewModel
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<div class="container">
+    <div class="well">
+        <h2>Delete Sub Category</h2>
+        @using (Html.BeginForm("Delete", "SubCategory", FormMethod.Post, new { @class = "form-horizontal" }))
+        {
+            @Html.HiddenFor(m => m.SubCategoryId)
+
+                <div class="form-group">
+                    @Html.LabelFor(m => m.CategoryName, "Category", new { @class = "control-label col-sm-4" })
+                    <div class="col-sm-4 ">
+                        @Html.TextBoxFor(m => m.CategoryName, new { @class = "form-control", @readonly = "readonly" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    @Html.LabelFor(m => m.Name, new { @class = "control-label col-sm-4" })
+                    <div class="col-sm-4 ">
+                        @Html.TextBoxFor(m => m.Name, new { @class = "form-control", @readonly = "readonly" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-sm-4 col-sm-offset-4">
+                        @Html.ActionLink("Cancel", "List", "Category", null, new { @class = "btn btn-default" })
+                        <input type="submit" value="Delete" class="btn btn-danger" />
+                    </div>
+                </div>
+        }
+    </div>
+</div>
