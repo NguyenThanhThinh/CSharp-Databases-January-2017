@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<venues xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <venue name="Christ Community Church" capacity="50">
+    <weddings-count>3</weddings-count>
+  </venue>
+  <venue name="Mountainview Bite" capacity="100">
+    <weddings-count>3</weddings-count>
+  </venue>
+  <venue name="Proud Duke" capacity="100">
+    <weddings-count>3</weddings-count>
+  </venue>
+  <venue name="Beehive" capacity="100">
+    <weddings-count>3</weddings-count>
+  </venue>
+  <venue name="Gino Giannilli's" capacity="100">
+    <weddings-count>4</weddings-count>
+  </venue>
+  <venue name="1785" capacity="100">
+    <weddings-count>3</weddings-count>
+  </venue>
+  <venue name="Hungry Church" capacity="100">
+    <weddings-count>4</weddings-count>
+  </venue>
+  <venue name="St Anne" capacity="100">
+    <weddings-count>3</weddings-count>
+  </venue>
+</venues>

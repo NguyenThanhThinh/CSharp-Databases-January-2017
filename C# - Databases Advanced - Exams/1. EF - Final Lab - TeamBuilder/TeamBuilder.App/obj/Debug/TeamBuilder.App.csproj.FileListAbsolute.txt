@@ -1,0 +1,22 @@
+c:\users\valko\documents\visual studio 2015\Projects\EntityFramework_TeamBuilder\TeamBuilder.App\bin\Debug\TeamBuilder.App.exe.config
+c:\users\valko\documents\visual studio 2015\Projects\EntityFramework_TeamBuilder\TeamBuilder.App\bin\Debug\TeamBuilder.App.exe
+c:\users\valko\documents\visual studio 2015\Projects\EntityFramework_TeamBuilder\TeamBuilder.App\bin\Debug\TeamBuilder.App.pdb
+c:\users\valko\documents\visual studio 2015\Projects\EntityFramework_TeamBuilder\TeamBuilder.App\bin\Debug\EntityFramework.dll
+c:\users\valko\documents\visual studio 2015\Projects\EntityFramework_TeamBuilder\TeamBuilder.App\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\valko\documents\visual studio 2015\Projects\EntityFramework_TeamBuilder\TeamBuilder.App\bin\Debug\TeamBuilder.Data.dll
+c:\users\valko\documents\visual studio 2015\Projects\EntityFramework_TeamBuilder\TeamBuilder.App\bin\Debug\TeamBuilder.Models.dll
+c:\users\valko\documents\visual studio 2015\Projects\EntityFramework_TeamBuilder\TeamBuilder.App\bin\Debug\TeamBuilder.Data.pdb
+c:\users\valko\documents\visual studio 2015\Projects\EntityFramework_TeamBuilder\TeamBuilder.App\bin\Debug\TeamBuilder.Models.pdb
+c:\users\valko\documents\visual studio 2015\Projects\EntityFramework_TeamBuilder\TeamBuilder.App\bin\Debug\EntityFramework.xml
+c:\users\valko\documents\visual studio 2015\Projects\EntityFramework_TeamBuilder\TeamBuilder.App\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\valko\documents\visual studio 2015\Projects\EntityFramework_TeamBuilder\TeamBuilder.App\obj\Debug\TeamBuilder.App.csprojResolveAssemblyReference.cache
+c:\users\valko\documents\visual studio 2015\Projects\EntityFramework_TeamBuilder\TeamBuilder.App\obj\Debug\TeamBuilder.App.exe
+c:\users\valko\documents\visual studio 2015\Projects\EntityFramework_TeamBuilder\TeamBuilder.App\obj\Debug\TeamBuilder.App.pdb
+C:\Users\valko\documents\visual studio 2015\Projects\EntityFramework_TeamBuilder\TeamBuilder.App\bin\Debug\Newtonsoft.Json.dll
+C:\Users\valko\documents\visual studio 2015\Projects\EntityFramework_TeamBuilder\TeamBuilder.App\bin\Debug\Newtonsoft.Json.xml
+C:\Users\valko\Documents\Visual Studio 2015\Projects\2. Entity Framework Databases Exercises and Exams\Lab_EntityFramework_TeamBuilder\TeamBuilder.App\bin\Debug\TeamBuilder.App.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\2. Entity Framework Databases Exercises and Exams\Lab_EntityFramework_TeamBuilder\TeamBuilder.App\obj\Debug\TeamBuilder.App.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\2. Entity Framework Databases Exercises and Exams\Lab_EntityFramework_TeamBuilder\TeamBuilder.App\obj\Debug\TeamBuilder.App.pdb
+C:\Users\valko\Documents\Visual Studio 2015\Projects\2. C# Databases Exercises and Exams\11. EntityFramework-Lab-TeamBuilder\TeamBuilder.App\bin\Debug\TeamBuilder.App.exe.config
+C:\Users\valko\Documents\Visual Studio 2015\Projects\2. C# Databases Exercises and Exams\11. EntityFramework-Lab-TeamBuilder\TeamBuilder.App\obj\Debug\TeamBuilder.App.exe
+C:\Users\valko\Documents\Visual Studio 2015\Projects\2. C# Databases Exercises and Exams\11. EntityFramework-Lab-TeamBuilder\TeamBuilder.App\obj\Debug\TeamBuilder.App.pdb

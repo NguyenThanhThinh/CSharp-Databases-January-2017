@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<photographers xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <photographer name="Opal Blue" primary-camera="Nikon D300S">
+    <lenses>
+      <lens>Nikon 35mm f2</lens>
+    </lenses>
+  </photographer>
+  <photographer name="Delta Tiano" primary-camera="Canon 7D">
+    <lenses>
+      <lens>Canon 10mm f3.5</lens>
+      <lens>Canon 10mm f3.5</lens>
+    </lenses>
+  </photographer>
+  <photographer name="Delorse Bunge" primary-camera="Canon 7D">
+    <lenses>
+      <lens>Canon 18mm f3.5</lens>
+    </lenses>
+  </photographer>
+  <photographer name="Beula Zendejas" primary-camera="Nikon D7100">
+    <lenses>
+      <lens>Nikon 18mm f4</lens>
+      <lens>Sigma 135mm f4</lens>
+    </lenses>
+  </photographer>
+  <photographer name="Rosalie Ragsdale" primary-camera="Nikon D4">
+    <lenses>
+      <lens>Tokina 135mm f2.8</lens>
+    </lenses>
+  </photographer>
+  <photographer name="Carolee Kuder" primary-camera="Nikon D300">
+    <lenses>
+      <lens>Nikon 28mm f4</lens>
+      <lens>Nikon 25mm f4</lens>
+    </lenses>
+  </photographer>
+  <photographer name="Valery Pickens" primary-camera="Nikon D2Xs">
+    <lenses>
+      <lens>Nikon 200mm f2.8</lens>
+      <lens>Tokina 135mm f2.8</lens>
+      <lens>Tokina 135mm f2.8</lens>
+    </lenses>
+  </photographer>
+  <photographer name="Joan Fife" primary-camera="Canon 760D">
+    <lenses>
+      <lens>Canon 1000mm f2.4</lens>
+      <lens>Canon 1200mm f2.4</lens>
+      <lens>Tokina 14mm f2</lens>
+      <lens>Tokina 14mm f2</lens>
+    </lenses>
+  </photographer>
+  <photographer name="Talitha Jong" primary-camera="Pentax K-r">
+    <lenses>
+      <lens>Pentax 85mm f2.4</lens>
+      <lens>Pentax 15mm f2.8</lens>
+      <lens>Pentax 350mm f4</lens>
+    </lenses>
+  </photographer>
+  <photographer name="Stephaine Smidt" primary-camera="Pentax K100D">
+    <lenses>
+      <lens>Sigma 20mm f2</lens>
+    </lenses>
+  </photographer>
+  <photographer name="Jamie Mauger" primary-camera="Pentax K100D">
+    <lenses>
+      <lens>Pentax 77mm f2.8</lens>
+    </lenses>
+  </photographer>
+  <photographer name="Freeda Casimir" primary-camera="Canon 760D">
+    <lenses>
+      <lens>Tokina 14mm f2</lens>
+    </lenses>
+  </photographer>
+  <photographer name="Federico Arceo" primary-camera="Canon 550D">
+    <lenses>
+      <lens>Canon 12mm f3.5</lens>
+      <lens>Sigma 50mm f4</lens>
+    </lenses>
+  </photographer>
+  <photographer name="Dante Ketter" primary-camera="Canon 760D">
+    <lenses>
+      <lens>Canon 300mm f1.4</lens>
+    </lenses>
+  </photographer>
+  <photographer name="Azucena Stclaire" primary-camera="Canon 600D">
+    <lenses>
+      <lens>Canon 600mm f1.4</lens>
+      <lens>Sigma 55mm f4</lens>
+      <lens>Tokina 14mm f2</lens>
+      <lens>Tokina 14mm f2</lens>
+    </lenses>
+  </photographer>
+  <photographer name="Lajuana Mcclean" primary-camera="Canon 80D">
+    <lenses>
+      <lens>Canon 8mm f1.2</lens>
+      <lens>Canon 11mm f3.5</lens>
+    </lenses>
+  </photographer>
+  <photographer name="Jenna Baize" primary-camera="Canon 80D">
+    <lenses>
+      <lens>Sigma 10mm f1.4</lens>
+    </lenses>
+  </photographer>
+  <photographer name="Tifany Stpeter" primary-camera="Nikon D300">
+    <lenses>
+      <lens>Nikon 45mm f4</lens>
+      <lens>Nikon 200mm f5.6</lens>
+    </lenses>
+  </photographer>
+  <photographer name="Cheri Regina" primary-camera="Nikon D4S">
+    <lenses>
+      <lens>Nikon 70mm f4</lens>
+      <lens>Nikon 24mm f4</lens>
+      <lens>Nikon 16mm f4</lens>
+      <lens>Sigma 16mm f2.4</lens>
+    </lenses>
+  </photographer>
+  <photographer name="Freeman Dalby" primary-camera="Pentax K110D">
+    <lenses>
+      <lens>Pentax 26mm f2.8</lens>
+      <lens>Pentax 135mm f2.8</lens>
+      <lens>Sigma 15mm f2</lens>
+    </lenses>
+  </photographer>
+  <photographer name="Krystin Lindstedt" primary-camera="Pentax K110D">
+    <lenses>
+      <lens>Pentax 135mm f2.8</lens>
+    </lenses>
+  </photographer>
+  <photographer name="Jin Nevitt" primary-camera="Nikon D2X">
+    <lenses>
+      <lens>Nikon 9mm f2.8</lens>
+    </lenses>
+  </photographer>
+  <photographer name="Danny Nethery" primary-camera="Nikon D300">
+    <lenses>
+      <lens>Nikon 50mm f2.8</lens>
+      <lens>Nikon 10mm f4</lens>
+      <lens>Nikon 29mm f2</lens>
+    </lenses>
+  </photographer>
+  <photographer name="Jasmin Padua" primary-camera="Canon 5D">
+    <lenses>
+      <lens>Canon 10mm f3.5</lens>
+      <lens>Canon 35mm f4</lens>
+      <lens>Sigma 40mm f1.4</lens>
+    </lenses>
+  </photographer>
+  <photographer name="Harley Gerardo" primary-camera="Nikon D4">
+    <lenses>
+      <lens>Tokina 135mm f2.8</lens>
+    </lenses>
+  </photographer>
+  <photographer name="Helena Cahn" primary-camera="Nikon D100">
+    <lenses>
+      <lens>Sigma 8mm f1.4</lens>
+      <lens>Tokina 135mm f2.8</lens>
+    </lenses>
+  </photographer>
+  <photographer name="Nam Dinkins" primary-camera="Nikon D2Xs">
+    <lenses>
+      <lens>Tokina 135mm f2.8</lens>
+    </lenses>
+  </photographer>
+  <photographer name="Oma Wechsler" primary-camera="Pentax K-1">
+    <lenses>
+      <lens>Pentax 135mm f2.8</lens>
+      <lens>Sigma 70mm f1.4</lens>
+    </lenses>
+  </photographer>
+  <photographer name="Jay Stanforth" primary-camera="Pentax K-1">
+    <lenses>
+      <lens>Pentax 18mm f2.8</lens>
+    </lenses>
+  </photographer>
+  <photographer name="China Horsey" primary-camera="Canon 5D">
+    <lenses>
+      <lens>Tokina 14mm f2</lens>
+      <lens>Tokina 20mm f2</lens>
+    </lenses>
+  </photographer>
+  <photographer name="Allyson Gayman" primary-camera="Sony A390">
+    <lenses>
+      <lens>Tamron 30mm f2.8</lens>
+      <lens>Tokina 200mm f2.8</lens>
+    </lenses>
+  </photographer>
+  <photographer name="Beverley Kirby" primary-camera="Sony A450">
+    <lenses>
+      <lens>Tamron 28mm f1.8</lens>
+      <lens>Tokina 200mm f2.8</lens>
+    </lenses>
+  </photographer>
+  <photographer name="Tu Aslinger" primary-camera="Pentax K-r">
+    <lenses>
+      <lens>Pentax 135mm f4</lens>
+    </lenses>
+  </photographer>
+  <photographer name="Joane Claflin" primary-camera="Sony A390">
+    <lenses>
+      <lens>Tamron 24mm f1.8</lens>
+      <lens>Tamron 28mm f2.8</lens>
+    </lenses>
+  </photographer>
+  <photographer name="Betsey Oconner" primary-camera="Pentax K-70">
+    <lenses>
+      <lens>Pentax 200mm f2.8</lens>
+      <lens>Sigma 135mm f2.8</lens>
+    </lenses>
+  </photographer>
+  <photographer name="Gena Gering" primary-camera="Pentax K-x">
+    <lenses>
+      <lens>Tokina 20mm f2</lens>
+      <lens>Tokina 20mm f2.8</lens>
+    </lenses>
+  </photographer>
+  <photographer name="Antonetta Gano" primary-camera="Fuji XA1">
+    <lenses>
+      <lens>Tamron 30mm f2.8</lens>
+    </lenses>
+  </photographer>
+  <photographer name="Aurora Broadhurst" primary-camera="Fuji XA1">
+    <lenses>
+      <lens>Tamron 24mm f1.8</lens>
+    </lenses>
+  </photographer>
+  <photographer name="Adria Mcquire" primary-camera="Fuji XA1">
+    <lenses>
+      <lens>Tokina 200mm f2.8</lens>
+      <lens>Sigma 15mm f1.8</lens>
+    </lenses>
+  </photographer>
+  <photographer name="Tashia Lunsford" primary-camera="Canon 60D">
+    <lenses>
+      <lens>Canon 15mm f4</lens>
+      <lens>Canon 125mm f1.4</lens>
+      <lens>Sigma 40mm f4</lens>
+      <lens>Sigma 70mm f4</lens>
+    </lenses>
+  </photographer>
+  <photographer name="Keely Futrell" primary-camera="Canon 80D">
+    <lenses>
+      <lens>Canon 50mm f1.8</lens>
+      <lens>Canon 12mm f3.5</lens>
+    </lenses>
+  </photographer>
+  <photographer name="Romona Griffin" primary-camera="Sony A850">
+    <lenses>
+      <lens>Tamron 24mm f1.8</lens>
+      <lens>Tamron 28mm f2.8</lens>
+      <lens>Sigma 24mm f1.8</lens>
+    </lenses>
+  </photographer>
+  <photographer name="Cristopher Brinkerhoff" primary-camera="Pentax K-7">
+    <lenses>
+      <lens>Pentax 70mm f2.8</lens>
+    </lenses>
+  </photographer>
+  <photographer name="Wendy Ellwood" primary-camera="Nikon D500">
+    <lenses>
+      <lens>Nikon 30mm f2</lens>
+    </lenses>
+  </photographer>
+  <photographer name="Aimee Ochoa" primary-camera="Canon 80D">
+    <lenses>
+      <lens>Canon 70mm f4</lens>
+      <lens>Canon 400mm f1.4</lens>
+      <lens>Sigma 24mm f4</lens>
+      <lens>Sigma 77mm f4</lens>
+    </lenses>
+  </photographer>
+  <photographer name="Shannon Clendenin" primary-camera="Nikon D5500">
+    <lenses>
+      <lens>Nikon 40mm f2.8</lens>
+      <lens>Nikon 40mm f4</lens>
+    </lenses>
+  </photographer>
+  <photographer name="Heide Plemmons" primary-camera="Canon 550D">
+    <lenses>
+      <lens>Canon 135mm f1.4</lens>
+      <lens>Tokina 14mm f2</lens>
+    </lenses>
+  </photographer>
+  <photographer name="Leota Eastep" primary-camera="Pentax K-x">
+    <lenses>
+      <lens>Pentax 8mm f1</lens>
+      <lens>Sigma 14mm f2</lens>
+      <lens>Sigma 200mm f2.8</lens>
+      <lens>Sigma 35mm f2.4</lens>
+      <lens>Tokina 20mm f2</lens>
+    </lenses>
+  </photographer>
+  <photographer name="Romona Kumm" primary-camera="Fuji XA2">
+    <lenses>
+      <lens>Tamron 24mm f1.8</lens>
+      <lens>Tamron 24mm f1.8</lens>
+    </lenses>
+  </photographer>
+  <photographer name="Deetta Beausoleil" primary-camera="Nikon D100">
+    <lenses>
+      <lens>Nikon 350mm f5.6</lens>
+    </lenses>
+  </photographer>
+  <photographer name="Jared Polin" primary-camera="Nikon D200" />
+  <photographer name="Julie Moss" primary-camera="Sony A580" />
+  <photographer name="Zhang Xiao" primary-camera="Sony A580" />
+  <photographer name="Alberto Korda" primary-camera="Sony A580" />
+  <photographer name="Yan Greenidge" primary-camera="Sony A580" />
+  <photographer name="Odis Borne" primary-camera="Sony A580" />
+  <photographer name="Turla Cowger" primary-camera="Canon 7D" />
+  <photographer name="Bong Mungin" primary-camera="Canon 7D" />
+  <photographer name="Amparo Goers" primary-camera="Canon 7D" />
+  <photographer name="Leon Recio" primary-camera="Canon 7D" />
+  <photographer name="Alica Lacher" primary-camera="Nikon D300S" />
+  <photographer name="Bunny Nolan" primary-camera="Nikon D300S" />
+  <photographer name="Lyle Longworth" primary-camera="Nikon D300S" />
+  <photographer name="Hungo Poter" primary-camera="Nikon D300S" />
+  <photographer name="Camaru Kolya" primary-camera="Nikon D300S" />
+  <photographer name="Reto Kol" primary-camera="Nikon D300S" />
+  <photographer name="Antonietta Reza" primary-camera="Fuji XQ1" />
+  <photographer name="Stephnie Arciniega" primary-camera="Fuji XQ1" />
+  <photographer name="Annabelle Nimmo" primary-camera="Sony A560" />
+  <photographer name="Mckenzie Monteiro" primary-camera="Sony A560" />
+  <photographer name="Shiloh Heckert" primary-camera="Fuji XF1" />
+  <photographer name="Dani Vanness" primary-camera="Fuji XPro1" />
+  <photographer name="Ola Straw" primary-camera="Nikon D4S" />
+  <photographer name="Rita Bucklew" primary-camera="Fuji XA1" />
+  <photographer name="Denisha Gatton" primary-camera="Fuji XMount" />
+  <photographer name="Luciano Brisker" primary-camera="Fuji XMount" />
+  <photographer name="Benjamin Lindblad" primary-camera="Canon 550D" />
+</photographers>

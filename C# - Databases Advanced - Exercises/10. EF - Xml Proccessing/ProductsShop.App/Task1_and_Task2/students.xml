@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<students>
+  <student>
+    <name>Ivan Ivanov</name>
+    <gender>Male</gender>
+    <birthDate>1990/10/10</birthDate>
+    <phoneNumber>0887123456</phoneNumber>
+    <email>ivan_ivanov@abv.bg</email>
+    <university>Software University</university>
+    <specialty>C# Web Developer</specialty>
+    <facultyNumber>123456</facultyNumber>
+    <exams>
+      <exam>
+        <name>Programming Basics</name>
+        <dateTaken>2017/01/01</dateTaken>
+        <grade>6.0</grade>
+      </exam>
+      <exam>
+        <name>Programming Fundamentals</name>
+        <dateTaken>2017/02/02</dateTaken>
+        <grade>6.0</grade>
+      </exam>
+    </exams>
+  </student>
+  <student>
+    <name>Todor Todorov</name>
+    <gender>Male</gender>
+    <birthDate>1990/05/05</birthDate>
+    <phoneNumber>088746789</phoneNumber>
+    <email>todor_todorov@abv.bg</email>
+    <university>Software University</university>
+    <specialty>JavaScript Developer</specialty>
+    <facultyNumber>456789</facultyNumber>
+    <exams>
+      <exam>
+        <name>Programming Basics</name>
+        <dateTaken>2017/01/01</dateTaken>
+        <grade>6.0</grade>
+      </exam>
+      <exam>
+        <name>Programming Fundamentals</name>
+        <dateTaken>2017/02/02</dateTaken>
+        <grade>6.0</grade>
+      </exam>
+    </exams>
+  </student>
+</students>

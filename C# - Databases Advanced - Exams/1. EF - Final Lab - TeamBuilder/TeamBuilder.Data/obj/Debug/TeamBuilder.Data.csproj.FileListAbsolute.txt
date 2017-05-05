@@ -1,0 +1,12 @@
+c:\users\valko\documents\visual studio 2015\Projects\EntityFramework_TeamBuilder\TeamBuilder.Data\bin\Debug\TeamBuilder.Data.dll.config
+c:\users\valko\documents\visual studio 2015\Projects\EntityFramework_TeamBuilder\TeamBuilder.Data\bin\Debug\TeamBuilder.Data.dll
+c:\users\valko\documents\visual studio 2015\Projects\EntityFramework_TeamBuilder\TeamBuilder.Data\bin\Debug\TeamBuilder.Data.pdb
+c:\users\valko\documents\visual studio 2015\Projects\EntityFramework_TeamBuilder\TeamBuilder.Data\bin\Debug\EntityFramework.dll
+c:\users\valko\documents\visual studio 2015\Projects\EntityFramework_TeamBuilder\TeamBuilder.Data\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\valko\documents\visual studio 2015\Projects\EntityFramework_TeamBuilder\TeamBuilder.Data\bin\Debug\TeamBuilder.Models.dll
+c:\users\valko\documents\visual studio 2015\Projects\EntityFramework_TeamBuilder\TeamBuilder.Data\bin\Debug\TeamBuilder.Models.pdb
+c:\users\valko\documents\visual studio 2015\Projects\EntityFramework_TeamBuilder\TeamBuilder.Data\bin\Debug\EntityFramework.xml
+c:\users\valko\documents\visual studio 2015\Projects\EntityFramework_TeamBuilder\TeamBuilder.Data\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\valko\documents\visual studio 2015\Projects\EntityFramework_TeamBuilder\TeamBuilder.Data\obj\Debug\TeamBuilder.Data.csprojResolveAssemblyReference.cache
+c:\users\valko\documents\visual studio 2015\Projects\EntityFramework_TeamBuilder\TeamBuilder.Data\obj\Debug\TeamBuilder.Data.dll
+c:\users\valko\documents\visual studio 2015\Projects\EntityFramework_TeamBuilder\TeamBuilder.Data\obj\Debug\TeamBuilder.Data.pdb

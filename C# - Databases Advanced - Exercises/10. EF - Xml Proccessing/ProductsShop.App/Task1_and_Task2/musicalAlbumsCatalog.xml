@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<catalog>
+  <album>
+    <name>Nature Songs</name>
+    <artist>Ivan Ivanov</artist>
+    <year>1998</year>
+    <producer>Ara audio music</producer>
+    <price>9.99</price>
+    <songs>
+      <song>
+        <title>Forrest</title>
+        <duration>3:33</duration>
+      </song>
+      <song>
+        <title>River</title>
+        <duration>4:44</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>Science Songs</name>
+    <artist>Todor Todorov</artist>
+    <year>1999</year>
+    <producer>Ara audio music</producer>
+    <price>9.99</price>
+    <songs>
+      <song>
+        <title>Math</title>
+        <duration>3:33</duration>
+      </song>
+      <song>
+        <title>Chemistry</title>
+        <duration>4:44</duration>
+      </song>
+    </songs>
+  </album>
+</catalog>
