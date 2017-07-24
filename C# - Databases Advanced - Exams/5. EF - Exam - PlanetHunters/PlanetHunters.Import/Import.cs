@@ -40,6 +40,16 @@
 
                 foreach (AstronomerDto astronomerDto in astronomerDtos)
                 {
+				    // We can make the checks for FirstName and LastName like this here, then
+                    // add the entity to the Database and save it with context.SaveChanges() with no errors
+                    // (but with this design we are skipping the attribute validations in the models)
+
+                    // OR
+
+                    // In order to use all the attribute validations which we have implemented in the models,
+                    // we can skip the validations here and just use a try-catch construction with Context.SaveChanges
+                    // so can the attributes to work as expected (we have to add the entity to Database in 'try', then remove it in 'catch');
+					
                     if (astronomerDto.FirstName == null || astronomerDto.FirstName.Length > 50)
                     {
                         Console.WriteLine(Messages.Error);

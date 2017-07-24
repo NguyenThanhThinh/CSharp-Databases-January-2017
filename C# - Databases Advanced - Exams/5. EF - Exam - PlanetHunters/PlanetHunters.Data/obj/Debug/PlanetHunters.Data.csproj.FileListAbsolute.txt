@@ -1,0 +1,15 @@
+C:\Users\valko\Source\Repos\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\5. EF - Exam - PlanetHunters\PlanetHunters.Data\bin\Debug\PlanetHunters.Data.dll.config
+C:\Users\valko\Source\Repos\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\5. EF - Exam - PlanetHunters\PlanetHunters.Data\bin\Debug\PlanetHunters.Data.dll
+C:\Users\valko\Source\Repos\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\5. EF - Exam - PlanetHunters\PlanetHunters.Data\bin\Debug\PlanetHunters.Data.pdb
+C:\Users\valko\Source\Repos\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\5. EF - Exam - PlanetHunters\PlanetHunters.Data\bin\Debug\EntityFramework.dll
+C:\Users\valko\Source\Repos\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\5. EF - Exam - PlanetHunters\PlanetHunters.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\valko\Source\Repos\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\5. EF - Exam - PlanetHunters\PlanetHunters.Data\bin\Debug\PlanetHunters.Models.dll
+C:\Users\valko\Source\Repos\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\5. EF - Exam - PlanetHunters\PlanetHunters.Data\bin\Debug\PlanetHunters.Models.pdb
+C:\Users\valko\Source\Repos\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\5. EF - Exam - PlanetHunters\PlanetHunters.Data\bin\Debug\EntityFramework.xml
+C:\Users\valko\Source\Repos\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\5. EF - Exam - PlanetHunters\PlanetHunters.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\valko\Source\Repos\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\5. EF - Exam - PlanetHunters\PlanetHunters.Data\obj\Debug\PlanetHunters.Data.csprojResolveAssemblyReference.cache
+C:\Users\valko\Source\Repos\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\5. EF - Exam - PlanetHunters\PlanetHunters.Data\obj\Debug\PlanetHunters.Data.Migrations.InitialCreation.resources
+C:\Users\valko\Source\Repos\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\5. EF - Exam - PlanetHunters\PlanetHunters.Data\obj\Debug\PlanetHunters.Data.Migrations.AddJournalAndPublicationModels.resources
+C:\Users\valko\Source\Repos\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\5. EF - Exam - PlanetHunters\PlanetHunters.Data\obj\Debug\PlanetHunters.Data.csproj.GenerateResource.Cache
+C:\Users\valko\Source\Repos\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\5. EF - Exam - PlanetHunters\PlanetHunters.Data\obj\Debug\PlanetHunters.Data.dll
+C:\Users\valko\Source\Repos\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\5. EF - Exam - PlanetHunters\PlanetHunters.Data\obj\Debug\PlanetHunters.Data.pdb
