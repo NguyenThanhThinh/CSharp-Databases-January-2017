@@ -1,9 +1,9 @@
 ﻿namespace FootballData.Configurations
 {
-    using System.Data.Entity.ModelConfiguration;
     using FootballModels;
+    using System.Data.Entity.ModelConfiguration;
 
-    class UserConfiguration : EntityTypeConfiguration<User>
+    internal class UserConfiguration : EntityTypeConfiguration<User>
     {
         public UserConfiguration()
         {

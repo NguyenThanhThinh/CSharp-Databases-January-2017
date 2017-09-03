@@ -1,9 +1,9 @@
 ﻿namespace FootballData.Configurations
 {
-    using System.Data.Entity.ModelConfiguration;
     using FootballModels;
+    using System.Data.Entity.ModelConfiguration;
 
-    class TeamConfiguration : EntityTypeConfiguration<Team>
+    internal class TeamConfiguration : EntityTypeConfiguration<Team>
     {
         public TeamConfiguration()
         {
@@ -21,7 +21,6 @@
                 .WithMany(x => x.SecondaryColorTeams)
                 .HasForeignKey(x => x.SecondaryKitColourId)
                 .WillCascadeOnDelete(false);
-
         }
     }
 }

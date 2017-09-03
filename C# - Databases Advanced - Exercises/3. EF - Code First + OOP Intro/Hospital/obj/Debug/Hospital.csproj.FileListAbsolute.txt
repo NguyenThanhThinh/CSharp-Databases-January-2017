@@ -1,0 +1,13 @@
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\3. EF - Code First + OOP Intro\Hospital\bin\Debug\Hospital.exe.config
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\3. EF - Code First + OOP Intro\Hospital\bin\Debug\Hospital.exe
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\3. EF - Code First + OOP Intro\Hospital\bin\Debug\Hospital.pdb
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\3. EF - Code First + OOP Intro\Hospital\bin\Debug\EntityFramework.dll
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\3. EF - Code First + OOP Intro\Hospital\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\3. EF - Code First + OOP Intro\Hospital\bin\Debug\EntityFramework.xml
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\3. EF - Code First + OOP Intro\Hospital\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\3. EF - Code First + OOP Intro\Hospital\obj\Debug\Hospital.csprojResolveAssemblyReference.cache
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\3. EF - Code First + OOP Intro\Hospital\obj\Debug\Hospital.Migrations.InitialCreate.resources
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\3. EF - Code First + OOP Intro\Hospital\obj\Debug\Hospital.Migrations.AddedDoctorModel.resources
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\3. EF - Code First + OOP Intro\Hospital\obj\Debug\Hospital.csproj.GenerateResource.Cache
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\3. EF - Code First + OOP Intro\Hospital\obj\Debug\Hospital.exe
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\3. EF - Code First + OOP Intro\Hospital\obj\Debug\Hospital.pdb

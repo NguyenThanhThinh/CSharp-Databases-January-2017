@@ -3,8 +3,8 @@
     using Data;
     using Models;
     using System;
-    using Utilities;
     using System.Linq;
+    using Utilities;
 
     public class RegisterUserCommand
     {
@@ -25,7 +25,7 @@
             string password = inputArgs[1];
             if (!password.Any(char.IsDigit) || !password.Any(char.IsUpper))
             {
-                throw new ArgumentException(string.Format(Constants.ErrorMessages.PasswordNotValid, password));                
+                throw new ArgumentException(string.Format(Constants.ErrorMessages.PasswordNotValid, password));
             }
 
             // Validate repeated password
@@ -53,7 +53,7 @@
             int age;
             bool isNumber = int.TryParse(inputArgs[5], out age);
 
-            if (!isNumber || age <=0)
+            if (!isNumber || age <= 0)
             {
                 throw new ArgumentException(Constants.ErrorMessages.AgeNotValid);
             }

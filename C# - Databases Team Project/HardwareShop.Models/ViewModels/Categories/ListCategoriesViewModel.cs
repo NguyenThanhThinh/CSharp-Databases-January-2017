@@ -4,6 +4,6 @@
 
     public class ListCategoriesViewModel : ViewModelBase
     {
-        public IEnumerable<CategoriesSubCategoriesViewModel> Categories { get; set; }       
+        public IEnumerable<CategoriesSubCategoriesViewModel> Categories { get; set; }
     }
 }

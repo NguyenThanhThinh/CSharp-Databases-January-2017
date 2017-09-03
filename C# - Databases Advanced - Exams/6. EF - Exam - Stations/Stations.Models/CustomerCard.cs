@@ -28,7 +28,7 @@
         [Range(0, 120)]
         public int Age { get; set; }
 
-        public CardType Type { get; set; } 
+        public CardType Type { get; set; }
 
         public virtual ICollection<Ticket> BoughtTickets { get; set; }
     }

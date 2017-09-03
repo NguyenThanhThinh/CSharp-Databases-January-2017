@@ -22,26 +22,26 @@
                         @:<li>
                     }
 
-                    @Html.ActionLink(category.Name, "ListItemsByCategory", "Home", new { @CategoryId = category.CategoryId }, null)            
-                     
+                    @Html.ActionLink(category.Name, "ListItemsByCategory", "Home", new { @CategoryId = category.CategoryId }, null)
+
                     foreach (var subCategory in category.SubCategories)
                     {
                         if (ViewBag.subCategoryId == subCategory.SubCategoryId)
                         {
                             @:<li class="active">
-                        }    
+                        }
                         else
                         {
                             @:<li>
                         }
 
                         @Html.ActionLink(string.Format($"{subCategory.Name}"), "ListItemsBySubCategory", "Home", new { @subCategoryId = subCategory.SubCategoryId }, new { @class = "col-md-offset-2" })
-                    }      
+                    }
                 }
             </ul>
         </div>
-        <div class="col-md-9">      
-                  
+        <div class="col-md-9">
+
             @foreach (var item in Model.Items)
             {
                 <div class="row well">

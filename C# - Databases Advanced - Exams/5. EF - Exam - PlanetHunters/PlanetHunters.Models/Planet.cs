@@ -1,6 +1,5 @@
 ﻿namespace PlanetHunters.Models
 {
-    using System;
     using System.ComponentModel.DataAnnotations;
 
     public class Planet
@@ -46,5 +45,5 @@
         public int? DiscoveryId { get; set; }
 
         public virtual Discovery Discovery { get; set; }
-    }   
+    }
 }

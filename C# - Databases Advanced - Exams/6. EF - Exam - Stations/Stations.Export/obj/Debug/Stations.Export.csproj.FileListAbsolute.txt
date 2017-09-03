@@ -1,0 +1,16 @@
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\6. EF - Exam - Stations\Stations.Export\bin\Debug\Stations.Export.dll.config
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\6. EF - Exam - Stations\Stations.Export\bin\Debug\Stations.Export.dll
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\6. EF - Exam - Stations\Stations.Export\bin\Debug\Stations.Export.pdb
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\6. EF - Exam - Stations\Stations.Export\bin\Debug\AutoMapper.dll
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\6. EF - Exam - Stations\Stations.Export\bin\Debug\Newtonsoft.Json.dll
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\6. EF - Exam - Stations\Stations.Export\bin\Debug\Stations.Data.dll
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\6. EF - Exam - Stations\Stations.Export\bin\Debug\Stations.Models.dll
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\6. EF - Exam - Stations\Stations.Export\bin\Debug\EntityFramework.dll
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\6. EF - Exam - Stations\Stations.Export\bin\Debug\Stations.Data.pdb
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\6. EF - Exam - Stations\Stations.Export\bin\Debug\Stations.Data.dll.config
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\6. EF - Exam - Stations\Stations.Export\bin\Debug\Stations.Models.pdb
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\6. EF - Exam - Stations\Stations.Export\bin\Debug\AutoMapper.xml
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\6. EF - Exam - Stations\Stations.Export\bin\Debug\EntityFramework.xml
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\6. EF - Exam - Stations\Stations.Export\obj\Debug\Stations.Export.csprojResolveAssemblyReference.cache
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\6. EF - Exam - Stations\Stations.Export\obj\Debug\Stations.Export.dll
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\6. EF - Exam - Stations\Stations.Export\obj\Debug\Stations.Export.pdb

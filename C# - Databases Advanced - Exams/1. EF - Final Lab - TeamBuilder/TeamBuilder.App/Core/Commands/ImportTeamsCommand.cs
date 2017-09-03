@@ -3,13 +3,12 @@
     using Data;
     using Models;
     using System;
-    using System.IO;
-    using Utilities;
-    using System.Xml.Linq;
-    using System.Xml.XPath;
     using System.Collections.Generic;
+    using System.IO;
+    using System.Xml.Linq;
+    using Utilities;
 
-    class ImportTeamsCommand
+    internal class ImportTeamsCommand
     {
         // ImportTeams <filePath>
         public string Execute(string[] inputArgs)
@@ -53,7 +52,7 @@
                 string acronym = teamXml.Element("acronym")?.Value;
                 string description = teamXml.Element("description")?.Value;
                 int creatorId = int.Parse(teamXml.Element("creator-id").Value);
-                
+
                 Team team = new Team()
                 {
                     Name = teamName,

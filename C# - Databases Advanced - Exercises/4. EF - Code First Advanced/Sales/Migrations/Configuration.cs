@@ -1,8 +1,8 @@
 namespace Sales.Migrations
 {
+    using Models;
     using System;
     using System.Data.Entity.Migrations;
-    using Models;
 
     internal sealed class Configuration : DbMigrationsConfiguration<SalesContext>
     {
@@ -65,7 +65,7 @@ namespace Sales.Migrations
                 CreditCardNumber = "1234 5678 1234 5678"
             };
             context.Customers.AddOrUpdate(customer3);
-            
+
             StoreLocation location = new StoreLocation()
             {
                 LocationName = "Sofia"

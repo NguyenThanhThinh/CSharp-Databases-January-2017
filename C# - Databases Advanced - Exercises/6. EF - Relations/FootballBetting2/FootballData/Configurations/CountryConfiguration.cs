@@ -1,9 +1,9 @@
 ﻿namespace FootballData.Configurations
 {
-    using System.Data.Entity.ModelConfiguration;
     using FootballModels;
+    using System.Data.Entity.ModelConfiguration;
 
-    class CountryConfiguration : EntityTypeConfiguration<Country>
+    internal class CountryConfiguration : EntityTypeConfiguration<Country>
     {
         public CountryConfiguration()
         {

@@ -1,12 +1,12 @@
 ﻿namespace HardwareShop.Services.Services
 {
-    using System.Linq;
-    using Models.ViewModels.Manage;
-    using Models.EntityModels;
-    using Data;
     using AutoMapper;
-    using System.Data.Entity;
     using Contracts;
+    using Data;
+    using Models.EntityModels;
+    using Models.ViewModels.Manage;
+    using System.Data.Entity;
+    using System.Linq;
 
     public class ManageService : IManageService
     {
@@ -31,7 +31,7 @@
                 user.LastName = model.LastName;
                 user.Address = model.Address;
                 user.Email = model.Email;
-                
+
                 context.Entry(user).State = EntityState.Modified;
                 context.SaveChanges();
             }

@@ -38,7 +38,7 @@
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            
+
             SaleDetailsViewModel model = this.saleService.GetSale((int)saleId);
 
             if (model == null)

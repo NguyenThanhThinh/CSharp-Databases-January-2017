@@ -1,0 +1,13 @@
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\6. EF - Relations\FootballBetting2\FootballBetting\obj\Debug\FootballBettingCore.csprojResolveAssemblyReference.cache
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\6. EF - Relations\FootballBetting2\FootballBetting\bin\Debug\FootballBetting.exe.config
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\6. EF - Relations\FootballBetting2\FootballBetting\bin\Debug\FootballBetting.exe
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\6. EF - Relations\FootballBetting2\FootballBetting\bin\Debug\FootballBetting.pdb
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\6. EF - Relations\FootballBetting2\FootballBetting\bin\Debug\FootballData.dll
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\6. EF - Relations\FootballBetting2\FootballBetting\bin\Debug\FootballModels.dll
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\6. EF - Relations\FootballBetting2\FootballBetting\bin\Debug\FootballData.pdb
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\6. EF - Relations\FootballBetting2\FootballBetting\bin\Debug\FootballData.dll.config
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\6. EF - Relations\FootballBetting2\FootballBetting\bin\Debug\FootballModels.pdb
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\6. EF - Relations\FootballBetting2\FootballBetting\bin\Debug\FootballModels.dll.config
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\6. EF - Relations\FootballBetting2\FootballBetting\bin\Debug\EntityFramework.xml
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\6. EF - Relations\FootballBetting2\FootballBetting\obj\Debug\FootballBetting.exe
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\6. EF - Relations\FootballBetting2\FootballBetting\obj\Debug\FootballBetting.pdb

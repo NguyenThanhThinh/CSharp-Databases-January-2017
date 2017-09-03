@@ -1,20 +1,10 @@
-﻿using _02.GetVillainsNames;
-using _03.GetMinionNames;
-using _04.AddMinion2;
-using _05.ChangeTownNamesCasing;
-using _06.RemoveVillain;
-using _07.PrintAllMinionNames;
-using _08.IncreaseMinionAge;
-using _09.IncreaseAgeStoredProcedure;
-
-namespace IntroductionToDbApps
+﻿namespace IntroductionToDbApps
 {
     using System.Data.SqlClient;
-    using System.IO;
 
-    class _IntroductionToDbApps
+    internal class _IntroductionToDbApps
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             //string connectionString = "Data Source=(localdb)\\MSSQLLocalDB;Integrated Security=True";
 

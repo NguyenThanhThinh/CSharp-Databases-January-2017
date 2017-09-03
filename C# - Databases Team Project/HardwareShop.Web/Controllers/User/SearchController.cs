@@ -3,10 +3,8 @@
     using Models.ViewModels;
     using Models.ViewModels.Home;
     using Models.ViewModels.Items;
-    using Models.ViewModels.Search;
     using PagedList;
     using Services.Contracts;
-    using Services.Services;
     using System.Web.Mvc;
 
     public class SearchController : Controller

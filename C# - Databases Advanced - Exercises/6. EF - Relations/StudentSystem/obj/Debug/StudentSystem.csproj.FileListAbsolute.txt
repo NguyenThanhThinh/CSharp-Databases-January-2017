@@ -1,0 +1,13 @@
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\6. EF - Relations\StudentSystem\bin\Debug\StudentSystem.exe.config
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\6. EF - Relations\StudentSystem\bin\Debug\StudentSystem.exe
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\6. EF - Relations\StudentSystem\bin\Debug\StudentSystem.pdb
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\6. EF - Relations\StudentSystem\bin\Debug\EntityFramework.dll
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\6. EF - Relations\StudentSystem\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\6. EF - Relations\StudentSystem\bin\Debug\EntityFramework.xml
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\6. EF - Relations\StudentSystem\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\6. EF - Relations\StudentSystem\obj\Debug\StudentSystem.csprojResolveAssemblyReference.cache
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\6. EF - Relations\StudentSystem\obj\Debug\StudentSystem.Migrations.InitialCreate.resources
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\6. EF - Relations\StudentSystem\obj\Debug\StudentSystem.Migrations.AddedLicenseModel.resources
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\6. EF - Relations\StudentSystem\obj\Debug\StudentSystem.csproj.GenerateResource.Cache
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\6. EF - Relations\StudentSystem\obj\Debug\StudentSystem.exe
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\6. EF - Relations\StudentSystem\obj\Debug\StudentSystem.pdb

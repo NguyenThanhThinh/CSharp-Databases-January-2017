@@ -1,9 +1,9 @@
 ﻿namespace BankSystemComplex.Core
 {
-    using System;
-    using System.Linq;
     using Commands;
     using Data.Validators;
+    using System;
+    using System.Linq;
 
     // Main goal is to read the input and based on it to execute specific commands.
     public class CommandDispatcher
@@ -22,14 +22,17 @@
                     RegisterCommand register = new RegisterCommand() { UserValidator = new UserValidator() };
                     output = register.Execute(inputArgs);
                     break;
+
                 case "login":
                     LoginCommand login = new LoginCommand();
                     output = login.Execute(inputArgs);
                     break;
+
                 case "logout":
                     LogoutCommand logout = new LogoutCommand();
                     output = logout.Execute(inputArgs);
                     break;
+
                 case "exit":
                     ExitCommand exit = new ExitCommand();
                     output = exit.Execute(inputArgs);
@@ -71,6 +74,7 @@
                     AddInterestCommand addInterest = new AddInterestCommand();
                     output = addInterest.Execute(inputArgs);
                     break;
+
                 default:
                     throw new ArgumentException($"Command \"{commandName}\" not supported!");
             }

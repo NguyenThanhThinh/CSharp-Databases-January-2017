@@ -1,6 +1,6 @@
 ﻿namespace _2.AdvancedMapping.DTOs
 {
-    class EmployeeDTO
+    internal class EmployeeDTO
     {
         public string FirstName { get; set; }
 

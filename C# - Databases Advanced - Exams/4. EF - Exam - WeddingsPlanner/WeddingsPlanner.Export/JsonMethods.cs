@@ -1,20 +1,20 @@
 ﻿namespace WeddingsPlanner.Export
 {
-    using DTOs;
     using Data;
-    using Utilities;
-    using System.IO;
-    using System.Linq;
+    using DTOs;
     using Models.Enums;
     using Newtonsoft.Json;
     using System.Collections.Generic;
+    using System.IO;
+    using System.Linq;
+    using Utilities;
 
-    class JsonMethods
+    internal class JsonMethods
     {
         public static void ExportJsonToFolder<TEntity>(TEntity entityType, string pathToExport)
         {
             string json = JsonConvert.SerializeObject(entityType, Formatting.Indented);
-            File.WriteAllText(pathToExport, json);    
+            File.WriteAllText(pathToExport, json);
         }
 
         public static void ExportOrderedAgencies()

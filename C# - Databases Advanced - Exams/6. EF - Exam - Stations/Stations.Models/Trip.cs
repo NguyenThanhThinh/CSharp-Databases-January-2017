@@ -35,7 +35,7 @@
 
         public virtual Train Train { get; set; }
 
-        public TripStatus Status { get; set; } 
+        public TripStatus Status { get; set; }
 
         public TimeSpan? TimeDifference { get; set; }
     }

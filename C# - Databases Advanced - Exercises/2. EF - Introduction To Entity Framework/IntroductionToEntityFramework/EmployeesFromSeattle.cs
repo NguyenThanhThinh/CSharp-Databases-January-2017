@@ -1,12 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace IntroductionToEntityFramework
 {
-    class EmployeesFromSeattle
+    internal class EmployeesFromSeattle
     {
         public static void GetEmployeesFromSeattle(SoftuniContext context)
         {

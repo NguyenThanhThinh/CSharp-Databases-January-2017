@@ -1,12 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace IntroductionToEntityFramework
 {
-    class EmployeeWithId147
+    internal class EmployeeWithId147
     {
         public static void GetEmployeeWithId147(SoftuniContext context)
         {

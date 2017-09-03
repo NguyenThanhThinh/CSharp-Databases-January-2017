@@ -3,12 +3,12 @@
     using Data;
     using Models;
     using System;
+    using System.Collections.Generic;
     using System.Linq;
     using System.Xml.Linq;
     using System.Xml.XPath;
-    using System.Collections.Generic;
 
-    class ClientSeed
+    internal class ClientSeed
     {
         public static void ImportSuppliers(string suppliersPath)
         {

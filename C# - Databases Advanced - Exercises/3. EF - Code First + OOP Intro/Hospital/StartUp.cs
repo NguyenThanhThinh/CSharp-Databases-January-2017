@@ -1,15 +1,15 @@
 ﻿namespace Hospital
 {
+    using Models;
     using System;
     using System.Data.Entity.Validation;
-    using Models;
 
-    class StartUp
+    internal class StartUp
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             HospitalContext context = new HospitalContext();
-            
+
             Patient patient = new Patient()
             {
                 FirstName = "Ivan",

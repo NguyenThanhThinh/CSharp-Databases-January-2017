@@ -1,0 +1,10 @@
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\6. EF - Relations\BankSystemComplex\bin\Debug\BankSystemComplex.exe.config
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\6. EF - Relations\BankSystemComplex\bin\Debug\BankSystemComplex.exe
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\6. EF - Relations\BankSystemComplex\bin\Debug\BankSystemComplex.pdb
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\6. EF - Relations\BankSystemComplex\bin\Debug\EntityFramework.dll
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\6. EF - Relations\BankSystemComplex\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\6. EF - Relations\BankSystemComplex\bin\Debug\EntityFramework.xml
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\6. EF - Relations\BankSystemComplex\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\6. EF - Relations\BankSystemComplex\obj\Debug\BankSystemComplex.csprojResolveAssemblyReference.cache
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\6. EF - Relations\BankSystemComplex\obj\Debug\BankSystemComplex.exe
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\6. EF - Relations\BankSystemComplex\obj\Debug\BankSystemComplex.pdb

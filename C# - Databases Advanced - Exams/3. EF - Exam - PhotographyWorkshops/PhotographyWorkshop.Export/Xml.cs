@@ -1,14 +1,13 @@
 ﻿namespace PhotographyWorkshop.Export
 {
     using Data;
-    using Utilities;
-    using System.IO;
     using ExportDTOs;
-    using System.Linq;
-    using System.Xml.Linq;
     using PhotographyWorkshops.Models;
     using System.Collections.Generic;
+    using System.IO;
+    using System.Linq;
     using System.Xml.Serialization;
+    using Utilities;
 
     public class Xml
     {
@@ -57,7 +56,7 @@
                 //            lens.Make,
                 //            lens.FocalLength,
                 //            lens.MaxAperture
-                //        })                       
+                //        })
                 //    })
                 //    .ToList();
 

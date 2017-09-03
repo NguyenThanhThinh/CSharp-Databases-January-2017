@@ -1,13 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace IntroductionToEntityFramework
 {
-    class NativeSQLQuerry
+    internal class NativeSQLQuerry
     {
         public static void UseNativeSQLQuerry(SoftuniContext context)
         {
@@ -33,7 +30,6 @@ namespace IntroductionToEntityFramework
                                                   .GroupBy(s => s);
             foreach (var name in employeesNames)
             {
-
             }
         }
 
@@ -49,7 +45,6 @@ namespace IntroductionToEntityFramework
             var result = context.Database.SqlQuery<string>(query);
             foreach (var res in result)
             {
-
             }
         }
     }

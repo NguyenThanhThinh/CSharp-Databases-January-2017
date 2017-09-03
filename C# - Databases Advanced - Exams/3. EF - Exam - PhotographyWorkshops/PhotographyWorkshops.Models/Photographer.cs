@@ -9,7 +9,7 @@
         public Photographer()
         {
             this.Lenses = new HashSet<Lens>();
-            this.Accessories = new HashSet<Accessory>();    
+            this.Accessories = new HashSet<Accessory>();
             this.WorkshopsTrained = new HashSet<Workshop>();
             this.WorkshopsParticipated = new HashSet<Workshop>();
         }

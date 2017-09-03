@@ -3,7 +3,7 @@
     using System.Data.SqlClient;
     using System.IO;
 
-    class InitialSetup
+    internal class InitialSetup
     {
         public static void CreateDatabaseAndTables(SqlConnection connection)
         {
@@ -19,6 +19,5 @@
                 createTables.ExecuteNonQuery();
             }
         }
-
     }
 }

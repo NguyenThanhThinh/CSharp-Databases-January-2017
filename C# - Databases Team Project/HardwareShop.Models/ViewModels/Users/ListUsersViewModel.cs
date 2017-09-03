@@ -7,6 +7,6 @@
     {
         public SearchViewModel SearchViewModel { get; set; }
 
-        public IPagedList<UserViewModel> Users { get; set; }        
+        public IPagedList<UserViewModel> Users { get; set; }
     }
 }

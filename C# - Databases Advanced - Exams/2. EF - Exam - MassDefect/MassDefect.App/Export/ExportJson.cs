@@ -1,11 +1,11 @@
 ﻿namespace MassDefect.App.Export
 {
-    using DTOs;
     using Data;
-    using System.IO;
-    using System.Linq;
+    using DTOs;
     using Newtonsoft.Json;
     using System.Collections.Generic;
+    using System.IO;
+    using System.Linq;
 
     public class ExportJson
     {
@@ -16,9 +16,9 @@
                 List<PlanetDto> planets = context.Planets
                     .Where(planet => !planet.OriginAnomalies.Any())
                     .Select(planet => new PlanetDto()
-                {
-                    Name= planet.Name
-                })
+                    {
+                        Name = planet.Name
+                    })
                 .ToList();
 
                 string json = JsonConvert.SerializeObject(planets, Formatting.Indented);
@@ -33,13 +33,13 @@
                 List<PersonDto> people = context.People
                     .Where(person => !person.Anomalies.Any())
                     .Select(person => new PersonDto
-                {
-                    Name = person.Name,
-                    HomePlanet = new PlanetDto 
                     {
-                        Name = person.HomePlanet.Name
-                    }    
-                })
+                        Name = person.Name,
+                        HomePlanet = new PlanetDto
+                        {
+                            Name = person.HomePlanet.Name
+                        }
+                    })
                 .ToList();
 
                 string json = JsonConvert.SerializeObject(people, Formatting.Indented);

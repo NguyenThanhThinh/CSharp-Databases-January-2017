@@ -16,7 +16,7 @@
         public string Content { get; set; }
 
         public int ReviewId { get; set; }
-        
+
         [DisplayName("Created on")]
         public DateTime DatePosted { get; set; }
 

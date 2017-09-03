@@ -1,8 +1,8 @@
 ﻿namespace WeddingsPlanner.Import
 {
-    class Import
+    internal class Import
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             JsonMethods.ImportAgencies();
             JsonMethods.ImportPeople();

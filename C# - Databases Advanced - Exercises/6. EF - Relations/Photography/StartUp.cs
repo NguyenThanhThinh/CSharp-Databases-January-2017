@@ -3,9 +3,9 @@
     using System;
     using System.Linq;
 
-    class StartUp
+    internal class StartUp
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             // All the sample data passes without errors through the Seed method in Migration.Configuration:
             // You can drop the database and create it again by executing the StartUp method to check;

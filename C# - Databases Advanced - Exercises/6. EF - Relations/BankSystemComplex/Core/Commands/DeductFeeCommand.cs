@@ -1,9 +1,9 @@
 ﻿namespace BankSystemComplex.Core.Commands
 {
-    using System;
-    using System.Linq;
     using Data;
     using Data.Models;
+    using System;
+    using System.Linq;
 
     // Subtract fee tax from specific account on our current user.
     public class DeductFeeCommand
@@ -20,7 +20,7 @@
                 throw new InvalidOperationException("You should log in first!");
             }
 
-            // DeductFee <Account number> 
+            // DeductFee <Account number>
             string accountNumber = input[0];
 
             decimal currentBalance;

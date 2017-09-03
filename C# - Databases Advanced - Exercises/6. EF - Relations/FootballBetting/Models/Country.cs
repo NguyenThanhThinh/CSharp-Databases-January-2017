@@ -20,6 +20,5 @@
         public virtual ICollection<Continent> Continent { get; set; }
 
         public virtual ICollection<Town> Towns { get; set; }
-
     }
 }

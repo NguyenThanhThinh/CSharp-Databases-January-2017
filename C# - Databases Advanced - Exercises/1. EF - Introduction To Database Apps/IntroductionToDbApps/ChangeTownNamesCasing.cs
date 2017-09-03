@@ -5,7 +5,7 @@
     using System.Data.SqlClient;
     using System.Text;
 
-    class ChangeTownNamesCasing
+    internal class ChangeTownNamesCasing
     {
         public static void ChangeTownNames(SqlConnection connection)
         {

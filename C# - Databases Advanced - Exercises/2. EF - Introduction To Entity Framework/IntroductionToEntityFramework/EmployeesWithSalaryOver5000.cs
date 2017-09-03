@@ -1,12 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace IntroductionToEntityFramework
 {
-    class EmployeesWithSalaryOver5000
+    internal class EmployeesWithSalaryOver5000
     {
         public static void GetEmployeesWithSalariesOver5000(SoftuniContext context)
         {

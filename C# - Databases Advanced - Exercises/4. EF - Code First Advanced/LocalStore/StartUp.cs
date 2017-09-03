@@ -1,17 +1,17 @@
 ﻿namespace LocalStore
 {
-    using System.Collections.Generic;
     using Models;
+    using System.Collections.Generic;
 
-    class StartUp
+    internal class StartUp
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             //1. Local Store - 3 products entered in the database;
             //2. Local Store Improvement - Weight and Quantity added to Product model - old data entered from 'Data_BackUp.sql';
 
             var context = new LocalStoreContext();
-           
+
             List<Product> products = new List<Product>();
 
             products.Add(new Product()

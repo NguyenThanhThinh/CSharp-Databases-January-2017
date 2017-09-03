@@ -1,16 +1,15 @@
 ﻿namespace WeddingsPlanner.Export
 {
-    using DTOs;
     using Data;
+    using DTOs;
     using Models;
-    using System.IO;
-    using Utilities;
-    using System.Linq;
-    using System.Xml.Linq;
-    using System.Xml.Serialization;
     using System.Collections.Generic;
+    using System.IO;
+    using System.Linq;
+    using System.Xml.Serialization;
+    using Utilities;
 
-    class XmlMethods
+    internal class XmlMethods
     {
         private static void ExportXmlToFolder<TEntity>(TEntity entityType, string pathToExport)
         {
@@ -195,7 +194,7 @@
         {
             decimal cashAmount = Invitations
                                     .Where(inv => (inv.Present as Cash) != null)
-                                    .Sum(inv => (decimal?)(inv.Present as Cash).Amount)  ?? 0.0m ;
+                                    .Sum(inv => (decimal?)(inv.Present as Cash).Amount) ?? 0.0m;
 
             return cashAmount;
         }

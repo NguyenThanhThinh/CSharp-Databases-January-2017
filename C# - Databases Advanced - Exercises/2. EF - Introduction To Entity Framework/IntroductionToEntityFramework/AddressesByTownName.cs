@@ -1,13 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Data.SqlClient;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace IntroductionToEntityFramework
 {
-    class AddressesByTownName
+    internal class AddressesByTownName
     {
         public static void GetAddressesByTownName(SoftuniContext context)
         {

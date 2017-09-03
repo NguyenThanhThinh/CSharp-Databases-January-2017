@@ -3,14 +3,14 @@
     using AutoMapper;
     using Contracts;
     using Data;
-    using Models.EntityModels;
-    using Models.ViewModels.Users;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Data.Entity;
     using Microsoft.AspNet.Identity;
-    using PagedList;
+    using Models.EntityModels;
     using Models.ViewModels.Search;
+    using Models.ViewModels.Users;
+    using PagedList;
+    using System.Collections.Generic;
+    using System.Data.Entity;
+    using System.Linq;
 
     public class UserService : IUserService
     {
@@ -29,11 +29,13 @@
                             users = context.Users
                                 .Where(u => u.UserName.Contains(searchModel.SearchString)).ToList();
                             break;
+
                         case "lastname":
                             users = context.Users
                                 .Where(u => u.LastName.Contains(searchModel.SearchString))
                                 .ToList();
                             break;
+
                         case "email":
                             users = context.Users
                                 .Where(u => u.Email.Contains(searchModel.SearchString))

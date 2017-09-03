@@ -1,12 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace IntroductionToEntityFramework
 {
-    class RemoveTowns
+    internal class RemoveTowns
     {
         public static void RemoveTown(SoftuniContext context)
         {

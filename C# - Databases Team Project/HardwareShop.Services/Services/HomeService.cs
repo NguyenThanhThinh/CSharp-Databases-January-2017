@@ -1,15 +1,14 @@
 ﻿namespace HardwareShop.Services.Services
 {
-    using System.Collections.Generic;
-    using System.Linq;
+    using AutoMapper;
+    using Contracts;
+    using Data;
+    using Models.EntityModels;
     using Models.ViewModels.Categories;
     using Models.ViewModels.Items;
-    using Data;
-    using AutoMapper;
-    using Models.EntityModels;
     using PagedList;
-    using Contracts;
-    using System;
+    using System.Collections.Generic;
+    using System.Linq;
 
     public class HomeService : IHomeService
     {

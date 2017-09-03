@@ -1,16 +1,16 @@
 ﻿namespace HardwareShop.Services.Services
 {
-    using Data;
-    using System.IO;
     using AutoMapper;
-    using System.Linq;
+    using Contracts;
+    using Data;
+    using EntityFramework.Extensions;
     using Models.EntityModels;
     using Models.ViewModels.Items;
-    using System.Collections.Generic;
     using Models.ViewModels.SubCategories;
-    using Contracts;
     using PagedList;
-    using EntityFramework.Extensions;
+    using System.Collections.Generic;
+    using System.IO;
+    using System.Linq;
 
     public class ItemService : IItemService
     {
@@ -126,7 +126,6 @@
             return context.Items
                 .FirstOrDefault(i => i.ItemId == itemId);
         }
-
 
         public DetailsItemViewModel GetItemDetailsById(int? itemId)
         {

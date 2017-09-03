@@ -3,3 +3,8 @@ C:\Users\valko\Source\Repos\CSharp-Databases-January-2017\C# - Databases Advance
 C:\Users\valko\Source\Repos\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\5. EF - Exam - PlanetHunters\PlanetHunters.Models\obj\Debug\PlanetHunters.Models.csprojResolveAssemblyReference.cache
 C:\Users\valko\Source\Repos\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\5. EF - Exam - PlanetHunters\PlanetHunters.Models\obj\Debug\PlanetHunters.Models.dll
 C:\Users\valko\Source\Repos\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\5. EF - Exam - PlanetHunters\PlanetHunters.Models\obj\Debug\PlanetHunters.Models.pdb
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\5. EF - Exam - PlanetHunters\PlanetHunters.Models\bin\Debug\PlanetHunters.Models.dll
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\5. EF - Exam - PlanetHunters\PlanetHunters.Models\bin\Debug\PlanetHunters.Models.pdb
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\5. EF - Exam - PlanetHunters\PlanetHunters.Models\obj\Debug\PlanetHunters.Models.csprojResolveAssemblyReference.cache
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\5. EF - Exam - PlanetHunters\PlanetHunters.Models\obj\Debug\PlanetHunters.Models.dll
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\5. EF - Exam - PlanetHunters\PlanetHunters.Models\obj\Debug\PlanetHunters.Models.pdb

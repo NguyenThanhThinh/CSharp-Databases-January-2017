@@ -1,14 +1,14 @@
 ﻿namespace HardwareShop.Services.Services
 {
-    using Data;
-    using System;
     using AutoMapper;
-    using System.Web;
-    using System.Linq;
-    using Models.EntityModels;
-    using Microsoft.AspNet.Identity;
-    using Models.ViewModels.Comments;
     using Contracts;
+    using Data;
+    using Microsoft.AspNet.Identity;
+    using Models.EntityModels;
+    using Models.ViewModels.Comments;
+    using System;
+    using System.Linq;
+    using System.Web;
 
     public class CommentService : ICommentService
     {

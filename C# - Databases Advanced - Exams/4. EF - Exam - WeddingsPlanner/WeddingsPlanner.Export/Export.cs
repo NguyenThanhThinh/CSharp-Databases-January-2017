@@ -1,8 +1,8 @@
 ﻿namespace WeddingsPlanner.Export
 {
-    class Export
+    internal class Export
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             JsonMethods.ExportOrderedAgencies();
             JsonMethods.ExportGuestList();

@@ -3,7 +3,7 @@
     using Models;
     using System.Data.Entity.ModelConfiguration;
 
-    class EventConfiguration : EntityTypeConfiguration<Event>
+    internal class EventConfiguration : EntityTypeConfiguration<Event>
     {
         public EventConfiguration()
         {

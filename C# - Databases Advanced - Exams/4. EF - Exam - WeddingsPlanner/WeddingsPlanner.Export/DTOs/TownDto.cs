@@ -1,7 +1,7 @@
 ﻿namespace WeddingsPlanner.Export.DTOs
 {
-    using System.Xml.Serialization;
     using System.Collections.Generic;
+    using System.Xml.Serialization;
 
     [XmlType("town")]
     public class TownDto

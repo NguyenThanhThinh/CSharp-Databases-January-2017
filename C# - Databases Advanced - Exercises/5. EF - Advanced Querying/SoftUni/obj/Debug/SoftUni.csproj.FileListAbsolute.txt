@@ -1,0 +1,10 @@
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\5. EF - Advanced Querying\SoftUni\bin\Debug\SoftUni.exe.config
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\5. EF - Advanced Querying\SoftUni\bin\Debug\SoftUni.exe
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\5. EF - Advanced Querying\SoftUni\bin\Debug\SoftUni.pdb
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\5. EF - Advanced Querying\SoftUni\bin\Debug\EntityFramework.dll
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\5. EF - Advanced Querying\SoftUni\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\5. EF - Advanced Querying\SoftUni\bin\Debug\EntityFramework.xml
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\5. EF - Advanced Querying\SoftUni\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\5. EF - Advanced Querying\SoftUni\obj\Debug\SoftUni.csprojResolveAssemblyReference.cache
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\5. EF - Advanced Querying\SoftUni\obj\Debug\SoftUni.exe
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\5. EF - Advanced Querying\SoftUni\obj\Debug\SoftUni.pdb

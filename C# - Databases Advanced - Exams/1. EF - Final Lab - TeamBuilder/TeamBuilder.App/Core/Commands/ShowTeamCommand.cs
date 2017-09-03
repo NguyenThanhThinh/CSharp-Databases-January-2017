@@ -3,11 +3,11 @@
     using Data;
     using Models;
     using System;
-    using Utilities;
-    using System.Text;
     using System.Linq;
+    using System.Text;
+    using Utilities;
 
-    class ShowTeamCommand
+    internal class ShowTeamCommand
     {
         // ShowTeam <teamName>
         public string Execute(string[] inputArgs)

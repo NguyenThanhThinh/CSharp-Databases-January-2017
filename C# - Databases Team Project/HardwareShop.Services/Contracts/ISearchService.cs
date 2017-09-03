@@ -1,7 +1,7 @@
 ﻿namespace HardwareShop.Services.Contracts
 {
-    using System.Collections.Generic;
     using Models.ViewModels.Items;
+    using System.Collections.Generic;
 
     public interface ISearchService
     {

@@ -1,15 +1,15 @@
 namespace PhotoShare.Data
 {
-    using System.Data.Entity;
     using Migrations;
     using Models;
+    using System.Data.Entity;
 
     public class PhotoShareContext : DbContext
-    { 
+    {
         public PhotoShareContext() : base("name=PhotoShareContext")
         {
-            // If we want a solution with changing BornTown and CurrentTown of User 
-            // without specific FK properties for the virtual Town properties in the User model - 
+            // If we want a solution with changing BornTown and CurrentTown of User
+            // without specific FK properties for the virtual Town properties in the User model -
             // we have specifically to disable the lazy loading because otherwise the EF is giving error when trying to update;
 
             //this.Configuration.LazyLoadingEnabled = false;

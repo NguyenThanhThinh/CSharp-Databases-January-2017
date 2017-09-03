@@ -1,6 +1,5 @@
 ﻿namespace PlanetHunters.Models
 {
-    using System;
     using System.ComponentModel.DataAnnotations;
 
     public class Star

@@ -28,4 +28,3 @@
         public virtual ICollection<Tag> Tags { get; set; }
     }
 }
-

@@ -1,9 +1,9 @@
 ﻿namespace BankSystemComplex.Core.Commands
 {
-    using System;
-    using System.Linq;
     using Data;
     using Data.Models;
+    using System;
+    using System.Linq;
 
     public class DepositCommand
     {
@@ -19,7 +19,7 @@
                 throw new InvalidOperationException("You should log in first!");
             }
 
-            // Deposit <Account number> <money> 
+            // Deposit <Account number> <money>
             string accountNumber = input[0];
             decimal amount = decimal.Parse(input[1]);
             if (amount <= 0)
@@ -37,7 +37,7 @@
 
                 CheckingAccount checkingAccount = user.CheckingAccounts.FirstOrDefault(a => a.AccountNumber == accountNumber);
 
-                // If not any accounts were not found throw exception. 
+                // If not any accounts were not found throw exception.
                 if (savingAccount == null && checkingAccount == null)
                 {
                     throw new ArgumentException($"Account {accountNumber} does not exist!");

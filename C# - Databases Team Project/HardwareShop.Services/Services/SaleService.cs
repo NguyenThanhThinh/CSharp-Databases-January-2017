@@ -1,16 +1,16 @@
 ﻿namespace HardwareShop.Services.Services
 {
     using AutoMapper;
+    using Contracts;
     using Data;
+    using EntityFramework.Extensions;
     using Models.EntityModels;
     using Models.ViewModels.Items;
+    using Models.ViewModels.Sale;
     using PagedList;
+    using System;
     using System.Collections.Generic;
     using System.Linq;
-    using System;
-    using Models.ViewModels.Sale;
-    using EntityFramework.Extensions;
-    using Contracts;
 
     public class SaleService : ISaleService
     {

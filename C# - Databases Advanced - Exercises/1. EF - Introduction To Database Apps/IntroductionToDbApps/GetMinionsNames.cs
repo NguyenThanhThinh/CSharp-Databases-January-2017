@@ -3,7 +3,7 @@
     using System;
     using System.Data.SqlClient;
 
-    class GetMinionsNames
+    internal class GetMinionsNames
     {
         public static void GettingMinionsNames(SqlConnection connection)
         {
@@ -29,7 +29,6 @@
                     Console.WriteLine("Villain: " + villainName);
                 }
 
-
                 string commandMinionsString = "SELECT m.Name, Age\n" +
                                               "FROM Villains v\n" +
                                               "JOIN MinionsVillains mv ON v.Id = mv.VillainId\n" +
@@ -37,7 +36,6 @@
                                               "WHERE v.Id = @villainId";
                 SqlCommand commandMinions = new SqlCommand(commandMinionsString, connection);
                 commandMinions.Parameters.AddWithValue("@villainId", id);
-
 
                 SqlDataReader readerMinions = commandMinions.ExecuteReader();
                 using (readerMinions)

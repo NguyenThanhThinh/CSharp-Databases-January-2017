@@ -1,9 +1,9 @@
 ﻿namespace FootballData.Configurations
 {
-    using System.Data.Entity.ModelConfiguration;
     using FootballModels;
+    using System.Data.Entity.ModelConfiguration;
 
-    class PositionConfiguration : EntityTypeConfiguration<Position>
+    internal class PositionConfiguration : EntityTypeConfiguration<Position>
     {
         public PositionConfiguration()
         {

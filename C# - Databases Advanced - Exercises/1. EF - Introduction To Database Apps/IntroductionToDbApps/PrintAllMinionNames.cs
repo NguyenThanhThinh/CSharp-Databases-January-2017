@@ -4,7 +4,7 @@
     using System.Collections.Generic;
     using System.Data.SqlClient;
 
-    class PrintAllMinionNames
+    internal class PrintAllMinionNames
     {
         public static void MinionNames(SqlConnection connection)
         {
@@ -29,7 +29,7 @@
             }
         }
 
-        static void PrintMinionNames(List<string> minionNames)
+        private static void PrintMinionNames(List<string> minionNames)
         {
             List<string> namesToPrint = new List<string>();
             int counter = 0;

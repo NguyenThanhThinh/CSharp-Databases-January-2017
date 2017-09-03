@@ -28,7 +28,7 @@
         public DateTime GameDateTime { get; set; }
 
         public float HomeTeamWinBetRate { get; set; }
-        
+
         public float AwayTeamWinBetRate { get; set; }
 
         public float DrawGameBetRate { get; set; }
@@ -36,7 +36,7 @@
         public int RoundId { get; set; }
 
         public virtual Round Round { get; set; }
-        
+
         public int CompetitionId { get; set; }
 
         public virtual Competition Competition { get; set; }

@@ -43,13 +43,13 @@
         public bool IsDeleted { get; set; }
 
         public ItemStatus ItemStatus { get; set; }
-              
+
         public int SubCategoryId { get; set; }
 
         public virtual SubCategory SubCategory { get; set; }
 
         public virtual ICollection<Cart> Carts { get; set; }
 
-        public virtual ICollection<Review> Reviews { get; set; }        
+        public virtual ICollection<Review> Reviews { get; set; }
     }
 }

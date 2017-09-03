@@ -9,7 +9,7 @@
         public int InvitationId { get; set; }
 
         public virtual Invitation Invitation { get; set; }
-        
+
         [NotMapped]
         public Person Owner => this.Invitation.Guest;
     }

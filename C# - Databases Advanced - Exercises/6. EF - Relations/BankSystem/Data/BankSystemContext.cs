@@ -1,9 +1,9 @@
 namespace BankSystem.Data
 {
-    using System.Data.Entity.Infrastructure.Annotations;
+    using Models;
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Data.Entity;
-    using Models;
+    using System.Data.Entity.Infrastructure.Annotations;
 
     public class BankSystemContext : DbContext
     {

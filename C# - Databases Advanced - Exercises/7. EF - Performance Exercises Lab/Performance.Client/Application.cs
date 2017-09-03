@@ -3,14 +3,14 @@
     using Data;
     using Models;
     using System;
-    using System.Linq;
-    using System.Diagnostics;
     using System.Collections.Generic;
     using System.Data.Entity;
+    using System.Diagnostics;
+    using System.Linq;
 
-    class Application
+    internal class Application
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             EmployeeContext context = new EmployeeContext();
             Stopwatch stopwatch = new Stopwatch();
@@ -22,16 +22,15 @@
                 context.Database.ExecuteSqlCommand("CHECKPOINT; DBCC DROPCLEANBUFFERS;");
                 stopwatch.Start();
 
-                // Task 5. / Task 7. 
+                // Task 5. / Task 7.
                 // Try Eager Loading Performance without Select:
                 // Eager Loading is faster - the SQL query contains Join statements and all the columns information:
                 //QueryWithEagerLoading(context);
 
-                // Task 5. / Task 7. 
+                // Task 5. / Task 7.
                 // Try Lazy Loading Performance without Select:
                 // Lazy loading is slower - te SQL query contains Foreign Key Id's instead of Join statements and all the columns information:
                 //QueryWithLazyLoading(context);
-
 
                 // Task 6. Try Eager Loading Performance with Select:
                 // The SQL queries are similar with Join statements, the performance is also similar:
@@ -41,17 +40,14 @@
                 // The SQL queries are similar with Join statements, the performance is also similar:
                 //SelectQueryWithLazyLoading(context);
 
-
                 // Task 8. For more complicated Where queries => the SQL query with Lazy Loading is easier and the performance is faster:
                 //SelectQueryWithEagerAndLazyLoading(context);
-
 
                 // Task 9. ToList() is first and OrderBy() is second - the SQL query is NOT using Join statement and the performance is faster:
                 // Task 9. OrderBy() is first and ToList() is second - the SQL query is using Join statement and the performance is slower:
                 //UsingOrderByAndToList(context);
 
-
-                // Task 10. The Where query should be first and ToList() should be after it for better performance: 
+                // Task 10. The Where query should be first and ToList() should be after it for better performance:
                 QueryOpitmizing(context);
 
                 stopwatch.Stop();
@@ -89,11 +85,11 @@
         private static void SelectQueryWithEagerLoading(EmployeeContext context)
         {
             var employees = context.Employees.Include("Department").Include("Address").Select(e => new
-                {
-                    e.FirstName,
-                    e.Department.Name,
-                    e.Address.AddressText
-                }).ToList();
+            {
+                e.FirstName,
+                e.Department.Name,
+                e.Address.AddressText
+            }).ToList();
 
             foreach (var employee in employees)
             {
@@ -109,7 +105,6 @@
                 e.FirstName,
                 e.Department.Name,
                 e.Address.AddressText
-
             }).ToList();
 
             foreach (var employee in employees)
@@ -147,7 +142,7 @@
             var employees2 = context.Employees.OrderBy(e => e.Department.Name).ThenBy(e => e.FirstName).ToList();
         }
 
-        // The Where query should be first and ToList() should be after it for better performance: 
+        // The Where query should be first and ToList() should be after it for better performance:
         private static void QueryOpitmizing(EmployeeContext context)
         {
             var employees = context.Employees

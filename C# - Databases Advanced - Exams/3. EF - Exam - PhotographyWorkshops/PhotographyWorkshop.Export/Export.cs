@@ -1,8 +1,8 @@
 ﻿namespace PhotographyWorkshop.Export
 {
-    class Export
+    internal class Export
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             Json.ExportOrderedPhotograpers();
             Json.ExportLandscapePhotographers();

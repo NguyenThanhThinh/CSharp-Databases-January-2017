@@ -1,14 +1,14 @@
 ﻿namespace _2.AdvancedMapping
 {
+    using AutoMapper;
     using DTOs;
     using Models;
     using System;
-    using AutoMapper;
     using System.Collections.Generic;
 
-    class StartUp
+    internal class StartUp
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             ConfigureAutoMapper();
 

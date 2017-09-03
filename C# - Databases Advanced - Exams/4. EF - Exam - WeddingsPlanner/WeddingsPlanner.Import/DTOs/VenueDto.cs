@@ -3,7 +3,7 @@
     using System.Xml.Serialization;
 
     [XmlType("venue")]
-    class VenueDto
+    internal class VenueDto
     {
         [XmlAttribute]
         public string Name { get; set; }

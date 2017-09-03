@@ -3,11 +3,11 @@
     using Data;
     using Models;
     using System;
+    using System.Collections.Generic;
     using System.IO;
-    using Utilities;
     using System.Xml.Linq;
     using System.Xml.XPath;
-    using System.Collections.Generic;
+    using Utilities;
 
     public class ImportUsersCommand
     {
@@ -56,8 +56,8 @@
                 int age = int.Parse(userXml.Element("age").Value);
 
                 Gender gender = Gender.Male;
-                bool isGenderFemaleValid = String.Equals(userXml.Element("gender")?.Value, 
-                                                         Gender.Female.ToString(), 
+                bool isGenderFemaleValid = String.Equals(userXml.Element("gender")?.Value,
+                                                         Gender.Female.ToString(),
                                                          StringComparison.InvariantCultureIgnoreCase);
 
                 if (isGenderFemaleValid)

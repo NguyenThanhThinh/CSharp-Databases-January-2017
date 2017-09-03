@@ -55,7 +55,7 @@
 
         public virtual Author Author { get; set; }
 
-        public virtual ICollection<Category> Categories{ get; set; }
+        public virtual ICollection<Category> Categories { get; set; }
 
         public virtual ICollection<Book> RelatedBooks { get; set; }
     }

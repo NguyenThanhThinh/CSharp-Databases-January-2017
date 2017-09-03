@@ -1,8 +1,7 @@
 ﻿namespace BankSystem
 {
-    using BankSystem.Data;
-    using System;
     using Core;
+    using System;
 
     //Solution added from Georgi on the website;
     public class StartUp

@@ -1,12 +1,12 @@
 ﻿namespace Gringotts
 {
+    using Models;
     using System;
     using System.Data.Entity.Validation;
-    using Models;
 
-    class StartUp
+    internal class StartUp
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             //The migrations were not needed for this exercises. I just tried different things with them;
 

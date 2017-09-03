@@ -5,7 +5,7 @@
     // Result of validation check.
     public class ValidationResult
     {
-        // Initializes a new instance of the "ValidationResult" class. 
+        // Initializes a new instance of the "ValidationResult" class.
         // Validation result by default is set to true!
         public ValidationResult()
         {

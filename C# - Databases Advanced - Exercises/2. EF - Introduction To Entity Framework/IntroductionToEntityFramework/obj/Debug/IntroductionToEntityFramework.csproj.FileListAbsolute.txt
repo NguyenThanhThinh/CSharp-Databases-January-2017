@@ -1,0 +1,10 @@
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\2. EF - Introduction To Entity Framework\IntroductionToEntityFramework\bin\Debug\IntroductionToEntityFramework.exe.config
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\2. EF - Introduction To Entity Framework\IntroductionToEntityFramework\bin\Debug\IntroductionToEntityFramework.exe
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\2. EF - Introduction To Entity Framework\IntroductionToEntityFramework\bin\Debug\IntroductionToEntityFramework.pdb
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\2. EF - Introduction To Entity Framework\IntroductionToEntityFramework\bin\Debug\EntityFramework.dll
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\2. EF - Introduction To Entity Framework\IntroductionToEntityFramework\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\2. EF - Introduction To Entity Framework\IntroductionToEntityFramework\bin\Debug\EntityFramework.xml
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\2. EF - Introduction To Entity Framework\IntroductionToEntityFramework\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\2. EF - Introduction To Entity Framework\IntroductionToEntityFramework\obj\Debug\IntroductionToEntityFramework.csprojResolveAssemblyReference.cache
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\2. EF - Introduction To Entity Framework\IntroductionToEntityFramework\obj\Debug\IntroductionToEntityFramework.exe
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\2. EF - Introduction To Entity Framework\IntroductionToEntityFramework\obj\Debug\IntroductionToEntityFramework.pdb

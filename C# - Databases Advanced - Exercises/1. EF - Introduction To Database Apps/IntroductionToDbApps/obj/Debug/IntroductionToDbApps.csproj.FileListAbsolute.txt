@@ -1,0 +1,6 @@
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\1. EF - Introduction To Database Apps\IntroductionToDbApps\bin\Debug\IntroductionToDbApps.exe.config
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\1. EF - Introduction To Database Apps\IntroductionToDbApps\bin\Debug\IntroductionToDbApps.exe
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\1. EF - Introduction To Database Apps\IntroductionToDbApps\bin\Debug\IntroductionToDbApps.pdb
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\1. EF - Introduction To Database Apps\IntroductionToDbApps\obj\Debug\IntroductionToDbApps.csprojResolveAssemblyReference.cache
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\1. EF - Introduction To Database Apps\IntroductionToDbApps\obj\Debug\IntroductionToDbApps.exe
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\1. EF - Introduction To Database Apps\IntroductionToDbApps\obj\Debug\IntroductionToDbApps.pdb

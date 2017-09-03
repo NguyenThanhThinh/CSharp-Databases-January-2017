@@ -46,10 +46,11 @@
 
             // User error messages
             public const string UsernameNotValid = "Username {0} not valid!";
+
             public const string PasswordNotValid = "Password {0} not valid!";
             public const string PasswordsDoNotMatch = "Passwords do not match!";
             public const string FirstNameNotValid = "First name not valid!";
-            public const string LastNameNotValid = "Last name not valid!"; 
+            public const string LastNameNotValid = "Last name not valid!";
             public const string AgeNotValid = "Age not valid!";
             public const string GenderNotValid = "Gender should be either “Male” or “Female”!";
             public const string UsernameIsAlreadyTaken = "Username {0} is already taken!";
@@ -59,6 +60,7 @@
 
             // Team error messages
             public const string InvalidAcronym = "Acronym {0} not valid!";
+
             public const string TeamAlreadyExists = "Team {0} already exists!";
             public const string TeamNameOverflow = "Team name should be below 25 symbols!";
             public const string TeamDescriptionOverflow = "Team description should be below 32 symbols!";

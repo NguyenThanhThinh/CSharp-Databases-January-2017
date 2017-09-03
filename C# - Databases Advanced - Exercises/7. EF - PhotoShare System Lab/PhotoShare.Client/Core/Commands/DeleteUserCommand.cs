@@ -1,7 +1,7 @@
 ﻿namespace PhotoShare.Client.Core.Commands
 {
-    using System;
     using Services;
+    using System;
 
     public class DeleteUserCommand
     {
@@ -35,7 +35,6 @@
             this.userService.Delete(username);
 
             return $"User {username} was deleted successfully!";
-
         }
     }
 }

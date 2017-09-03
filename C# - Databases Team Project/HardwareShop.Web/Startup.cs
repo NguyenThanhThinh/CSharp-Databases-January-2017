@@ -2,6 +2,7 @@
 using Owin;
 
 [assembly: OwinStartupAttribute(typeof(HardwareShop.Web.Startup))]
+
 namespace HardwareShop.Web
 {
     public partial class Startup

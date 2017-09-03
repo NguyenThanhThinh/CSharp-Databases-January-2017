@@ -1,11 +1,11 @@
 ﻿namespace Users
 {
-    using System.Data.Entity.Validation;
     using System;
+    using System.Data.Entity.Validation;
 
-    class StartUp
+    internal class StartUp
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             //The public partial class User is defined in folder Models;
             //The other part of the partial class - the helper methods for checking the correct user information - is in folder ModelsExtensions;
@@ -14,7 +14,7 @@
             //Then we can insert all the users in it - by executing the InsertUsers.sql file;
 
             //However by inserting the file using SQL commands we actually skip the check methods which we have created:
-            //The check methods are working and catch exceptions only if we add a new user by EF and the console! 
+            //The check methods are working and catch exceptions only if we add a new user by EF and the console!
             //You can check the validations below:
 
             var context = new UsersContext();
@@ -60,18 +60,18 @@
                 throw;
             }
 
-                //string connectionString = "data source=(localdb)\\mssqllocaldb;initial catalog=userscontext;integrated security=true";
-                //SqlConnection connection = new SqlConnection(connectionString);
+            //string connectionString = "data source=(localdb)\\mssqllocaldb;initial catalog=userscontext;integrated security=true";
+            //SqlConnection connection = new SqlConnection(connectionString);
 
-                //string insertUsersString = File.ReadAllText("../../insertusers.sql");
-                //SqlCommand insertUsers = new SqlCommand(insertUsersString, connection);
+            //string insertUsersString = File.ReadAllText("../../insertusers.sql");
+            //SqlCommand insertUsers = new SqlCommand(insertUsersString, connection);
 
-                //connection.Open();
-                //using (connection)
-                //{
-                //    insertUsers.ExecuteNonQuery();
-                //    Console.WriteLine($"number of inserted users: {context.Users.Count()}");
-                //}
-            }
+            //connection.Open();
+            //using (connection)
+            //{
+            //    insertUsers.ExecuteNonQuery();
+            //    Console.WriteLine($"number of inserted users: {context.Users.Count()}");
+            //}
+        }
     }
 }

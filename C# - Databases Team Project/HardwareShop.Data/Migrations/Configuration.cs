@@ -5,7 +5,6 @@ namespace HardwareShop.Data.Migrations
     using Models.EntityModels;
     using System;
     using System.Collections.Generic;
-    using System.Data.Entity;
     using System.Data.Entity.Migrations;
     using System.IO;
     using System.Linq;
@@ -98,7 +97,7 @@ namespace HardwareShop.Data.Migrations
             }
 
             string path = @"C:\Users\valko\Documents\Visual Studio 2015\Projects\3. Web Projects\Project From C# Databases\Team Project Hardware Store\HardwareShop.Web\Content\Img\";
-            
+
             if (!context.Items.Any())
             {
                 items = new List<Item>

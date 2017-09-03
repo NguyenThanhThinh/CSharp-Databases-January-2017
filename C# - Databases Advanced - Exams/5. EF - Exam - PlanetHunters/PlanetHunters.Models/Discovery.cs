@@ -37,6 +37,5 @@
         // It's better to use the 'modelbuilder'
         //[InverseProperty("DiscoveriesObserved")]
         public virtual ICollection<Astronomer> Observers { get; set; }
-
     }
 }

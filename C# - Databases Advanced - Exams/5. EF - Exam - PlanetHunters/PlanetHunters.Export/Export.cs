@@ -1,17 +1,17 @@
 ﻿namespace PlanetHunters.Export
 {
     using Data;
-    using utilities;
-    using System.IO;
     using exportDtos;
-    using System.Linq;
     using Newtonsoft.Json;
-    using System.Xml.Serialization;
     using System.Collections.Generic;
+    using System.IO;
+    using System.Linq;
+    using System.Xml.Serialization;
+    using utilities;
 
-    class Export
+    internal class Export
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             //ExporPlanetsByTelescope("TRAPPIST");
             //ExportAstronomers("Alpha Centauri");
@@ -126,4 +126,3 @@
         }
     }
 }
-

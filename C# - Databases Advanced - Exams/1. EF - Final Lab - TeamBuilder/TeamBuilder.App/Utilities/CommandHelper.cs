@@ -4,7 +4,7 @@
     using Models;
     using System.Linq;
 
-    class CommandHelper
+    internal class CommandHelper
     {
         public static bool IsTeamExisting(string teamName)
         {

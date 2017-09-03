@@ -1,15 +1,14 @@
 ﻿namespace Photography.Models
 {
     using System;
-    using System.ComponentModel.DataAnnotations;
     using System.Collections.Generic;
+    using System.ComponentModel.DataAnnotations;
 
     public class Photographer
     {
-
         public Photographer()
         {
-            this.PhotographerAlbums = new HashSet<PhotographerAlbum>();    
+            this.PhotographerAlbums = new HashSet<PhotographerAlbum>();
         }
 
         [Key]

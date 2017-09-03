@@ -20,7 +20,7 @@
 
         [DisplayName("Author")]
         public string AuthorUsername { get; set; }
-        
+
         public string AuthorId { get; set; }
 
         public bool IsAuthor()

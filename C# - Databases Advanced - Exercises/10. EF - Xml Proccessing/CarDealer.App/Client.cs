@@ -1,9 +1,9 @@
 ﻿namespace CarDealer.App
 {
     using Data;
+    using System.Data.Entity;
     using System.Linq;
     using System.Xml.Linq;
-    using System.Data.Entity;
 
     public class Client
     {
@@ -14,7 +14,7 @@
 
         public static void Main(string[] args)
         {
-            // Task 5. Import Data - the imported data from the XML resource files is in 'Client_Seed.cs' file 
+            // Task 5. Import Data - the imported data from the XML resource files is in 'Client_Seed.cs' file
 
             if (!Database.Exists("CarDealerContext"))
             {
@@ -119,22 +119,22 @@
                    PartsCount = s.Parts.Count
                });
 
-               XDocument documentXml = new XDocument();
+                XDocument documentXml = new XDocument();
 
-               XElement supplierListXml = new XElement("suppliers");
+                XElement supplierListXml = new XElement("suppliers");
 
-               foreach (var supplier in suppliers)
-               {
-                   XElement supplierXml = new XElement("supplier");
-                   supplierXml.SetAttributeValue("id", supplier.Id);
-                   supplierXml.SetAttributeValue("name", supplier.Name);
-                   supplierXml.SetAttributeValue("parts-count", supplier.PartsCount);
+                foreach (var supplier in suppliers)
+                {
+                    XElement supplierXml = new XElement("supplier");
+                    supplierXml.SetAttributeValue("id", supplier.Id);
+                    supplierXml.SetAttributeValue("name", supplier.Name);
+                    supplierXml.SetAttributeValue("parts-count", supplier.PartsCount);
 
-                   supplierListXml.Add(supplierXml);
-               }
+                    supplierListXml.Add(supplierXml);
+                }
 
-               documentXml.Add(supplierListXml);
-               documentXml.Save("../../ExportXml/localSuppliers.xml");
+                documentXml.Add(supplierListXml);
+                documentXml.Save("../../ExportXml/localSuppliers.xml");
             }
         }
 
@@ -142,21 +142,21 @@
         {
             using (CarDealerContext context = new CarDealerContext())
             {
-               var cars = context.Cars
-                   .Select(c => new
-                   {
-                       car = new
-                       {
-                           c.Make,
-                           c.Model,
-                           c.TravelledDistance
-                       },
-                       parts = c.Parts.Select(p => new
-                       {
-                           p.Name,
-                           p.Price
-                       })
-                   });
+                var cars = context.Cars
+                    .Select(c => new
+                    {
+                        car = new
+                        {
+                            c.Make,
+                            c.Model,
+                            c.TravelledDistance
+                        },
+                        parts = c.Parts.Select(p => new
+                        {
+                            p.Name,
+                            p.Price
+                        })
+                    });
 
                 XDocument documentXml = new XDocument();
 
@@ -165,7 +165,7 @@
                 foreach (var car in cars)
                 {
                     XElement carXml = new XElement("car");
-                    carXml.SetAttributeValue("make", car.car.Make);                
+                    carXml.SetAttributeValue("make", car.car.Make);
                     carXml.SetAttributeValue("model", car.car.Model);
                     carXml.SetAttributeValue("travelled-distance", car.car.TravelledDistance);
 
@@ -179,7 +179,7 @@
 
                         partListXml.Add(partXml);
                     }
-                    
+
                     carXml.Add(partListXml);
                     carListXml.Add(carXml);
                 }

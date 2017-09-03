@@ -3,10 +3,10 @@
     using Data;
     using Models;
     using System;
-    using Utilities;
     using System.Linq;
+    using Utilities;
 
-    class AcceptInviteCommand
+    internal class AcceptInviteCommand
     {
         // AcceptInvite <teamName>
         public string Execute(string[] inputArgs)

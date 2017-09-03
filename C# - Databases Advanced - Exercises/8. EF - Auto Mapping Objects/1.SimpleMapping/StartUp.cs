@@ -1,13 +1,13 @@
 ﻿namespace _1.SimpleMapping
 {
+    using AutoMapper;
     using DTOs;
     using Models;
     using System;
-    using AutoMapper;
 
-    class StartUp
+    internal class StartUp
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             ConfigureAutoMapper();
 

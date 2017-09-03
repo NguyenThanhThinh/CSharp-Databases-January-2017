@@ -1,17 +1,17 @@
 ﻿namespace TeamBuilder.Data.Configurations
 {
     using Models;
-    using System.Data.Entity.ModelConfiguration;
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Data.Entity.Infrastructure.Annotations;
+    using System.Data.Entity.ModelConfiguration;
 
-    class TeamConfiguration : EntityTypeConfiguration<Team>
+    internal class TeamConfiguration : EntityTypeConfiguration<Team>
     {
         public TeamConfiguration()
         {
             this.Property(team => team.Name)
                 .HasColumnAnnotation(IndexAnnotation.AnnotationName,
-                    new IndexAnnotation(new IndexAttribute("IX_Teams_Name", 1) {IsUnique = true}))
+                    new IndexAnnotation(new IndexAttribute("IX_Teams_Name", 1) { IsUnique = true }))
                 .HasMaxLength(25)
                 .IsRequired();
 

@@ -1,8 +1,7 @@
 ﻿namespace Hospital.Models
 {
-    using System.Collections.Generic;
-    using System.ComponentModel.DataAnnotations;
     using System;
+    using System.ComponentModel.DataAnnotations;
 
     public class Visitation
     {
@@ -15,7 +14,7 @@
 
         [Required]
         public virtual Patient Patient { get; set; }
-        
+
         public virtual Doctor Doctor { get; set; }
     }
 }

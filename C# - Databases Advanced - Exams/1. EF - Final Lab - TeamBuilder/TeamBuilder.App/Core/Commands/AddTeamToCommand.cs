@@ -3,11 +3,11 @@
     using Data;
     using Models;
     using System;
-    using Utilities;
     using System.Linq;
-    
+    using Utilities;
+
     // AddTeamTo <eventName> <teamName>
-    class AddTeamToCommand
+    internal class AddTeamToCommand
     {
         public string Execute(string[] inputArgs)
         {

@@ -1,0 +1,15 @@
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\10. EF - Xml Proccessing\CarDealer.App\bin\Debug\CarDealer.App.exe.config
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\10. EF - Xml Proccessing\CarDealer.App\bin\Debug\CarDealer.App.exe
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\10. EF - Xml Proccessing\CarDealer.App\bin\Debug\CarDealer.App.pdb
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\10. EF - Xml Proccessing\CarDealer.App\bin\Debug\CarDealer.Data.dll
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\10. EF - Xml Proccessing\CarDealer.App\bin\Debug\CarDealer.Models.dll
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\10. EF - Xml Proccessing\CarDealer.App\bin\Debug\EntityFramework.dll
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\10. EF - Xml Proccessing\CarDealer.App\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\10. EF - Xml Proccessing\CarDealer.App\bin\Debug\CarDealer.Data.pdb
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\10. EF - Xml Proccessing\CarDealer.App\bin\Debug\CarDealer.Data.dll.config
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\10. EF - Xml Proccessing\CarDealer.App\bin\Debug\CarDealer.Models.pdb
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\10. EF - Xml Proccessing\CarDealer.App\bin\Debug\EntityFramework.xml
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\10. EF - Xml Proccessing\CarDealer.App\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\10. EF - Xml Proccessing\CarDealer.App\obj\Debug\CarDealer.App.csprojResolveAssemblyReference.cache
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\10. EF - Xml Proccessing\CarDealer.App\obj\Debug\CarDealer.App.exe
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\10. EF - Xml Proccessing\CarDealer.App\obj\Debug\CarDealer.App.pdb

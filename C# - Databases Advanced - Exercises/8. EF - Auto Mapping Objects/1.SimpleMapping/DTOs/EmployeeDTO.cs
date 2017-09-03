@@ -1,6 +1,6 @@
 ﻿namespace _1.SimpleMapping.DTOs
 {
-    class EmployeeDTO
+    internal class EmployeeDTO
     {
         public string FirstName { get; set; }
 

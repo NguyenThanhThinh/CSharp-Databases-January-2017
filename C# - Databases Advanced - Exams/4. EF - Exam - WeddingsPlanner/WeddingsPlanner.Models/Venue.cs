@@ -6,7 +6,7 @@
     {
         public Venue()
         {
-            this.Weddings = new HashSet<Wedding>();    
+            this.Weddings = new HashSet<Wedding>();
         }
 
         public int Id { get; set; }

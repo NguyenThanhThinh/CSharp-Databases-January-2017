@@ -17,7 +17,7 @@
 
                 //var users = xmlDocument.Root.Elements().Select(ParseUser).ToList();
                 var users = xmlDocument.XPathSelectElements("users/user").Select(ParseUser).ToList();
-                
+
                 context.Users.AddRange(users);
                 context.SaveChanges();
             }
@@ -108,7 +108,6 @@
 
             return parsedUser;
         }
-
 
         public static Product ParseProduct(XElement productToParse)
         {

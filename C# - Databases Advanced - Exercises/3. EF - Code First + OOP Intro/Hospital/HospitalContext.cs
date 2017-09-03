@@ -1,8 +1,8 @@
 namespace Hospital
 {
-    using System.Data.Entity;
-    using Models;
     using Migrations;
+    using Models;
+    using System.Data.Entity;
 
     public class HospitalContext : DbContext
     {

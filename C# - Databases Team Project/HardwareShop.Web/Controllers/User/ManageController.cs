@@ -1,15 +1,14 @@
 ﻿namespace HardwareShop.Web.Controllers.User
 {
-    using System.Linq;
-    using System.Threading.Tasks;
-    using System.Web;
-    using System.Web.Mvc;
     using Microsoft.AspNet.Identity;
     using Microsoft.AspNet.Identity.Owin;
     using Microsoft.Owin.Security;
     using Models.ViewModels.Manage;
-    using System.Net;
     using Services.Contracts;
+    using System.Linq;
+    using System.Threading.Tasks;
+    using System.Web;
+    using System.Web.Mvc;
 
     [Authorize]
     public class ManageController : Controller
@@ -361,6 +360,7 @@
         }
 
         #region Helpers
+
         // Used for XSRF protection when adding external logins
         private const string XsrfKey = "XsrfId";
 
@@ -411,6 +411,6 @@
             Error
         }
 
-        #endregion
+        #endregion Helpers
     }
 }

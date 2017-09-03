@@ -1,9 +1,9 @@
 namespace SoftUni.Data
 {
     using Models;
-    using System.Data.Entity;
     using System.Collections.Generic;
     using System.Data;
+    using System.Data.Entity;
     using System.Data.SqlClient;
 
     public partial class SoftUniContext : DbContext

@@ -1,0 +1,4 @@
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\3. EF - Exam - PhotographyWorkshops\PhotographyWorkshops.Models\bin\Debug\PhotographyWorkshops.Models.dll
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\3. EF - Exam - PhotographyWorkshops\PhotographyWorkshops.Models\bin\Debug\PhotographyWorkshops.Models.pdb
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\3. EF - Exam - PhotographyWorkshops\PhotographyWorkshops.Models\obj\Debug\PhotographyWorkshops.Models.dll
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\3. EF - Exam - PhotographyWorkshops\PhotographyWorkshops.Models\obj\Debug\PhotographyWorkshops.Models.pdb

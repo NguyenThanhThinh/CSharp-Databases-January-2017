@@ -3,7 +3,7 @@
     using System;
     using System.Data.SqlClient;
 
-    class RemoveVillain
+    internal class RemoveVillain
     {
         public static void RemoveVillainFromDatabase(SqlConnection connection)
         {

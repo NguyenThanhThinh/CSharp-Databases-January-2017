@@ -1,10 +1,10 @@
 ﻿namespace BankSystemComplex.Core.Commands
 {
-    using System;
     using Data;
-    using Utilities;
     using Data.Models;
     using Data.Validators;
+    using System;
+    using Utilities;
 
     // Adds account to currently logged in user.
     public class AddAccountCommand

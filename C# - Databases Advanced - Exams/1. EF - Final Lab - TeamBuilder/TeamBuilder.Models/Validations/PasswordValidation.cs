@@ -1,8 +1,8 @@
 ﻿namespace TeamBuilder.Models.Validations
 {
     using System;
-    using System.Linq;
     using System.ComponentModel.DataAnnotations;
+    using System.Linq;
 
     [AttributeUsage(AttributeTargets.Property, AllowMultiple = true)]
     internal class PasswordAttribute : ValidationAttribute
@@ -23,7 +23,7 @@
             {
                 return false;
             }
-            
+
             return true;
         }
     }

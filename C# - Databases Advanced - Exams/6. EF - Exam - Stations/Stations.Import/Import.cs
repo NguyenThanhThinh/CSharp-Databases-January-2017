@@ -1,18 +1,18 @@
 ﻿namespace Stations.Import
 {
-    using Data;
-    using Models;
-    using System;
-    using importDtos;
-    using System.Linq;
     using AutoMapper;
+    using AutoMapper.QueryableExtensions;
+    using Data;
+    using importDtos;
+    using Models;
     using Newtonsoft.Json;
+    using Newtonsoft.Json.Converters;
+    using System;
+    using System.Collections.Generic;
+    using System.Globalization;
+    using System.Linq;
     using System.Xml.Linq;
     using System.Xml.XPath;
-    using System.Globalization;
-    using System.Collections.Generic;
-    using Newtonsoft.Json.Converters;
-    using AutoMapper.QueryableExtensions;
 
     public class Import
     {
@@ -199,7 +199,7 @@
 
             //XElement root = xmlDocument.Element("Cards");
             IEnumerable<XElement> cardsNode = xmlDocument.XPathSelectElements("Cards/Card");
-            
+
             List<CustomerCard> validCards = new List<CustomerCard>();
 
             foreach (XElement cardNode in cardsNode)
@@ -208,8 +208,8 @@
                 int age = int.Parse(cardNode.Element("Age").Value);
 
                 CardType cardType =
-                    cardNode.Element("CardType") == null 
-                    ? CardType.Normal 
+                    cardNode.Element("CardType") == null
+                    ? CardType.Normal
                     : (CardType)Enum.Parse(typeof(CardType), cardNode.Element("CardType").Value);
 
                 CustomerCard card = new CustomerCard

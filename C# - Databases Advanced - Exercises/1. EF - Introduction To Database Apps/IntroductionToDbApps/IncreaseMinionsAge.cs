@@ -5,7 +5,7 @@
     using System.Linq;
     using System.Text;
 
-    class IncreaseMinionAge
+    internal class IncreaseMinionAge
     {
         public static void IncreaseAge(SqlConnection connection)
         {

@@ -1,0 +1,17 @@
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\2. EF - Exam - MassDefect\MassDefect.App\obj\Debug\MassDefect.App.csprojResolveAssemblyReference.cache
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\2. EF - Exam - MassDefect\MassDefect.App\bin\Debug\MassDefect.App.exe.config
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\2. EF - Exam - MassDefect\MassDefect.App\bin\Debug\MassDefect.App.exe
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\2. EF - Exam - MassDefect\MassDefect.App\bin\Debug\MassDefect.App.pdb
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\2. EF - Exam - MassDefect\MassDefect.App\bin\Debug\EntityFramework.dll
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\2. EF - Exam - MassDefect\MassDefect.App\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\2. EF - Exam - MassDefect\MassDefect.App\bin\Debug\MassDefect.Data.dll
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\2. EF - Exam - MassDefect\MassDefect.App\bin\Debug\MassDefect.Models.dll
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\2. EF - Exam - MassDefect\MassDefect.App\bin\Debug\Newtonsoft.Json.dll
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\2. EF - Exam - MassDefect\MassDefect.App\bin\Debug\MassDefect.Data.pdb
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\2. EF - Exam - MassDefect\MassDefect.App\bin\Debug\MassDefect.Data.dll.config
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\2. EF - Exam - MassDefect\MassDefect.App\bin\Debug\MassDefect.Models.pdb
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\2. EF - Exam - MassDefect\MassDefect.App\bin\Debug\EntityFramework.xml
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\2. EF - Exam - MassDefect\MassDefect.App\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\2. EF - Exam - MassDefect\MassDefect.App\bin\Debug\Newtonsoft.Json.xml
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\2. EF - Exam - MassDefect\MassDefect.App\obj\Debug\MassDefect.App.exe
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\2. EF - Exam - MassDefect\MassDefect.App\obj\Debug\MassDefect.App.pdb

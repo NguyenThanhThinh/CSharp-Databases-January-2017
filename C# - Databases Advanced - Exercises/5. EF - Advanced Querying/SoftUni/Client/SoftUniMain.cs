@@ -1,12 +1,12 @@
 ﻿namespace Softuni.Client
 {
+    using SoftUni.Data;
     using System;
     using System.Linq;
-    using SoftUni.Data;
 
-    class SoftUniMain
+    internal class SoftUniMain
     {
-        static void Main()
+        private static void Main()
         {
             SoftUniContext context = new SoftUniContext();
 
@@ -35,10 +35,10 @@
         {
             var departments = context.Departments
                 .GroupBy(department => new
-                    {
-                        DepartmentName = department.Name,
-                        DepartmentMaxSalary = department.Employees.Max(e => e.Salary)
-                    })
+                {
+                    DepartmentName = department.Name,
+                    DepartmentMaxSalary = department.Employees.Max(e => e.Salary)
+                })
                 .Where(group => group.Key.DepartmentMaxSalary < 30000 || group.Key.DepartmentMaxSalary > 70000)
                 .ToList();
 

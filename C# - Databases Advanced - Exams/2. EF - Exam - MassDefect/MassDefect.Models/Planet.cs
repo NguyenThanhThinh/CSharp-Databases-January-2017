@@ -27,7 +27,7 @@
         public virtual SolarSystem SolarSystem { get; set; }
 
         public virtual ICollection<Person> Population { get; set; }
-        
+
         [InverseProperty("OriginPlanet")]
         public virtual ICollection<Anomaly> OriginAnomalies { get; set; }
 

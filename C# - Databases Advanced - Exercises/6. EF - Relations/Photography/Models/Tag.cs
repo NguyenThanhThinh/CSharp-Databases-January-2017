@@ -1,5 +1,4 @@
-﻿
-namespace Photography.Models
+﻿namespace Photography.Models
 {
     using PhotographersDB;
     using System.Collections.Generic;

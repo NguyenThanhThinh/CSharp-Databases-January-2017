@@ -1,19 +1,19 @@
 ﻿namespace HardwareShop.Web.Controllers.Admin
 {
+    using Microsoft.AspNet.Identity;
     using Microsoft.AspNet.Identity.Owin;
+    using Models.EntityModels;
+    using Models.ViewModels.Role;
+    using Models.ViewModels.Search;
     using Models.ViewModels.Users;
+    using PagedList;
     using Services.Contracts;
+    using System;
     using System.Collections.Generic;
     using System.Linq;
     using System.Net;
     using System.Web;
     using System.Web.Mvc;
-    using Models.EntityModels;
-    using Models.ViewModels.Role;
-    using Microsoft.AspNet.Identity;
-    using System;
-    using Models.ViewModels.Search;
-    using PagedList;
 
     [Authorize(Roles = "Admin")]
     public class UserController : Controller

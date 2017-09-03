@@ -1,9 +1,9 @@
 ﻿namespace FootballData.Configurations
 {
-    using System.Data.Entity.ModelConfiguration;
     using FootballModels;
+    using System.Data.Entity.ModelConfiguration;
 
-    class RoundConfiguration : EntityTypeConfiguration<Round>
+    internal class RoundConfiguration : EntityTypeConfiguration<Round>
     {
         public RoundConfiguration()
         {

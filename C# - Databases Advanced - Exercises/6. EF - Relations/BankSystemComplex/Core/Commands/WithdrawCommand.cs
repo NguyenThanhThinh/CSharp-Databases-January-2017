@@ -1,9 +1,9 @@
 ﻿namespace BankSystemComplex.Core.Commands
 {
-    using System;
-    using System.Linq;
     using Data;
     using Data.Models;
+    using System;
+    using System.Linq;
 
     public class WithdrawCommand
     {
@@ -19,7 +19,7 @@
                 throw new InvalidOperationException("You should log in first!");
             }
 
-            // withdraw <Account number> <money> 
+            // withdraw <Account number> <money>
             string accountNumber = input[0];
             decimal amount = decimal.Parse(input[1]);
             if (amount <= 0)

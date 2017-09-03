@@ -1,11 +1,11 @@
 namespace Photography.Migrations
 {
-    using System;
-    using System.Data.Entity.Migrations;
-    using System.Collections.Generic;
-    using PhotographersDB;
     using Models;
- 
+    using PhotographersDB;
+    using System;
+    using System.Collections.Generic;
+    using System.Data.Entity.Migrations;
+
     internal sealed class Configuration : DbMigrationsConfiguration<PhotographyContext>
     {
         public Configuration()
@@ -37,8 +37,6 @@ namespace Photography.Migrations
             context.Photographers.AddOrUpdate(p => p.Username, dragan, stamen);
             context.SaveChanges();
 
-
-
             Picture picture = new Picture()
             {
                 Title = "Mountain",
@@ -55,8 +53,6 @@ namespace Photography.Migrations
 
             context.Pictures.AddOrUpdate(pic => pic.Title, picture, picture2);
             context.SaveChanges();
-
-
 
             Tag tag = new Tag()
             {
@@ -86,8 +82,6 @@ namespace Photography.Migrations
 
             context.SaveChanges();
 
-
-
             Album album = new Album()
             {
                 Name = "Mountains",
@@ -102,11 +96,9 @@ namespace Photography.Migrations
                 IsPublic = true
             };
 
-            context.Albums.AddOrUpdate(a => a.Name, album, album2);       
+            context.Albums.AddOrUpdate(a => a.Name, album, album2);
 
             context.SaveChanges();
-
-
 
             PhotographerAlbum photographerAlbumDragan = new PhotographerAlbum()
             {
@@ -139,10 +131,9 @@ namespace Photography.Migrations
             // After executing the Seed method:
             // In the first album Dragan is an owner and Stamen is a viewer;
             // In the second album Stamen is an owner and Dragan is a viewer;
-            context.PhotographerAlbums.AddOrUpdate(pa => new { pa.Photographer_Id, pa.Album_Id}, 
-                                                                photographerAlbumDragan, photographerAlbumStamen, 
+            context.PhotographerAlbums.AddOrUpdate(pa => new { pa.Photographer_Id, pa.Album_Id },
+                                                                photographerAlbumDragan, photographerAlbumStamen,
                                                                 photographerAlbumDragan2, photographerAlbumStamen2);
-
 
             // Album-Pictures many-to-many relationship it's working - table [dbo].[PictureAlbums] it's filling with data;
             album.Pictures.Add(picture);

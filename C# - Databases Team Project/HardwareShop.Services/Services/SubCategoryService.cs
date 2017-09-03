@@ -1,15 +1,15 @@
 ﻿namespace HardwareShop.Services.Services
 {
-    using System.Linq;
-    using Models.EntityModels;
     using AutoMapper;
-    using System.Collections.Generic;
-    using Models.ViewModels.SubCategories;
-    using Models.ViewModels.Categories;
-    using Data;
     using Contracts;
-    using System.Data.Entity;
+    using Data;
     using EntityFramework.Extensions;
+    using Models.EntityModels;
+    using Models.ViewModels.Categories;
+    using Models.ViewModels.SubCategories;
+    using System.Collections.Generic;
+    using System.Data.Entity;
+    using System.Linq;
 
     public class SubCategoryService : ISubCategoryService
     {
@@ -61,7 +61,7 @@
                 context.Items.Where(i => i.SubCategoryId == subCategory.SubCategoryId).Update(i => new Item { IsDeleted = true });
                 context.Reviews.Where(r => r.Item.SubCategoryId == subCategory.SubCategoryId).Update(r => new Review { IsDeleted = true });
                 context.Comments.Where(c => c.Review.Item.SubCategoryId == subCategory.SubCategoryId).Update(c => new Comment { IsDeleted = true });
-                
+
                 context.Entry(subCategory).State = EntityState.Modified;
                 context.SaveChanges();
             }

@@ -1,0 +1,12 @@
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\3. EF - Exam - PhotographyWorkshops\PhotographyWorkshop.Data\obj\Debug\PhotographyWorkshop.Data.csprojResolveAssemblyReference.cache
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\3. EF - Exam - PhotographyWorkshops\PhotographyWorkshop.Data\bin\Debug\PhotographyWorkshop.Data.dll.config
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\3. EF - Exam - PhotographyWorkshops\PhotographyWorkshop.Data\bin\Debug\PhotographyWorkshop.Data.dll
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\3. EF - Exam - PhotographyWorkshops\PhotographyWorkshop.Data\bin\Debug\PhotographyWorkshop.Data.pdb
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\3. EF - Exam - PhotographyWorkshops\PhotographyWorkshop.Data\bin\Debug\EntityFramework.dll
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\3. EF - Exam - PhotographyWorkshops\PhotographyWorkshop.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\3. EF - Exam - PhotographyWorkshops\PhotographyWorkshop.Data\bin\Debug\PhotographyWorkshops.Models.dll
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\3. EF - Exam - PhotographyWorkshops\PhotographyWorkshop.Data\bin\Debug\PhotographyWorkshops.Models.pdb
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\3. EF - Exam - PhotographyWorkshops\PhotographyWorkshop.Data\bin\Debug\EntityFramework.xml
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\3. EF - Exam - PhotographyWorkshops\PhotographyWorkshop.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\3. EF - Exam - PhotographyWorkshops\PhotographyWorkshop.Data\obj\Debug\PhotographyWorkshop.Data.dll
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\3. EF - Exam - PhotographyWorkshops\PhotographyWorkshop.Data\obj\Debug\PhotographyWorkshop.Data.pdb

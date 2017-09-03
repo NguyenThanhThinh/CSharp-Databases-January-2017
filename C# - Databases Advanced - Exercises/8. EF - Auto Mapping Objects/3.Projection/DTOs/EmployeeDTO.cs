@@ -1,6 +1,6 @@
 ﻿namespace _3.Projection.DTOs
 {
-    class EmployeeDTO
+    internal class EmployeeDTO
     {
         public string FirstName { get; set; }
 

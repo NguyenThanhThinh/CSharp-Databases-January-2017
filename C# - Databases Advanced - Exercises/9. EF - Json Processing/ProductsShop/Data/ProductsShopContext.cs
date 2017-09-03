@@ -29,17 +29,17 @@ namespace ProductsShop.Data
             // If we don't want to work with annotations [InverseProperty("")] for buyer/seller bought/sold products
             // we can use the modelBuilder which is working with the navigational property of the FK;
             // We can omit the FK specification because the EF will understand it if it is named accordingly;
-            
+
             //modelBuilder.Entity<User>()
             //    .HasMany(user => user.ProductsBought)
             //    .WithOptional(product => product.Buyer)
             //    .HasForeignKey(product => product.BuyerId);
-                
+
             //modelBuilder.Entity<User>()
             //    .HasMany(user => user.ProductsBought)
             //    .WithOptional(product => product.Seller)
             //    .HasForeignKey(product => product.SellerId);
-            
+
             modelBuilder.Entity<Category>()
                 .HasMany(category => category.Products)
                 .WithMany(product => product.Categories)

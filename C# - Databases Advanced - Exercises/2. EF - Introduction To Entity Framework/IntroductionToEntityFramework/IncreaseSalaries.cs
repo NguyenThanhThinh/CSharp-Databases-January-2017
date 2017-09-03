@@ -1,19 +1,15 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Runtime.CompilerServices;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace IntroductionToEntityFramework
 {
-    class IncreaseSalaries
+    internal class IncreaseSalaries
     {
         public static void IncreaseSalariesMethod(SoftuniContext context)
         {
-            var employees = context.Employees.Where(x => x.Department.Name == "Engineering" 
+            var employees = context.Employees.Where(x => x.Department.Name == "Engineering"
                                                       || x.Department.Name == "Tool Design"
-                                                      || x.Department.Name == "Marketing" 
+                                                      || x.Department.Name == "Marketing"
                                                       || x.Department.Name == "Information Services");
 
             foreach (var employee in employees)

@@ -1,8 +1,8 @@
 ﻿namespace PhotoShare.Client.Core.Commands
 {
     using Models;
-    using System;
     using Services;
+    using System;
     using System.Linq;
 
     public class ModifyUserCommand

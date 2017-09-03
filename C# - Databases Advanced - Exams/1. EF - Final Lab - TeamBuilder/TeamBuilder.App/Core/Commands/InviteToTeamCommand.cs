@@ -7,7 +7,7 @@ using TeamBuilder.Models;
 
 namespace TeamBuilder.App.Core.Commands
 {
-    class InviteToTeamCommand
+    internal class InviteToTeamCommand
     {
         // InviteToTeam <teamName> <username>
         public string Execute(string[] inputArgs)
@@ -51,7 +51,7 @@ namespace TeamBuilder.App.Core.Commands
                                        invitation.IsActive);
             }
         }
-    
+
         private bool IsCreatorOrMemberOfTeam(string teamName)
         {
             using (TeamBuilderContext context = new TeamBuilderContext())

@@ -1,9 +1,9 @@
 ﻿namespace PhotoShare.Client.Core.Commands
 {
     using Models;
-    using System;
     using Services;
- 
+    using System;
+
     public class ShareAlbumCommand
     {
         private AlbumService albumService;
@@ -62,4 +62,3 @@
         }
     }
 }
-

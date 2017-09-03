@@ -1,7 +1,7 @@
 ﻿namespace BankSystemComplex.Data.Validators
 {
-    using System.Text.RegularExpressions;
     using Models;
+    using System.Text.RegularExpressions;
 
     public class UserValidator
     {

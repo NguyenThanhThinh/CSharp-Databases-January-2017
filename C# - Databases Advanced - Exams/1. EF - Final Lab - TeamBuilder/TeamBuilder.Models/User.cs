@@ -1,8 +1,8 @@
 ﻿namespace TeamBuilder.Models
 {
-    using Validations;
     using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
+    using Validations;
 
     public enum Gender
     {
@@ -15,9 +15,9 @@
         public User()
         {
             this.Teams = new HashSet<Team>();
-            this.CreatedTeams = new HashSet<Team>();   
+            this.CreatedTeams = new HashSet<Team>();
             this.CreatedEvents = new HashSet<Event>();
-            this.ReceivedInvitations = new HashSet<Invitation>(); 
+            this.ReceivedInvitations = new HashSet<Invitation>();
         }
 
         public int Id { get; set; }
@@ -45,6 +45,6 @@
 
         public virtual ICollection<Event> CreatedEvents { get; set; }
 
-        public virtual ICollection<Invitation> ReceivedInvitations{ get; set; }
+        public virtual ICollection<Invitation> ReceivedInvitations { get; set; }
     }
 }

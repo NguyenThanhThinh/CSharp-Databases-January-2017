@@ -3,8 +3,8 @@
     using Data;
     using Models;
     using System;
-    using Utilities;
     using System.Linq;
+    using Utilities;
 
     public class LoginCommand
     {

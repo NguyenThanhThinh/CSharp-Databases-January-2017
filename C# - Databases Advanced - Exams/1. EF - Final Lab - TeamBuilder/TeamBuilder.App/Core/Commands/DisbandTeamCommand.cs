@@ -3,11 +3,11 @@
     using Data;
     using Models;
     using System;
-    using Utilities;
-    using System.Linq;
     using System.Collections.Generic;
+    using System.Linq;
+    using Utilities;
 
-    class DisbandTeamCommand
+    internal class DisbandTeamCommand
     {
         // Disband <teamName>
         public string Execute(string[] inputArgs)

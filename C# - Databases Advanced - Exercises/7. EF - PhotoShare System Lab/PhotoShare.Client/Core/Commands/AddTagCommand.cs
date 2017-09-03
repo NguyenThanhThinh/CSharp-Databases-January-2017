@@ -1,7 +1,7 @@
 ﻿namespace PhotoShare.Client.Core.Commands
 {
-    using System;
     using Services;
+    using System;
     using Utilities;
 
     public class AddTagCommand

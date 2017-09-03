@@ -1,17 +1,17 @@
 ﻿namespace BookShopSystem.Client
 {
     using Data;
+    using EntityFramework.Extensions;
     using Models;
     using System;
     using System.Data;
-    using System.Linq;
     using System.Data.SqlClient;
     using System.Globalization;
-    using EntityFramework.Extensions;
+    using System.Linq;
 
-    class BookShopMain
+    internal class BookShopMain
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             BookShopContext context = new BookShopContext();
 
@@ -66,7 +66,6 @@
 
             // Task 16
             //StoredProcedure(context);
-
         }
 
         private static void BooksTitlesByAgeRestriction(BookShopContext context)
@@ -191,7 +190,6 @@
             {
                 Console.WriteLine($"{book.Title} - {book.EditionType} - {book.Price}");
             }
-
         }
 
         private static void AuthorsSearch(BookShopContext context)
@@ -374,7 +372,7 @@
             Console.WriteLine($"Number of copies to update - {bookCopiesToUpdate} \n");
             Console.WriteLine($"All copies after the update - {allCopiesAfterUpdate} \n");
 
-            // With EF Extended Update there is no need of context.SaveChanges(); 
+            // With EF Extended Update there is no need of context.SaveChanges();
         }
 
         private static void RemoveBooks(BookShopContext context)
@@ -386,7 +384,7 @@
             Console.WriteLine($"Number of books before delete - {context.Books.Count()} \n");
             Console.WriteLine($"Number of books to delete - {booksForDelete.Count()} \n");
 
-            //Solution I - with EF Extended Delete there is no need of context.SaveChanges(); 
+            //Solution I - with EF Extended Delete there is no need of context.SaveChanges();
 
             context.Books.Delete(booksForDelete);
 
@@ -414,13 +412,13 @@
 
             //    Procedure written in MSSQL Server:
             //    CREATE PROCEDURE udp_TotalBooksByAuthor(@FirstName VARCHAR(max), @LastName VARCHAR(max))
-            //    AS 
+            //    AS
             //    BEGIN
-	        //     SELECT COUNT(b.Id)
-	        //       FROM Books AS b
-	        //       JOIN Authors AS a ON b.AuthorId = a.Id
-	        //      WHERE a.FirstName = @FirstName
-	        //        AND a.LastName = @LastName 
+            //     SELECT COUNT(b.Id)
+            //       FROM Books AS b
+            //       JOIN Authors AS a ON b.AuthorId = a.Id
+            //      WHERE a.FirstName = @FirstName
+            //        AND a.LastName = @LastName
             //    END
         }
     }

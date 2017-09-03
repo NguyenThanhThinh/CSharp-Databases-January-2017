@@ -13,13 +13,13 @@
         public int ItemId { get; set; }
 
         public string Content { get; set; }
-        
+
         [Range(1.0, 5.0)]
         public double Score { get; set; }
 
         [DisplayName("Created on")]
         public DateTime ReviewDate { get; set; }
-        
+
         public string AuthorId { get; set; }
 
         [DisplayName("Author")]

@@ -5,6 +5,7 @@
     public interface IManageService
     {
         void EditUser(ManageUserViewModel model);
+
         ManageUserViewModel GetUser(string username);
     }
 }

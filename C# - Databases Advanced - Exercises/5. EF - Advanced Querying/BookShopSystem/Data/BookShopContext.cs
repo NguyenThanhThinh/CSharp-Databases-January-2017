@@ -1,7 +1,6 @@
 namespace BookShopSystem.Data
 {
     using Models;
-    using Migrations;
     using System.Data.Entity;
 
     public class BookShopContext : DbContext
@@ -17,7 +16,7 @@ namespace BookShopSystem.Data
         public virtual DbSet<Author> Authors { get; set; }
 
         public virtual DbSet<Category> Categories { get; set; }
-        
+
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Book>()

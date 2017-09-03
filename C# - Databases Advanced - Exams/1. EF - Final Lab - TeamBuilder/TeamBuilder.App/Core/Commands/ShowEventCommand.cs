@@ -3,12 +3,12 @@
     using Data;
     using Models;
     using System;
-    using Utilities;
-    using System.Text;
     using System.Linq;
-    
+    using System.Text;
+    using Utilities;
+
     // ShowEvent <eventName>
-    class ShowEventCommand
+    internal class ShowEventCommand
     {
         public string Execute(string[] inputArgs)
         {
@@ -43,7 +43,7 @@
 
                 foreach (Team participatingTeam in createdEvent.ParticipatingTeams)
                 {
-                    sb.AppendLine($"--{participatingTeam.Name}");                
+                    sb.AppendLine($"--{participatingTeam.Name}");
                 }
 
                 return sb.ToString();

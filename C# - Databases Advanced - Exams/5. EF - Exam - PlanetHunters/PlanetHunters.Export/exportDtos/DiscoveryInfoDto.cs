@@ -19,4 +19,3 @@
         public List<AstronomerPioneerDto> AsronomerPionersDto { get; set; }
     }
 }
-

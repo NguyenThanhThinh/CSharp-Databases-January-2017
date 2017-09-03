@@ -1,9 +1,9 @@
 ﻿namespace HardwareShop.Web.Controllers.User
 {
-    using System.Net;
-    using System.Web.Mvc;
     using Models.ViewModels.Reviews;
     using Services.Contracts;
+    using System.Net;
+    using System.Web.Mvc;
 
     [Authorize(Roles = "User")]
     public class ReviewController : Controller
@@ -81,7 +81,7 @@
             }
 
             this.reviewService.EditReview(model);
-            return this.RedirectToAction("Details", "Item", new { @itemId = model.ItemId});
+            return this.RedirectToAction("Details", "Item", new { @itemId = model.ItemId });
         }
 
         // GET: Review/Delete/id
@@ -99,7 +99,7 @@
             {
                 return HttpNotFound();
             }
-            
+
             if (!IsUserAuthorizedToDelete(model))
             {
                 return new HttpUnauthorizedResult();

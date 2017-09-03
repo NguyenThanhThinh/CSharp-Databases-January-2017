@@ -2,7 +2,7 @@
 {
     using Services;
 
-    class LoginUserCommand
+    internal class LoginUserCommand
     {
         public string Execute(string[] data)
         {

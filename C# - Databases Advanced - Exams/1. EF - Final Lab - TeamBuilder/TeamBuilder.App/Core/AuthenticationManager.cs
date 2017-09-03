@@ -43,7 +43,7 @@
             if (loggedUser == null)
             {
                 throw new InvalidOperationException(Constants.ErrorMessages.LoginFirst);
-            }        
+            }
         }
 
         public static void HasAlreadyLoggedUser()

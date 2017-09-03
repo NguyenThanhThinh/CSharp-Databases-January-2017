@@ -1,7 +1,7 @@
 ﻿namespace PhotographyWorkshop.Export.ExportDTOs
 {
-    using System.Xml.Serialization;
     using System.Collections.Generic;
+    using System.Xml.Serialization;
 
     [XmlType(TypeName = "photographer")]
     public class SameCameMakePhotographersDto

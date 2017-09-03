@@ -1,8 +1,8 @@
 namespace StudentSystem.Migrations
 {
+    using Models;
     using System;
     using System.Data.Entity.Migrations;
-    using Models;
 
     internal sealed class Configuration : DbMigrationsConfiguration<StudentsContext>
     {
@@ -14,7 +14,6 @@ namespace StudentSystem.Migrations
 
         protected override void Seed(StudentsContext context)
         {
-
             Student student = new Student()
             {
                 Name = "Dragan",
@@ -48,7 +47,7 @@ namespace StudentSystem.Migrations
                 EndDate = new DateTime(2017, 03, 16),
                 Price = 200m
             };
-           
+
             Resource resource = new Resource()
             {
                 Name = "C# Book",
@@ -62,7 +61,7 @@ namespace StudentSystem.Migrations
                 Type = TypeOfResource.Document,
                 URL = "www.Java.com"
             };
-            
+
             Homework homework = new Homework()
             {
                 Content = "C# homework",
@@ -77,7 +76,6 @@ namespace StudentSystem.Migrations
                 SubmissionDate = new DateTime(2017, 02, 01)
             };
 
-            
             student.Homeworks.Add(homework);
             student2.Homeworks.Add(homework2);
 

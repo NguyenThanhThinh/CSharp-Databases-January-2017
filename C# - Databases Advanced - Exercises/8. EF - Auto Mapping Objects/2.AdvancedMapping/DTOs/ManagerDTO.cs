@@ -1,9 +1,8 @@
 ﻿namespace _2.AdvancedMapping.DTOs
 {
-    using Models;
     using System.Collections.Generic;
 
-    class ManagerDTO
+    internal class ManagerDTO
     {
         public string FirstName { get; set; }
 

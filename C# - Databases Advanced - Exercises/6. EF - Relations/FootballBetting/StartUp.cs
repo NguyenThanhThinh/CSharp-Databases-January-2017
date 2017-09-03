@@ -1,8 +1,8 @@
 ﻿namespace FootballBetting
 {
-    class StartUp
+    internal class StartUp
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             FootballBettingContext context = new FootballBettingContext();
             context.Database.Initialize(true);

@@ -1,17 +1,16 @@
 ﻿namespace HardwareShop.Services.Services
 {
-    using Data;
-    using System;
-    using System.Web;
     using AutoMapper;
-    using System.Linq;
-    using Models.EntityModels;
-    using Models.ViewModels.Items;
-    using Models.ViewModels.Reviews;
-    using Microsoft.AspNet.Identity;
-    using System.Collections.Generic;
     using Contracts;
+    using Data;
+    using Microsoft.AspNet.Identity;
+    using Models.EntityModels;
+    using Models.ViewModels.Reviews;
     using PagedList;
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Web;
 
     public class ReviewService : IReviewService
     {

@@ -1,9 +1,9 @@
 ﻿namespace ProductsShop
 {
     using Data;
+    using System.Data.Entity;
     using System.Linq;
     using System.Xml.Linq;
-    using System.Data.Entity;
 
     public class Client
     {
@@ -15,7 +15,7 @@
         {
             // Task 1. Create Students XML Document - the solution is in folder Task1_and_Task2 - 'students.xml'
             // Task 2. Catalog of Musical Albums in XML Format - the solution is in folder Task1_and_Task2 - 'musicalAlbumsCatalog.xml'
-            // Task 3. Import Data - the imported data from the XML resource files is in 'Client_Seed.cs' file 
+            // Task 3. Import Data - the imported data from the XML resource files is in 'Client_Seed.cs' file
 
             if (!Database.Exists("ProductsShopContext"))
             {
@@ -119,7 +119,6 @@
 
                     userXml.Add(productListXml);
                     userListXml.Add(userXml);
-
                 }
 
                 documentXml.Add(userListXml);
@@ -203,7 +202,7 @@
 
                     userXml.SetAttributeValue("last-name", user.lastName);
                     userXml.SetAttributeValue("age", user.age);
-                    
+
                     XElement soldProductsXml = new XElement("sold-products");
                     soldProductsXml.SetAttributeValue("count", user.soldProducts.count);
 

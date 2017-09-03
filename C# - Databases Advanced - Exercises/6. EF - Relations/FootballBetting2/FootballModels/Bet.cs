@@ -21,5 +21,5 @@
         public virtual User User { get; set; }
 
         public virtual ICollection<BetGame> BetGames { get; set; }
-    } 
+    }
 }

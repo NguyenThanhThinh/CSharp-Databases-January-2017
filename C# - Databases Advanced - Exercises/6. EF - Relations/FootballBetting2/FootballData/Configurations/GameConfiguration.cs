@@ -1,13 +1,13 @@
 ﻿namespace FootballData.Configurations
 {
-    using System.Data.Entity.ModelConfiguration;
     using FootballModels;
+    using System.Data.Entity.ModelConfiguration;
 
-    class GameConfiguration : EntityTypeConfiguration<Game>
+    internal class GameConfiguration : EntityTypeConfiguration<Game>
     {
         public GameConfiguration()
         {
-            HasKey(x => x.Id);           
+            HasKey(x => x.Id);
             Property(x => x.CompetitionId).IsRequired();
             Property(x => x.RoundId).IsRequired();
             Property(x => x.AwayGoals).IsRequired();

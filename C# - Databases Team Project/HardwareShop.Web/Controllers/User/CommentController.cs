@@ -1,9 +1,9 @@
 ﻿namespace HardwareShop.Web.Controllers.User
 {
-    using System.Net;
-    using System.Web.Mvc;
     using Models.ViewModels.Comments;
     using Services.Contracts;
+    using System.Net;
+    using System.Web.Mvc;
 
     [Authorize(Roles = "User")]
     public class CommentController : Controller
@@ -26,7 +26,7 @@
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
 
-            if (!this.reviewService.IsItemExisting((int)itemId) || !this.reviewService.IsItemDeleted((int)itemId) || 
+            if (!this.reviewService.IsItemExisting((int)itemId) || !this.reviewService.IsItemDeleted((int)itemId) ||
                 !this.reviewService.IsReviewDeleted((int)reviewId))
             {
                 return HttpNotFound();
@@ -51,7 +51,6 @@
             return RedirectToAction("Details", "Item", new { itemId = model.ItemId });
         }
 
-
         // GET: Comment/Edit/id
         [HttpGet]
         public ActionResult Edit(int? commentId)
@@ -63,7 +62,7 @@
 
             var model = this.commentService.GetCommentViewModelById((int)commentId);
 
-            if (model == null || !this.reviewService.IsItemExisting((int)model.ItemId) 
+            if (model == null || !this.reviewService.IsItemExisting((int)model.ItemId)
                 || !this.reviewService.IsItemDeleted((int)model.ItemId) || !this.reviewService.IsReviewDeleted((int)model.ReviewId))
             {
                 return HttpNotFound();
@@ -85,7 +84,7 @@
             {
                 return this.View(model);
             }
-            
+
             this.commentService.EditComment(model);
             return RedirectToAction("Details", "Item", new { itemId = model.ItemId });
         }
@@ -140,5 +139,3 @@
         }
     }
 }
-
-

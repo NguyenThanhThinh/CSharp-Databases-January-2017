@@ -12,7 +12,7 @@
     </Pioneers>
     <Observers />
   </Discovery>
-  <Discovery DateMade="2016-05-02" Telescope="TRAPPIST" >
+  <Discovery DateMade="2016-05-02" Telescope="TRAPPIST">
     <Stars />
     <Planets>
       <Planet>Trappist-1 b</Planet>

@@ -1,7 +1,7 @@
 ﻿namespace WeddingsPlanner.Import.DTOs
 {
-    using System;
     using Models.Enums;
+    using System;
 
     public class PersonDto
     {

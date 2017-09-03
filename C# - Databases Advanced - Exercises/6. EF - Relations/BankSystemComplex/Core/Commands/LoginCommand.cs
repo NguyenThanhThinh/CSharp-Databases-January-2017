@@ -1,9 +1,9 @@
 ﻿namespace BankSystemComplex.Core.Commands
 {
-    using System;
-    using System.Linq;
     using Data;
     using Data.Models;
+    using System;
+    using System.Linq;
 
     // Logs user (if found) in our application.
     public class LoginCommand
@@ -20,7 +20,7 @@
                 throw new InvalidOperationException("You should logout first!");
             }
 
-            // Login <username> <password> 
+            // Login <username> <password>
             string username = input[0];
             string password = input[1];
 

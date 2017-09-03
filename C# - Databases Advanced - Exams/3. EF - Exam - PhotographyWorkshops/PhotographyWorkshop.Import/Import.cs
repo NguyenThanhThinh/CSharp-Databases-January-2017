@@ -1,8 +1,8 @@
 ﻿namespace PhotographyWorkshop.ImportJson
 {
-    class Import
+    internal class Import
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             Json.ImportLenses();
             Json.ImportCameras();

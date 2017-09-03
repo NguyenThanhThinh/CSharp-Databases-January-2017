@@ -1,17 +1,17 @@
 ﻿namespace Stations.Export
 {
-    using Data;
-    using Models;
-    using System;
-    using System.IO;
-    using exportDtos;
     using AutoMapper;
+    using AutoMapper.QueryableExtensions;
+    using Data;
+    using exportDtos;
+    using Models;
+    using Newtonsoft.Json;
+    using System;
+    using System.Collections.Generic;
+    using System.Globalization;
+    using System.IO;
     using System.Linq;
     using System.Xml.Linq;
-    using Newtonsoft.Json;
-    using System.Globalization;
-    using System.Collections.Generic;
-    using AutoMapper.QueryableExtensions;
 
     public class Export
     {
@@ -46,10 +46,10 @@
             List<TrainDto> delayedTrips = this.queryHelper
                 .Filter<Trip>(trip => trip.Status == TripStatus.Delayed && trip.DepartureTime <= date)
                 .Select(trip => new TripDto
-                            {
-                                TrainNumber = trip.Train.TrainNumber,
-                                TimeDifference = trip.TimeDifference
-                            })
+                {
+                    TrainNumber = trip.Train.TrainNumber,
+                    TimeDifference = trip.TimeDifference
+                })
                 .GroupBy(trip => trip.TrainNumber)
                 .ToList()
                 .AsQueryable()

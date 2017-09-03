@@ -1,0 +1,12 @@
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\7. EF - Performance Exercises Lab\Performance.Data\bin\Debug\Performance.Data.dll.config
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\7. EF - Performance Exercises Lab\Performance.Data\bin\Debug\Performance.Data.dll
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\7. EF - Performance Exercises Lab\Performance.Data\bin\Debug\Performance.Data.pdb
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\7. EF - Performance Exercises Lab\Performance.Data\bin\Debug\EntityFramework.dll
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\7. EF - Performance Exercises Lab\Performance.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\7. EF - Performance Exercises Lab\Performance.Data\bin\Debug\Performance.Models.dll
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\7. EF - Performance Exercises Lab\Performance.Data\bin\Debug\Performance.Models.pdb
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\7. EF - Performance Exercises Lab\Performance.Data\bin\Debug\EntityFramework.xml
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\7. EF - Performance Exercises Lab\Performance.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\7. EF - Performance Exercises Lab\Performance.Data\obj\Debug\Performance.Data.csprojResolveAssemblyReference.cache
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\7. EF - Performance Exercises Lab\Performance.Data\obj\Debug\Performance.Data.dll
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\7. EF - Performance Exercises Lab\Performance.Data\obj\Debug\Performance.Data.pdb

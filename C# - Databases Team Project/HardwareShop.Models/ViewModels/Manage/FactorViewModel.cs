@@ -1,6 +1,6 @@
 ﻿namespace HardwareShop.Models.ViewModels.Manage
 {
-    class FactorViewModel : ViewModelBase
+    internal class FactorViewModel : ViewModelBase
     {
         public string Purpose { get; set; }
     }

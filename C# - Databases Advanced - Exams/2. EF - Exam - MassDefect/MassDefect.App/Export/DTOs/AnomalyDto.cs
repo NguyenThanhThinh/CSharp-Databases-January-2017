@@ -1,7 +1,7 @@
-﻿namespace MassDefect.App.Export.DTOs
-{
-    using Newtonsoft.Json;
+﻿using Newtonsoft.Json;
 
+namespace MassDefect.App.Export.DTOs
+{
     public class AnomalyDto
     {
         [JsonProperty(PropertyName = "id")]
@@ -9,7 +9,7 @@
 
         [JsonProperty(PropertyName = "originPlanet")]
         public PlanetDto OriginPlanet { get; set; }
-    
+
         [JsonProperty(PropertyName = "teleportPlanet")]
         public PlanetDto TeleportPlanet { get; set; }
 

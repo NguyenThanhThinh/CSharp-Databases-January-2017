@@ -1,11 +1,11 @@
-﻿using System;
+﻿using PhotographyWorkshop.Data;
+using PhotographyWorkshop.Utilites;
+using PhotographyWorkshops.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Xml.Linq;
 using System.Xml.XPath;
-using PhotographyWorkshop.Data;
-using PhotographyWorkshop.Utilites;
-using PhotographyWorkshops.Models;
 
 namespace PhotographyWorkshop.ImportJson
 {
@@ -90,7 +90,7 @@ namespace PhotographyWorkshop.ImportJson
                         PricePerParticipant = decimal.Parse(priceAsString),
                         Trainer = trainer
                     };
-                    
+
                     IEnumerable<XElement> participantsListXml = workshopXml.XPathSelectElements("participants/participant");
 
                     foreach (XElement participantXml in participantsListXml)

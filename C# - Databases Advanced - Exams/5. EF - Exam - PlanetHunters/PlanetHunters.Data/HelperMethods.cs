@@ -2,9 +2,9 @@
 {
     using Models;
     using System;
-    using utilities;
-    using System.Linq;
     using System.Data.Entity.Validation;
+    using System.Linq;
+    using utilities;
 
     public class HelperMethods
     {
@@ -38,7 +38,6 @@
             }
         }
 
-
         public static bool IsStarSystemExisting(PlanetHuntersContext context, string starSystemName)
         {
             StarSystem starSystem = context.StarSystems.FirstOrDefault(system => system.Name == starSystemName);
@@ -54,7 +53,6 @@
         {
             return context.StarSystems.FirstOrDefault(system => system.Name == starSystemName);
         }
-
 
         public static void AddStarSystemToDatabase(PlanetHuntersContext context, StarSystem starSystem)
         {

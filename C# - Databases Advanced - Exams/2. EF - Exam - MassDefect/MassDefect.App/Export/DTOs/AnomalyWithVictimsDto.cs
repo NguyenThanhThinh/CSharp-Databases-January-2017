@@ -1,7 +1,7 @@
 ﻿namespace MassDefect.App.Export.DTOs
 {
-    using System.Xml.Serialization;
     using System.Collections.Generic;
+    using System.Xml.Serialization;
 
     [XmlType(TypeName = "anomaly")]
     public class AnomalyWithVictimsDto

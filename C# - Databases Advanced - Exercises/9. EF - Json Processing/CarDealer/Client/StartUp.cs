@@ -2,16 +2,16 @@
 {
     using Data;
     using Models;
+    using Newtonsoft.Json;
     using System;
+    using System.Collections.Generic;
+    using System.Data.Entity;
     using System.IO;
     using System.Linq;
-    using Newtonsoft.Json;
-    using System.Data.Entity;
-    using System.Collections.Generic;
 
-    class StartUp
+    internal class StartUp
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             // You may have different App.config settings
             // JSON import files are in the project solution - ImportJson folder
@@ -48,7 +48,7 @@
             //QuerySalesWithAppliedDiscount();
         }
 
-        // A method which converts given <TEntity> collection to JSON and then saves it in "ExportJson" folder 
+        // A method which converts given <TEntity> collection to JSON and then saves it in "ExportJson" folder
         private static void ExportJsonToFolder<TEntity>(TEntity entityType, string pathToExport)
         {
             string json = JsonConvert.SerializeObject(entityType, Formatting.Indented);

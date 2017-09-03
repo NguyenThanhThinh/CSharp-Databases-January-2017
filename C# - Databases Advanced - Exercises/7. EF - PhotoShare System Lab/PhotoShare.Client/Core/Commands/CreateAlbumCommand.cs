@@ -1,10 +1,10 @@
 ﻿namespace PhotoShare.Client.Core.Commands
 {
     using Models;
-    using System;
     using Services;
-    using Utilities;
+    using System;
     using System.Linq;
+    using Utilities;
 
     public class CreateAlbumCommand
     {

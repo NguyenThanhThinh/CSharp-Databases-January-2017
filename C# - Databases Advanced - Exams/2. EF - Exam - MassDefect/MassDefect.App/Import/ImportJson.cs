@@ -2,13 +2,13 @@
 {
     using Data;
     using Models;
-    using System;
-    using System.IO;
-    using Utilities;
     using Models.DTOs;
-    using System.Linq;
     using Newtonsoft.Json;
+    using System;
     using System.Collections.Generic;
+    using System.IO;
+    using System.Linq;
+    using Utilities;
 
     public class ImportJson
     {
@@ -124,7 +124,7 @@
             {
                 string json = File.ReadAllText(PersonsPath);
                 IEnumerable<PersonDTO> personsDtos = JsonConvert.DeserializeObject<IEnumerable<PersonDTO>>(json);
-                
+
                 foreach (PersonDTO personDto in personsDtos)
                 {
                     if (personDto.Name == null || personDto.HomePlanet == null)

@@ -1,0 +1,6 @@
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\3. EF - Exam - PhotographyWorkshops\PhotographyWorkshop.Utilites\bin\Debug\PhotographyWorkshop.Utilites.dll.config
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\3. EF - Exam - PhotographyWorkshops\PhotographyWorkshop.Utilites\bin\Debug\PhotographyWorkshop.Utilites.dll
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\3. EF - Exam - PhotographyWorkshops\PhotographyWorkshop.Utilites\bin\Debug\PhotographyWorkshop.Utilites.pdb
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\3. EF - Exam - PhotographyWorkshops\PhotographyWorkshop.Utilites\obj\Debug\PhotographyWorkshop.Utilites.csprojResolveAssemblyReference.cache
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\3. EF - Exam - PhotographyWorkshops\PhotographyWorkshop.Utilites\obj\Debug\PhotographyWorkshop.Utilites.dll
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\3. EF - Exam - PhotographyWorkshops\PhotographyWorkshop.Utilites\obj\Debug\PhotographyWorkshop.Utilites.pdb

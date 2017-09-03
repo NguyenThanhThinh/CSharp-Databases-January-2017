@@ -1,9 +1,9 @@
 ﻿namespace PhotographyWorkshops.Models
 {
-    using Validations;
     using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
     using System.ComponentModel.DataAnnotations.Schema;
+    using Validations;
 
     public class Camera
     {

@@ -5,7 +5,7 @@
     using System;
     using Utilities;
 
-    class CreateTeamCommand
+    internal class CreateTeamCommand
     {
         // CreateTeam <name> <acronym> <description>
         public string Execute(string[] inputArgs)
@@ -55,7 +55,7 @@
                 Team team = new Team()
                 {
                     Name = teamName,
-                    Acronym = acronym, 
+                    Acronym = acronym,
                     Description = description,
                     CreatorId = AuthenticationManager.GetCurrentUser().Id
                 };

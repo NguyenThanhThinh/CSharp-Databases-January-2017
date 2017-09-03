@@ -3,13 +3,13 @@
     using Data;
     using Models;
     using System;
-    using Utilities;
+    using System.Collections.Generic;
     using System.Linq;
     using System.Xml.Linq;
     using System.Xml.XPath;
-    using System.Collections.Generic;
+    using Utilities;
 
-    class ImportXml
+    internal class ImportXml
     {
         private const string NewAnomaliesPath = "../../datasets/new-anomalies.xml";
 
@@ -28,7 +28,7 @@
                 }
             }
         }
-        
+
         private static void ImportAnomalyAndVictims(XElement anomalyXml, MassDefectContext context)
         {
             string originPlanetName = anomalyXml.Attribute("origin-planet")?.Value;

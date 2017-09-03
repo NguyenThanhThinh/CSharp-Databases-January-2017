@@ -1,14 +1,14 @@
 namespace Stations.Data
 {
     using Models;
-    using System.Data.Entity;
     using System.ComponentModel.DataAnnotations.Schema;
+    using System.Data.Entity;
     using System.Data.Entity.Infrastructure.Annotations;
 
     public class StationsContext : DbContext
     {
-       public StationsContext()
-            : base("name=StationsContext")
+        public StationsContext()
+             : base("name=StationsContext")
         {
         }
 

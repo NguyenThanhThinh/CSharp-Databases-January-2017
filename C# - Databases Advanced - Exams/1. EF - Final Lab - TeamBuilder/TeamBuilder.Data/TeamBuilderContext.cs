@@ -1,7 +1,7 @@
 namespace TeamBuilder.Data
 {
-    using Models;
     using Configurations;
+    using Models;
     using System.Data.Entity;
 
     public class TeamBuilderContext : DbContext

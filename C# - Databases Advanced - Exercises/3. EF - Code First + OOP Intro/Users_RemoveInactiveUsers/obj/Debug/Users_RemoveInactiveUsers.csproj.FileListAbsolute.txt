@@ -1,0 +1,13 @@
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\3. EF - Code First + OOP Intro\Users_RemoveInactiveUsers\bin\Debug\Users_RemoveInactiveUsers.exe.config
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\3. EF - Code First + OOP Intro\Users_RemoveInactiveUsers\bin\Debug\Users_RemoveInactiveUsers.exe
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\3. EF - Code First + OOP Intro\Users_RemoveInactiveUsers\bin\Debug\Users_RemoveInactiveUsers.pdb
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\3. EF - Code First + OOP Intro\Users_RemoveInactiveUsers\bin\Debug\EntityFramework.dll
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\3. EF - Code First + OOP Intro\Users_RemoveInactiveUsers\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\3. EF - Code First + OOP Intro\Users_RemoveInactiveUsers\bin\Debug\Users.exe
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\3. EF - Code First + OOP Intro\Users_RemoveInactiveUsers\bin\Debug\Users.pdb
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\3. EF - Code First + OOP Intro\Users_RemoveInactiveUsers\bin\Debug\Users.exe.config
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\3. EF - Code First + OOP Intro\Users_RemoveInactiveUsers\bin\Debug\EntityFramework.xml
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\3. EF - Code First + OOP Intro\Users_RemoveInactiveUsers\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\3. EF - Code First + OOP Intro\Users_RemoveInactiveUsers\obj\Debug\Users_RemoveInactiveUsers.csprojResolveAssemblyReference.cache
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\3. EF - Code First + OOP Intro\Users_RemoveInactiveUsers\obj\Debug\Users_RemoveInactiveUsers.exe
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\3. EF - Code First + OOP Intro\Users_RemoveInactiveUsers\obj\Debug\Users_RemoveInactiveUsers.pdb

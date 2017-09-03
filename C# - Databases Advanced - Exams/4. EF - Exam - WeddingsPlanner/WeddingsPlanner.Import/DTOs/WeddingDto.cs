@@ -7,7 +7,7 @@
     {
         public WeddingDto()
         {
-            this.Guests = new HashSet<GuestDto>();    
+            this.Guests = new HashSet<GuestDto>();
         }
 
         public string Bride { get; set; }

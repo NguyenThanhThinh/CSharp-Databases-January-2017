@@ -3,7 +3,7 @@
     using System;
     using System.Data.SqlClient;
 
-    class AddMinion
+    internal class AddMinion
     {
         public static void AddingMinion(SqlConnection connection)
         {
@@ -133,7 +133,7 @@
 
             return minionId;
         }
-        
+
         private static void AddMinionToVillian(int minionId, int villianId, SqlConnection connection)
         {
             string commandString = "INSERT INTO MinionsVillains VALUES(@minionId, @villianId)";

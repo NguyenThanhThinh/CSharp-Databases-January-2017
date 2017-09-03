@@ -9,7 +9,7 @@
         LongDistance,
         Freight
     }
-   
+
     public class Train
     {
         public Train()
@@ -23,7 +23,7 @@
         [Required]
         [StringLength(10)]
         public string TrainNumber { get; set; }
-        
+
         public TrainType? Type { get; set; }
 
         public virtual ICollection<TrainSeat> TrainSeats { get; set; }

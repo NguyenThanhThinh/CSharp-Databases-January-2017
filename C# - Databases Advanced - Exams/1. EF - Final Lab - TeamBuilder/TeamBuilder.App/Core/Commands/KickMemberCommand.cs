@@ -3,10 +3,10 @@
     using Data;
     using Models;
     using System;
-    using Utilities;
     using System.Linq;
+    using Utilities;
 
-    class KickMemberCommand
+    internal class KickMemberCommand
     {
         // KickMember <teamName> <username>
         public string Execute(string[] inputArgs)
@@ -28,7 +28,7 @@
             {
                 throw new ArgumentException(string.Format(Constants.ErrorMessages.UserNotFound, username));
             }
-            
+
             if (!CommandHelper.IsMemberOfTeam(teamName, username))
             {
                 throw new ArgumentException(string.Format(Constants.ErrorMessages.UserIsNotPartOfTeam, username, teamName));

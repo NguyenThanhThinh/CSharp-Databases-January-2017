@@ -1,7 +1,7 @@
 ﻿namespace PhotographyWorkshops.Models
 {
-    using System;
     using Microsoft.Build.Framework;
+    using System;
     using System.Collections.Generic;
 
     public class Workshop
@@ -26,7 +26,7 @@
         public decimal PricePerParticipant { get; set; }
 
         public int TrainerId { get; set; }
-        
+
         public virtual Photographer Trainer { get; set; }
 
         public virtual ICollection<Photographer> Participants { get; set; }

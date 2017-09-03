@@ -5,7 +5,6 @@
     using Models.ViewModels.Items;
     using PagedList;
     using Services.Contracts;
-    using Services.Services;
     using System.Net;
     using System.Web.Mvc;
 

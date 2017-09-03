@@ -1,7 +1,7 @@
 namespace PhotographyWorkshop.Data
 {
-    using System.Data.Entity;
     using PhotographyWorkshops.Models;
+    using System.Data.Entity;
 
     public class PhotographyWorkshopContext : DbContext
     {
@@ -33,7 +33,6 @@ namespace PhotographyWorkshop.Data
                 .WithMany(photographer => photographer.WorkshopsTrained)
                 .HasForeignKey(workshop => workshop.TrainerId)
                 .WillCascadeOnDelete(false);
-                
 
             modelBuilder.Entity<Photographer>()
               .HasRequired(photographer => photographer.PrimaryCamera)

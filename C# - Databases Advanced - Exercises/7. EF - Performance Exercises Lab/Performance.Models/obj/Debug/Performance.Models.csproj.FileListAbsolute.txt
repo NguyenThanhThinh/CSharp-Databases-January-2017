@@ -1,0 +1,4 @@
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\7. EF - Performance Exercises Lab\Performance.Models\bin\Debug\Performance.Models.dll
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\7. EF - Performance Exercises Lab\Performance.Models\bin\Debug\Performance.Models.pdb
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\7. EF - Performance Exercises Lab\Performance.Models\obj\Debug\Performance.Models.dll
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\7. EF - Performance Exercises Lab\Performance.Models\obj\Debug\Performance.Models.pdb

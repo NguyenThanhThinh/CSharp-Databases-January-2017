@@ -1,7 +1,7 @@
 ﻿namespace FootballModels
 {
     using System.Collections.Generic;
-   
+
     public class Country
     {
         public Country()

@@ -13,7 +13,7 @@
     //	   WHERE Id = @minionId
     //END
 
-    class IncreaseAgeStoredProcedure
+    internal class IncreaseAgeStoredProcedure
     {
         public static void IncreaseAge(SqlConnection connection)
         {

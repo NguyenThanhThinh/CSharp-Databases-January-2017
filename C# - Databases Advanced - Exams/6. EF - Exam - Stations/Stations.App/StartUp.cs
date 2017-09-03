@@ -1,13 +1,13 @@
 ﻿namespace Stations.App
 {
     using Data;
-    using Import;
     using Export;
+    using Import;
     using System.IO;
 
-    class StartUp
+    internal class StartUp
     {
-        static void Main()
+        private static void Main()
         {
             StationsContext context = new StationsContext();
             HelperMethods helperMethods = new HelperMethods(context);

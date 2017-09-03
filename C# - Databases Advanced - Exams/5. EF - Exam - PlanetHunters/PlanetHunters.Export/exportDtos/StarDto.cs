@@ -1,5 +1,5 @@
 ﻿namespace PlanetHunters.Export.exportDtos
-{   
+{
     using System.Xml.Serialization;
 
     [XmlType("Star")]

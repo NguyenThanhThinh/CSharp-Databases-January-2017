@@ -1,0 +1,10 @@
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\4. EF - Exam - WeddingsPlanner\WeddingsPlanner.Models\bin\Debug\WeddingsPlanner.Models.dll.config
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\4. EF - Exam - WeddingsPlanner\WeddingsPlanner.Models\bin\Debug\WeddingsPlanner.Models.dll
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\4. EF - Exam - WeddingsPlanner\WeddingsPlanner.Models\bin\Debug\WeddingsPlanner.Models.pdb
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\4. EF - Exam - WeddingsPlanner\WeddingsPlanner.Models\bin\Debug\EntityFramework.dll
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\4. EF - Exam - WeddingsPlanner\WeddingsPlanner.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\4. EF - Exam - WeddingsPlanner\WeddingsPlanner.Models\bin\Debug\EntityFramework.xml
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\4. EF - Exam - WeddingsPlanner\WeddingsPlanner.Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\4. EF - Exam - WeddingsPlanner\WeddingsPlanner.Models\obj\Debug\WeddingsPlanner.Models.csprojResolveAssemblyReference.cache
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\4. EF - Exam - WeddingsPlanner\WeddingsPlanner.Models\obj\Debug\WeddingsPlanner.Models.dll
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\4. EF - Exam - WeddingsPlanner\WeddingsPlanner.Models\obj\Debug\WeddingsPlanner.Models.pdb

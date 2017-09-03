@@ -20,3 +20,21 @@ C:\Users\valko\Documents\Visual Studio 2015\Projects\2. Entity Framework Databas
 C:\Users\valko\Documents\Visual Studio 2015\Projects\2. C# Databases Exercises and Exams\11. EntityFramework-Lab-TeamBuilder\TeamBuilder.App\bin\Debug\TeamBuilder.App.exe.config
 C:\Users\valko\Documents\Visual Studio 2015\Projects\2. C# Databases Exercises and Exams\11. EntityFramework-Lab-TeamBuilder\TeamBuilder.App\obj\Debug\TeamBuilder.App.exe
 C:\Users\valko\Documents\Visual Studio 2015\Projects\2. C# Databases Exercises and Exams\11. EntityFramework-Lab-TeamBuilder\TeamBuilder.App\obj\Debug\TeamBuilder.App.pdb
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\1. EF - Final Lab - TeamBuilder\TeamBuilder.App\bin\Debug\TeamBuilder.App.exe.config
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\1. EF - Final Lab - TeamBuilder\TeamBuilder.App\bin\Debug\TeamBuilder.App.exe
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\1. EF - Final Lab - TeamBuilder\TeamBuilder.App\bin\Debug\TeamBuilder.App.pdb
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\1. EF - Final Lab - TeamBuilder\TeamBuilder.App\bin\Debug\EntityFramework.dll
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\1. EF - Final Lab - TeamBuilder\TeamBuilder.App\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\1. EF - Final Lab - TeamBuilder\TeamBuilder.App\bin\Debug\Newtonsoft.Json.dll
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\1. EF - Final Lab - TeamBuilder\TeamBuilder.App\bin\Debug\TeamBuilder.Data.dll
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\1. EF - Final Lab - TeamBuilder\TeamBuilder.App\bin\Debug\TeamBuilder.Models.dll
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\1. EF - Final Lab - TeamBuilder\TeamBuilder.App\bin\Debug\TeamBuilder.Data.pdb
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\1. EF - Final Lab - TeamBuilder\TeamBuilder.App\bin\Debug\TeamBuilder.Data.dll.config
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\1. EF - Final Lab - TeamBuilder\TeamBuilder.App\bin\Debug\TeamBuilder.Models.pdb
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\1. EF - Final Lab - TeamBuilder\TeamBuilder.App\bin\Debug\TeamBuilder.Models.dll.config
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\1. EF - Final Lab - TeamBuilder\TeamBuilder.App\bin\Debug\EntityFramework.xml
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\1. EF - Final Lab - TeamBuilder\TeamBuilder.App\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\1. EF - Final Lab - TeamBuilder\TeamBuilder.App\bin\Debug\Newtonsoft.Json.xml
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\1. EF - Final Lab - TeamBuilder\TeamBuilder.App\obj\Debug\TeamBuilder.App.csprojResolveAssemblyReference.cache
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\1. EF - Final Lab - TeamBuilder\TeamBuilder.App\obj\Debug\TeamBuilder.App.exe
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\1. EF - Final Lab - TeamBuilder\TeamBuilder.App\obj\Debug\TeamBuilder.App.pdb

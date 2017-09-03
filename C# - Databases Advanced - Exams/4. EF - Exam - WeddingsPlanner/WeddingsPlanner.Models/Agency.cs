@@ -16,7 +16,7 @@
         public int? EmployeesCount { get; set; }
 
         public string Town { get; set; }
-        
+
         public virtual ICollection<Wedding> Weddings { get; set; }
     }
 }

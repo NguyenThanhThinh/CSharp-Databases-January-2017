@@ -6,8 +6,8 @@ namespace FootballData
 
     public class FootballBettingDB : DbContext
     {
-       public FootballBettingDB()
-            : base("name=FootballBettingDB")
+        public FootballBettingDB()
+             : base("name=FootballBettingDB")
         {
         }
 

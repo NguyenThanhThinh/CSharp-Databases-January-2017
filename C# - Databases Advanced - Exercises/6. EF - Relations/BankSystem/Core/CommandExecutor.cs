@@ -1,12 +1,11 @@
 ﻿namespace BankSystem.Core
 {
+    using Data;
+    using Models;
     using System;
     using System.Linq;
     using System.Text;
     using System.Text.RegularExpressions;
-
-    using Data;
-    using Models;
     using Utilities;
 
     public class CommandExecutor
@@ -25,21 +24,27 @@
                     // Validation
                     output = this.RegisterUser(inputArgs);
                     break;
+
                 case "login":
                     output = this.LoginUser(inputArgs);
                     break;
+
                 case "logout":
                     output = this.Logout();
                     break;
+
                 case "exit":
                     output = this.Exit();
                     break;
+
                 case "add":
                     output = this.AddAccount(inputArgs);
                     break;
+
                 case "deposit":
                     output = this.DepositMoney(inputArgs);
                     break;
+
                 case "withdraw":
                     output = this.WithdrawMoney(inputArgs);
                     break;
@@ -58,6 +63,7 @@
                 case "addinterest":
                     output = this.AddInterest(inputArgs);
                     break;
+
                 default:
                     throw new ArgumentException($"Command \"{commandName}\" not supported!");
             }
@@ -122,7 +128,7 @@
                 throw new InvalidOperationException("You should logout first!");
             }
 
-            // Login <username> <password> 
+            // Login <username> <password>
             string username = input[0];
             string password = input[1];
 
@@ -237,7 +243,7 @@
                 throw new InvalidOperationException("You should log in first!");
             }
 
-            // Deposit <Account number> <money> 
+            // Deposit <Account number> <money>
             string accountNumber = input[0];
             decimal amount = decimal.Parse(input[1]);
             if (amount <= 0)
@@ -255,7 +261,7 @@
 
                 CheckingAccount checkingAccount = user.CheckingAccounts.FirstOrDefault(a => a.AccountNumber == accountNumber);
 
-                // If not any accounts were not found throw exception. 
+                // If not any accounts were not found throw exception.
                 if (savingAccount == null && checkingAccount == null)
                 {
                     throw new ArgumentException($"Account {accountNumber} does not exist!");
@@ -291,7 +297,7 @@
                 throw new InvalidOperationException("You should log in first!");
             }
 
-            // withdraw <Account number> <money> 
+            // withdraw <Account number> <money>
             string accountNumber = input[0];
             decimal amount = decimal.Parse(input[1]);
             if (amount <= 0)
@@ -370,7 +376,7 @@
                 throw new InvalidOperationException("You should log in first!");
             }
 
-            // DeductFee <Account number> 
+            // DeductFee <Account number>
             string accountNumber = input[0];
 
             decimal currentBalance;
@@ -407,7 +413,7 @@
                 throw new InvalidOperationException("You should log in first!");
             }
 
-            // AddInterest <Account number> 
+            // AddInterest <Account number>
             string accountNumber = input[0];
 
             decimal currentBalance;

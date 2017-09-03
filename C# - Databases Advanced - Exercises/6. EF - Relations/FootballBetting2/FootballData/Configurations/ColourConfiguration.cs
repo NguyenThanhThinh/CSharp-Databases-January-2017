@@ -1,9 +1,9 @@
 ﻿namespace FootballData.Configurations
 {
-    using System.Data.Entity.ModelConfiguration;
     using FootballModels;
+    using System.Data.Entity.ModelConfiguration;
 
-    class ColourConfiguration : EntityTypeConfiguration<Colour>
+    internal class ColourConfiguration : EntityTypeConfiguration<Colour>
     {
         public ColourConfiguration()
         {

@@ -1,7 +1,7 @@
 ﻿namespace PhotoShare.Client.Core.Commands
 {
-    using System;
     using Services;
+    using System;
 
     public class UploadPictureCommand
     {
@@ -20,7 +20,7 @@
             string albumName = data[0];
             string pictureTitle = data[1];
             string pictureFilePath = data[2];
-            
+
             if (!this.albumService.IsAlbumExisting(albumName))
             {
                 throw new ArgumentException($"Album {albumName} not found!");

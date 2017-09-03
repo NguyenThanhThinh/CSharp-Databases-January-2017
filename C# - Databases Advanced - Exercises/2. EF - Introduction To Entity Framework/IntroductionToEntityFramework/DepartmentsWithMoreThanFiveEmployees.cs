@@ -1,12 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace IntroductionToEntityFramework
 {
-    class DepartmentsWithMoreThanFiveEmployees
+    internal class DepartmentsWithMoreThanFiveEmployees
     {
         public static void GetDepartmentsWithMoreThanFiveEmployees(SoftuniContext context)
         {

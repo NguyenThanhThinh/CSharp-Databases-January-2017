@@ -26,7 +26,7 @@ namespace HardwareShop.Data
         public virtual DbSet<Cart> Carts { get; set; }
 
         public virtual DbSet<SubCategory> SubCategories { get; set; }
-        
+
         public static HardwareShopContext Create()
         {
             return new HardwareShopContext();

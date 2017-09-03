@@ -21,6 +21,5 @@
         public virtual ICollection<Star> Stars { get; set; }
 
         public virtual ICollection<Planet> Planets { get; set; }
-
     }
 }

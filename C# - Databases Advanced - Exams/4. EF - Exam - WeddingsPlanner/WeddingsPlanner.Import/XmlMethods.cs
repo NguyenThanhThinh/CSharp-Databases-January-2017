@@ -3,16 +3,16 @@
     using Data;
     using DTOs;
     using Models;
-    using System;
-    using Utilities;
-    using System.Linq;
     using Models.Enums;
-    using System.Xml.Linq;
-    using System.Xml.XPath;
+    using System;
     using System.Collections.Generic;
     using System.Data.Entity.Validation;
+    using System.Linq;
+    using System.Xml.Linq;
+    using System.Xml.XPath;
+    using Utilities;
 
-    class XmlMethods
+    internal class XmlMethods
     {
         public static void ImportVenues()
         {
@@ -143,7 +143,6 @@
                             Console.WriteLine(Messages.InvalidData);
                         }
                     }
-
                     else if (type == "gift")
                     {
                         if (name == null)
@@ -196,4 +195,3 @@
         }
     }
 }
-

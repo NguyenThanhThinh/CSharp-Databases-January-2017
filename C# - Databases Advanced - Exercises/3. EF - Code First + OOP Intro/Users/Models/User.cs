@@ -54,7 +54,7 @@
                 if (!CheckIfEmailIsValid(value))
                 {
                     throw new ArgumentException("The email is not in the correct format!");
-                } 
+                }
 
                 this.email = value;
             }
@@ -70,6 +70,6 @@
         [Range(1, 120)]
         public int Age { get; set; }
 
-        public bool IsDeleted { get; set; }  
+        public bool IsDeleted { get; set; }
     }
 }

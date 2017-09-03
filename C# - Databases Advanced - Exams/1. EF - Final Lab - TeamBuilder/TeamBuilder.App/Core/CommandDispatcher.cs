@@ -1,7 +1,6 @@
 ﻿namespace TeamBuilder.App.Core
 {
     using System;
-    using Commands;
     using System.Linq;
     using System.Reflection;
 
@@ -9,7 +8,7 @@
     {
         public string Dispatch(string input)
         {
-            string[] inputArgs = input.Split(new[] {' ', '\t'}, StringSplitOptions.RemoveEmptyEntries);
+            string[] inputArgs = input.Split(new[] { ' ', '\t' }, StringSplitOptions.RemoveEmptyEntries);
 
             string commandName = inputArgs.Length > 0 ? inputArgs[0] : string.Empty;
 

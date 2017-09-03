@@ -1,12 +1,12 @@
 ﻿namespace MassDefect.App.Export
 {
-    using DTOs;
     using Data;
+    using DTOs;
+    using System.Collections.Generic;
     using System.IO;
     using System.Linq;
     using System.Xml.Linq;
     using System.Xml.Serialization;
-    using System.Collections.Generic;
 
     public class ExportXml
     {
@@ -15,7 +15,7 @@
             using (MassDefectContext context = new MassDefectContext())
             {
                 XDocument documentXml = new XDocument();
-                
+
                 List<AnomalyWithVictimsDto> anomaliesDtos = context.Anomalies
                     .Select(anomaly => new AnomalyWithVictimsDto
                     {

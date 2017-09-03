@@ -1,6 +1,6 @@
 ﻿namespace WeddingsPlanner.Import.DTOs
 {
-    class AgencyDto
+    internal class AgencyDto
     {
         public string Name { get; set; }
 

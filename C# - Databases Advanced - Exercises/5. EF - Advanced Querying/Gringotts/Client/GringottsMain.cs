@@ -1,12 +1,12 @@
 ﻿namespace Gringotts.Client
 {
+    using Data;
     using System;
     using System.Linq;
-    using Data;
 
-    class GringottsMain
+    internal class GringottsMain
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             GringottsContext context = new GringottsContext();
 

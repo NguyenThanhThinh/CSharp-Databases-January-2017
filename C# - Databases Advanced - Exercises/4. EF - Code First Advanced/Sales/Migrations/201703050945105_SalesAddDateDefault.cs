@@ -1,7 +1,7 @@
+using System.Data.Entity.Migrations;
+
 namespace Sales.Migrations
 {
-    using System.Data.Entity.Migrations;
-
     public partial class SalesAddDateDefault : DbMigration
     {
         public override void Up()

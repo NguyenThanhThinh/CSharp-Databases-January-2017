@@ -1,8 +1,8 @@
 namespace Gringotts
 {
-    using System.Data.Entity;
     using Migrations;
     using Models;
+    using System.Data.Entity;
 
     public class GringottsContext : DbContext
     {

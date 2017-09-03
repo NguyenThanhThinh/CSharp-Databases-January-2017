@@ -1,7 +1,7 @@
 ﻿namespace BankSystemComplex.Core.Commands
 {
-    using System;
     using Data.Models;
+    using System;
 
     public class LogoutCommand
     {

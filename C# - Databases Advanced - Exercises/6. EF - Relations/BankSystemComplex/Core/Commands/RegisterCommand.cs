@@ -1,10 +1,10 @@
 ﻿namespace BankSystemComplex.Core.Commands
 {
-    using System;
-    using System.Linq;
     using Data;
     using Data.Models;
     using Data.Validators;
+    using System;
+    using System.Linq;
 
     public class RegisterCommand
     {

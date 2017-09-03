@@ -2,9 +2,9 @@
 {
     using Models;
     using System;
+    using System.Collections.Generic;
     using System.Linq;
     using System.Linq.Expressions;
-    using System.Collections.Generic;
 
     public class HelperMethods
     {
@@ -20,7 +20,7 @@
             this.context.Set<T>().AddRange(entities);
             this.context.SaveChanges();
         }
-        
+
         public bool IsEntityValid<T>(T entity) where T : class
         {
             return this.context

@@ -1,9 +1,9 @@
 namespace BankSystemComplex.Data
 {
-    using Models;
     using Configurations;
+    using Models;
     using System.Data.Entity;
-    
+
     public class BankSystemContext : DbContext
     {
         public BankSystemContext()

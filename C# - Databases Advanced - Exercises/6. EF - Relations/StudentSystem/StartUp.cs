@@ -3,10 +3,10 @@
     using System;
     using System.Data.Entity.SqlServer;
     using System.Linq;
-    
-    class StartUp
+
+    internal class StartUp
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             // Task 1 - The database and the models are created;
             // Task 2 - The inserted sample data is in the Seed method in Migrations.Configuration;

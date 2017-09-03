@@ -15,8 +15,8 @@
 
         public decimal Price { get; set; }
 
-        public decimal? Weight { get; set; } 
+        public decimal? Weight { get; set; }
 
-        public int? Quantity { get; set; } 
+        public int? Quantity { get; set; }
     }
 }

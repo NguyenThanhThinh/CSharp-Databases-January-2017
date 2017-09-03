@@ -1,9 +1,9 @@
 ﻿namespace FootballData.Configurations
 {
-    using System.Data.Entity.ModelConfiguration;
     using FootballModels;
+    using System.Data.Entity.ModelConfiguration;
 
-    class ResultPredictionConfiguration : EntityTypeConfiguration<ResultPrediction>
+    internal class ResultPredictionConfiguration : EntityTypeConfiguration<ResultPrediction>
     {
         public ResultPredictionConfiguration()
         {

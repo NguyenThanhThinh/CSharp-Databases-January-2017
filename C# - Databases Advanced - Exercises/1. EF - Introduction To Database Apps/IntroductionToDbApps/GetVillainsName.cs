@@ -3,7 +3,7 @@
     using System;
     using System.Data.SqlClient;
 
-    class GetVillainsNames
+    internal class GetVillainsNames
     {
         public static void GettingVillainsNames(SqlConnection connection)
         {

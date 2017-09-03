@@ -1,8 +1,7 @@
 ﻿namespace PhotoShare.Client.Core.Commands
 {
-    using System;
     using Services;
-    using System.Text;
+    using System;
     using System.Collections.Generic;
 
     public class ListFriendsCommand

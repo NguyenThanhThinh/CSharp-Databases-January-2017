@@ -1,9 +1,9 @@
 ﻿namespace BankSystemComplex.Core.Commands
 {
-    using System;
-    using System.Text;
     using Data;
     using Data.Models;
+    using System;
+    using System.Text;
 
     // List all accounts information on currently logged in user.
     public class ListAccountsCommand

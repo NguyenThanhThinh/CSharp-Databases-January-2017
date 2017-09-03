@@ -2,14 +2,13 @@
 {
     using Data;
     using Models;
+    using Newtonsoft.Json;
     using System;
     using System.IO;
-    using Utilities;
     using System.Linq;
-    using Newtonsoft.Json;
-    using System.Data.Entity;
+    using Utilities;
 
-    class ExportTeamCommand
+    internal class ExportTeamCommand
     {
         // ExportTeam <teamName>
         public string Execute(string[] inputArgs)

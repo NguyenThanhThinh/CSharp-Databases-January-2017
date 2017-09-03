@@ -1,17 +1,17 @@
 ﻿namespace HardwareShop.Models.EntityModels
 {
-    using System.Security.Claims;
-    using System.Security;
-    using System.Threading.Tasks;
     using Microsoft.AspNet.Identity;
     using Microsoft.AspNet.Identity.EntityFramework;
     using System;
     using System.Collections.Generic;
-    using System.Linq;
+    using System.Security.Claims;
+    using System.Threading.Tasks;
 
     public class ApplicationUser : IdentityUser
     {
-        private ApplicationUser() { }
+        private ApplicationUser()
+        {
+        }
 
         public ApplicationUser(string username)
         {
@@ -20,7 +20,7 @@
             this.Reviews = new HashSet<Review>();
             this.Comments = new HashSet<Comment>();
             this.RegistrationDate = DateTime.Now;
-        }       
+        }
 
         public string FirstName { get; set; }
 

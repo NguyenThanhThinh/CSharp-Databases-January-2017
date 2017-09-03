@@ -9,29 +9,28 @@ namespace PlanetHunters.Data.Migrations
             CreateTable(
                 "dbo.Journals",
                 c => new
-                    {
-                        Id = c.Int(nullable: false, identity: true),
-                        Name = c.String(nullable: false, maxLength: 50),
-                    })
+                {
+                    Id = c.Int(nullable: false, identity: true),
+                    Name = c.String(nullable: false, maxLength: 50),
+                })
                 .PrimaryKey(t => t.Id);
-            
+
             CreateTable(
                 "dbo.Publications",
                 c => new
-                    {
-                        Id = c.Int(nullable: false, identity: true),
-                        ReleaseDate = c.DateTime(nullable: false, storeType: "date"),
-                        DiscoveryId = c.Int(nullable: false),
-                        Journal_Id = c.Int(),
-                    })
+                {
+                    Id = c.Int(nullable: false, identity: true),
+                    ReleaseDate = c.DateTime(nullable: false, storeType: "date"),
+                    DiscoveryId = c.Int(nullable: false),
+                    Journal_Id = c.Int(),
+                })
                 .PrimaryKey(t => t.Id)
                 .ForeignKey("dbo.Discoveries", t => t.DiscoveryId, cascadeDelete: true)
                 .ForeignKey("dbo.Journals", t => t.Journal_Id)
                 .Index(t => t.DiscoveryId)
                 .Index(t => t.Journal_Id);
-            
         }
-        
+
         public override void Down()
         {
             DropForeignKey("dbo.Publications", "Journal_Id", "dbo.Journals");

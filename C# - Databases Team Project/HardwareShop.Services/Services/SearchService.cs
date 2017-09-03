@@ -1,13 +1,13 @@
 ﻿namespace HardwareShop.Services.Services
 {
-    using System.Collections.Generic;
-    using System.Linq;
+    using AutoMapper;
+    using Contracts;
+    using Data;
     using Models.EntityModels;
     using Models.ViewModels.Items;
-    using Data;
-    using AutoMapper;
     using PagedList;
-    using Contracts;
+    using System.Collections.Generic;
+    using System.Linq;
 
     public class SearchService : ISearchService
     {

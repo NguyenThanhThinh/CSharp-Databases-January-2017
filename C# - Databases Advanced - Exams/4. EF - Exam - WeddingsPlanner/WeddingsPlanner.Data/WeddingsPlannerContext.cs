@@ -19,7 +19,6 @@ namespace WeddingsPlanner.Data
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
-
             modelBuilder.Entity<Invitation>()
                 .HasRequired(invitation => invitation.Present)
                 .WithRequiredPrincipal(present => present.Invitation);

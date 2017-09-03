@@ -1,9 +1,9 @@
 ﻿namespace BankSystemComplex.Core.Commands
 {
-    using System;
-    using System.Linq;
     using Data;
     using Data.Models;
+    using System;
+    using System.Linq;
 
     // Adding interest rate to specified account on our currently logged user.
     public class AddInterestCommand
@@ -20,7 +20,7 @@
                 throw new InvalidOperationException("You should log in first!");
             }
 
-            // AddInterest <Account number> 
+            // AddInterest <Account number>
             string accountNumber = input[0];
 
             decimal currentBalance;

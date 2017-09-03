@@ -1,21 +1,21 @@
 ﻿namespace _3.Projection
 {
+    using AutoMapper;
+    using AutoMapper.QueryableExtensions;
     using DTOs;
     using Models;
     using System;
-    using AutoMapper;
-    using System.Linq;
     using System.Collections.Generic;
-    using AutoMapper.QueryableExtensions;
+    using System.Linq;
 
-    class StartUp
+    internal class StartUp
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             ConfigureAutoMapper();
 
             List<Employee> employees = CreateEmployeesAndManagers();
-            
+
             EmployeeContext context = new EmployeeContext();
             context.Employees.AddRange(employees);
             context.SaveChanges();
@@ -78,7 +78,6 @@
                 Salary = 1000.45m,
                 Manager = manager2,
                 Birthday = new DateTime(1980, 08, 08)
-
             };
             Employee employee4 = new Employee()
             {

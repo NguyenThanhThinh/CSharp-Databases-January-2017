@@ -1,0 +1,5 @@
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\10. EF - Xml Proccessing\ProductsShop.Models\bin\Debug\ProductsShop.Models.dll
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\10. EF - Xml Proccessing\ProductsShop.Models\bin\Debug\ProductsShop.Models.pdb
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\10. EF - Xml Proccessing\ProductsShop.Models\obj\Debug\ProductsShop.Models.csprojResolveAssemblyReference.cache
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\10. EF - Xml Proccessing\ProductsShop.Models\obj\Debug\ProductsShop.Models.dll
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\10. EF - Xml Proccessing\ProductsShop.Models\obj\Debug\ProductsShop.Models.pdb

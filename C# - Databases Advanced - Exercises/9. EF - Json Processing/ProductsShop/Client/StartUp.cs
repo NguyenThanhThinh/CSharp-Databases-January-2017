@@ -2,16 +2,16 @@
 {
     using Data;
     using Models;
+    using Newtonsoft.Json;
     using System;
+    using System.Collections.Generic;
+    using System.Data.Entity;
     using System.IO;
     using System.Linq;
-    using Newtonsoft.Json;
-    using System.Data.Entity;
-    using System.Collections.Generic;
 
-    class StartUp
+    internal class StartUp
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             // You may have different App.config settings
             // JSON import files are in the project solution - ImportJson folder
@@ -40,7 +40,7 @@
             //QueryUsersAndProducts();
         }
 
-        // A method which converts given <TEntity> collection to JSON and then saves it in "ExportJson" folder 
+        // A method which converts given <TEntity> collection to JSON and then saves it in "ExportJson" folder
         private static void ExportJsonToFolder<TEntity>(TEntity entityType, string pathToExport)
         {
             string json = JsonConvert.SerializeObject(entityType, Formatting.Indented);
@@ -170,10 +170,10 @@
                     product.SellerId = rnd.Next(1, countOfUsers + 1);
                     if (product.SellerId % 5 != 0 && product.SellerId % 10 != 0)
                     {
-                        product.BuyerId = rnd.Next(1, countOfUsers + 1);                    
+                        product.BuyerId = rnd.Next(1, countOfUsers + 1);
                     }
                 }
-                
+
                 context.Products.AddRange(products);
                 context.SaveChanges();
             }
@@ -191,7 +191,7 @@
                 Random rnd = new Random();
                 foreach (Category category in categories)
                 {
-                    for (int i = 0; i < countOfProducts/3; i++)
+                    for (int i = 0; i < countOfProducts / 3; i++)
                     {
                         Product product = context.Products.Find(rnd.Next(1, countOfProducts + 1));
                         category.Products.Add(product);

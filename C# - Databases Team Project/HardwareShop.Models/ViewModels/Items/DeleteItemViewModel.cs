@@ -7,16 +7,16 @@
     public class DeleteItemViewModel : ViewModelBase
     {
         public int ItemId { get; set; }
-        
+
         [DisplayName("Manufacturer")]
         public string ManufacturerName { get; set; }
 
         public string Model { get; set; }
-        
+
         public decimal Price { get; set; }
 
         public Nullable<decimal> NewPrice { get; set; }
-        
+
         public int Quantity { get; set; }
 
         public double Rateing { get; set; }

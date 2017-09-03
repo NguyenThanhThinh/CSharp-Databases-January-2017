@@ -1,7 +1,7 @@
 namespace Photography.Migrations
 {
     using System.Data.Entity.Migrations;
-    
+
     public partial class AddOwnersToAlbums : DbMigration
     {
         public override void Up()
@@ -11,19 +11,19 @@ namespace Photography.Migrations
             CreateTable(
                 "dbo.PhotographerAlbums",
                 c => new
-                    {
-                        Photographer_Id = c.Int(nullable: false),
-                        Album_Id = c.Int(nullable: false),
-                    })
+                {
+                    Photographer_Id = c.Int(nullable: false),
+                    Album_Id = c.Int(nullable: false),
+                })
                 .PrimaryKey(t => new { t.Photographer_Id, t.Album_Id })
                 .ForeignKey("dbo.Photographers", t => t.Photographer_Id, cascadeDelete: true)
                 .ForeignKey("dbo.Albums", t => t.Album_Id, cascadeDelete: true)
                 .Index(t => t.Photographer_Id)
                 .Index(t => t.Album_Id);
-            
+
             DropColumn("dbo.Albums", "OwnerId");
         }
-        
+
         public override void Down()
         {
             AddColumn("dbo.Albums", "OwnerId", c => c.Int(nullable: false));

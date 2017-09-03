@@ -3,9 +3,9 @@
     using Data;
     using Models;
     using System;
-    using System.Linq;
-    using System.Data.Entity;
     using System.Collections.Generic;
+    using System.Data.Entity;
+    using System.Linq;
 
     public class UserService
     {
@@ -41,7 +41,6 @@
             using (PhotoShareContext context = new PhotoShareContext())
             {
                 return context.Users.Any(u => u.Username == username && u.Password == password);
-
             }
         }
 
@@ -49,7 +48,7 @@
         {
             using (PhotoShareContext context = new PhotoShareContext())
             {
-                return context.Users.SingleOrDefault(u => u.Username == username);   
+                return context.Users.SingleOrDefault(u => u.Username == username);
             }
         }
 
@@ -121,7 +120,7 @@
                 context.Entry(updatedUser).State = EntityState.Modified;
                 context.SaveChanges();
             }
-            
+
             // Solution with disabled lazy loading and no FK properties in the User model for the virtual Town properties;
 
             //using (PhotoShareContext context = new PhotoShareContext())
@@ -138,7 +137,7 @@
             //            user.Password = updatedUser.Password;
             //        }
 
-            //        if (updatedUser.BornTown != null && 
+            //        if (updatedUser.BornTown != null &&
             //           (user.BornTown == null || user.BornTown.Id != updatedUser.BornTown.Id))
             //        {
             //            user.BornTown = context.Towns.Find(updatedUser.BornTown.Id);

@@ -1,12 +1,12 @@
 ﻿namespace HardwareShop.Web.Controllers.StoreManager
 {
-    using System.Net;
-    using System.Web.Mvc;
+    using Microsoft.AspNet.Identity;
     using Models.ViewModels.Items;
-    using Services.Contracts;
     using Models.ViewModels.Reviews;
     using PagedList;
-    using Microsoft.AspNet.Identity;
+    using Services.Contracts;
+    using System.Net;
+    using System.Web.Mvc;
 
     [Authorize(Roles = "StoreManager")]
     public class ItemController : Controller

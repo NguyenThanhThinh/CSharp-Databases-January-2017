@@ -1,9 +1,7 @@
 ﻿namespace HardwareShop.Models.ViewModels.Items
 {
-    using EntityModels;
     using PagedList;
     using Reviews;
-    using System;
 
     public class DetailsItemPageViewModel : ViewModelBase
     {

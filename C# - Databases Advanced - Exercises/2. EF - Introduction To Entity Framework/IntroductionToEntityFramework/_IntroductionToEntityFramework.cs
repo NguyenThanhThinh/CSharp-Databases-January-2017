@@ -1,14 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace IntroductionToEntityFramework
+﻿namespace IntroductionToEntityFramework
 {
-    class _IntroductionToEntityFramework
+    internal class _IntroductionToEntityFramework
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             //Each problem is solved in different class - uncomment the class to start executing the solution for given problem with CTRL+F5:
 

@@ -1,17 +1,16 @@
 ﻿namespace PhotographyWorkshop.ImportJson
 {
     using Data;
-    using System;
-    using Utilites;
-    using System.IO;
-    using AutoMapper;
-    using System.Linq;
     using Newtonsoft.Json;
-    using System.Reflection;
-    using System.Collections.Generic;
     using PhotographyWorkshops.Models;
-    using System.Text.RegularExpressions;
     using PhotographyWorkshops.Models.DTOs;
+    using System;
+    using System.Collections.Generic;
+    using System.IO;
+    using System.Linq;
+    using System.Reflection;
+    using System.Text.RegularExpressions;
+    using Utilites;
 
     public class Json
     {

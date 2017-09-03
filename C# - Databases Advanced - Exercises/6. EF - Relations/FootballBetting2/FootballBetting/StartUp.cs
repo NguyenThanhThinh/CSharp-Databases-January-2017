@@ -2,12 +2,12 @@
 {
     using FootballData;
 
-    class StartUp
+    internal class StartUp
     {
-        static void Main()
+        private static void Main()
         {
-             var context = new FootballBettingDB();
-             context.Database.Initialize(true);
+            var context = new FootballBettingDB();
+            context.Database.Initialize(true);
         }
     }
 }

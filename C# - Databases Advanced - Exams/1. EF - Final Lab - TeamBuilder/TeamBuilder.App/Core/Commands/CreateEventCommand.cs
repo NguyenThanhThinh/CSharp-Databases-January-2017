@@ -3,8 +3,8 @@
     using Data;
     using Models;
     using System;
-    using Utilities;
     using System.Globalization;
+    using Utilities;
 
     public class CreateEventCommand
     {

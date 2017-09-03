@@ -3,15 +3,15 @@
     using Data;
     using DTOs;
     using Models;
-    using System;
-    using System.IO;
-    using Utilities;
-    using System.Linq;
     using Models.Enums;
     using Newtonsoft.Json;
+    using System;
     using System.Collections.Generic;
     using System.Data.Entity.Validation;
+    using System.IO;
+    using System.Linq;
     using System.Text.RegularExpressions;
+    using Utilities;
 
     public class JsonMethods
     {
@@ -55,7 +55,7 @@
 
                 foreach (PersonDto personDto in personsListDto)
                 {
-                    // We can make the checks for FirstName, MiddleName LastName Length and Email Pattern here,  
+                    // We can make the checks for FirstName, MiddleName LastName Length and Email Pattern here,
                     // add everything to a List<Person> and save it in the Database with context.SaveChanges() and no errors
 
                     // OR
@@ -114,8 +114,8 @@
                 context.People.AddRange(people);
                 context.SaveChanges();
 
-                // We have to use this syntax in order all the models attributes to work as expected: 
-                //    
+                // We have to use this syntax in order all the models attributes to work as expected:
+                //
                 //try
                 //{
                 //    context.People.Add(personEntity);
@@ -149,7 +149,7 @@
                         Console.WriteLine(Messages.InvalidData);
                         continue;
                     }
-                    
+
                     Wedding weddingEntity = new Wedding()
                     {
                         Bride = bride,
@@ -157,7 +157,7 @@
                         Date = weddingDto.Date.Value,
                         Agency = agency
                     };
-                        
+
                     foreach (GuestDto guestDto in weddingDto.Guests)
                     {
                         Person guest = context.People.FirstOrDefault(person =>

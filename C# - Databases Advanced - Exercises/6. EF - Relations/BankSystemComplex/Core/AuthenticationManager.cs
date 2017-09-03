@@ -1,7 +1,7 @@
 ﻿namespace BankSystemComplex.Core
 {
-    using System;
     using Data.Models;
+    using System;
 
     // Class used for simple authentication validation.
     // NOTE: If class is declared as static all of its members, fields and methods MUST be static as well.

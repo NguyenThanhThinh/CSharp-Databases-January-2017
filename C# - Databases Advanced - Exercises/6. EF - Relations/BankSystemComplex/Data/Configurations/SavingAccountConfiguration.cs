@@ -1,9 +1,9 @@
 ﻿namespace BankSystemComplex.Data.Configurations
 {
+    using Models;
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Data.Entity.Infrastructure.Annotations;
     using System.Data.Entity.ModelConfiguration;
-    using Models;
 
     public class SavingAccountConfiguration : EntityTypeConfiguration<SavingAccount>
     {

@@ -1,20 +1,20 @@
 ﻿namespace PlanetHunters.Import
 {
     using Data;
-    using Models;
-    using System;
-    using utilities;
-    using System.IO;
-    using importDtos;
     using Data.utilities;
+    using importDtos;
+    using Models;
     using Newtonsoft.Json;
+    using System;
+    using System.Collections.Generic;
+    using System.IO;
     using System.Xml.Linq;
     using System.Xml.XPath;
-    using System.Collections.Generic;
+    using utilities;
 
-    class Import
+    internal class Import
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             ImportAstronomers();
             ImportTelescopes();
@@ -23,7 +23,6 @@
             ImportDiscoveries();
         }
 
-      
         private static List<Entity> ParseJson<Entity>(string filePath)
         {
             string json = File.ReadAllText(filePath);
@@ -40,7 +39,7 @@
 
                 foreach (AstronomerDto astronomerDto in astronomerDtos)
                 {
-				    // We can make the checks for FirstName and LastName like this here, then
+                    // We can make the checks for FirstName and LastName like this here, then
                     // add the entity to the Database and save it with context.SaveChanges() with no errors
                     // (but with this design we are skipping the attribute validations in the models)
 
@@ -49,7 +48,7 @@
                     // In order to use all the attribute validations which we have implemented in the models,
                     // we can skip the validations here and just use a try-catch construction with Context.SaveChanges
                     // so can the attributes to work as expected (we have to add the entity to Database in 'try', then remove it in 'catch');
-					
+
                     if (astronomerDto.FirstName == null || astronomerDto.FirstName.Length > 50)
                     {
                         Console.WriteLine(Messages.Error);
@@ -151,7 +150,7 @@
 
                         StarSystem starSystemEntity = new StarSystem()
                         {
-                             Name = planetDto.StarSystem
+                            Name = planetDto.StarSystem
                         };
 
                         HelperMethods.AddStarSystemToDatabase(context, starSystemEntity);
@@ -226,7 +225,6 @@
                     HelperMethods.AddStarToDatabase(context, starEntity);
                 }
             }
-
         }
 
         private static void ImportDiscoveries()

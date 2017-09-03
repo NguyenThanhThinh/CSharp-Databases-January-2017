@@ -16,7 +16,7 @@
         public virtual Planet OriginPlanet { get; set; }
 
         public int? TeleportPlanetId { get; set; }
-        
+
         public virtual Planet TeleportPlanet { get; set; }
 
         public virtual ICollection<Person> Victims { get; set; }

@@ -1,0 +1,7 @@
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\2. EF - Exam - MassDefect\MassDefect.Models\bin\Debug\MassDefect.Models.dll
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\2. EF - Exam - MassDefect\MassDefect.Models\bin\Debug\MassDefect.Models.pdb
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\2. EF - Exam - MassDefect\MassDefect.Models\bin\Debug\Newtonsoft.Json.dll
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\2. EF - Exam - MassDefect\MassDefect.Models\bin\Debug\Newtonsoft.Json.xml
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\2. EF - Exam - MassDefect\MassDefect.Models\obj\Debug\MassDefect.Models.csprojResolveAssemblyReference.cache
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\2. EF - Exam - MassDefect\MassDefect.Models\obj\Debug\MassDefect.Models.dll
+C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\2. EF - Exam - MassDefect\MassDefect.Models\obj\Debug\MassDefect.Models.pdb

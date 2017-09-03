@@ -22,7 +22,7 @@ namespace PlanetHunters.Data
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             //modelBuilder.Entity<Discovery>().Property(d => d.DateMade).HasColumnType("date");
-            
+
             modelBuilder.Entity<Astronomer>()
                 .HasMany(astronomer => astronomer.DiscoveriesMade)
                 .WithMany(discovery => discovery.Pioneers)
