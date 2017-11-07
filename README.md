@@ -1,6 +1,6 @@
 # CSharp-Databases
 
-## Repository about my second C# course in Software Unitiversity.
+## Repository about my second C# module in Software Unitiversity.
 
 - Databases Basics - all the exercises and exams which I have done during the first part of the course regarding SQL: Built-In Functions, Data Aggregation, Table Relations, Joins, Subqueries, CTE and Indices, Functions, Triggers and Transactions.
 
