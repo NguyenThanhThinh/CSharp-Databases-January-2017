@@ -1,9 +1,0 @@
-C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\8. EF - Auto Mapping Objects\1.SimpleMapping\bin\Debug\1.SimpleMapping.exe.config
-C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\8. EF - Auto Mapping Objects\1.SimpleMapping\bin\Debug\1.SimpleMapping.exe
-C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\8. EF - Auto Mapping Objects\1.SimpleMapping\bin\Debug\1.SimpleMapping.pdb
-C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\8. EF - Auto Mapping Objects\1.SimpleMapping\bin\Debug\AutoMapper.dll
-C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\8. EF - Auto Mapping Objects\1.SimpleMapping\bin\Debug\System.ValueTuple.dll
-C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\8. EF - Auto Mapping Objects\1.SimpleMapping\bin\Debug\AutoMapper.xml
-C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\8. EF - Auto Mapping Objects\1.SimpleMapping\obj\Debug\1.SimpleMapping.csprojResolveAssemblyReference.cache
-C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\8. EF - Auto Mapping Objects\1.SimpleMapping\obj\Debug\1.SimpleMapping.exe
-C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\8. EF - Auto Mapping Objects\1.SimpleMapping\obj\Debug\1.SimpleMapping.pdb

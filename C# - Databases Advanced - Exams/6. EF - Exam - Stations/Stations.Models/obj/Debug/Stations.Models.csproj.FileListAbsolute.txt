@@ -1,5 +1,0 @@
-C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\6. EF - Exam - Stations\Stations.Models\bin\Debug\Stations.Models.dll
-C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\6. EF - Exam - Stations\Stations.Models\bin\Debug\Stations.Models.pdb
-C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\6. EF - Exam - Stations\Stations.Models\obj\Debug\Stations.Models.csprojResolveAssemblyReference.cache
-C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\6. EF - Exam - Stations\Stations.Models\obj\Debug\Stations.Models.dll
-C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exams\6. EF - Exam - Stations\Stations.Models\obj\Debug\Stations.Models.pdb

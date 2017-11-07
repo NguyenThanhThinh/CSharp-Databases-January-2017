@@ -1,5 +1,0 @@
-C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\7. EF - PhotoShare System Lab\PhotoShare.Models\bin\Debug\PhotoShare.Models.dll
-C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\7. EF - PhotoShare System Lab\PhotoShare.Models\bin\Debug\PhotoShare.Models.pdb
-C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\7. EF - PhotoShare System Lab\PhotoShare.Models\obj\Debug\PhotoShare.Models.csprojResolveAssemblyReference.cache
-C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\7. EF - PhotoShare System Lab\PhotoShare.Models\obj\Debug\PhotoShare.Models.dll
-C:\Users\valko\Documents\GitHub\CSharp-Databases-January-2017\C# - Databases Advanced - Exercises\7. EF - PhotoShare System Lab\PhotoShare.Models\obj\Debug\PhotoShare.Models.pdb
